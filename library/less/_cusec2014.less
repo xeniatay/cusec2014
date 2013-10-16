@@ -1,0 +1,360 @@
+@import "_mixins.less";
+@import "_responsive-mixins.less";
+
+/***
+ * layout
+ ***/
+@section-heading: #004566;
+
+.section-heading {
+    color: @section-heading;
+    font: @hf-normal 1.8em/1 @heading-font;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    &:before {
+        /*
+        border: 0;
+        height: 1px;
+        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
+        background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
+        background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
+        background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
+        background-repeat: no-repeat;
+        background-size: 100% 1px;
+        width: 200px;
+        background-position: center;
+        display: inline-block;
+        padding-right: 20px;
+        padding-top: 0.5em;
+        content: ' ';
+        */
+    }
+
+    &:after {
+        content: ' ';
+    }
+
+    &:before, &:after {
+    }
+}
+
+.section-subheading(@border: darken(@cusec-blue, 5%)) {
+    border-bottom: 2px solid @border;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 1em 0 0 0;
+    padding-bottom: 1px;
+}
+
+/***
+ * navigation
+ ***/
+.nav {
+    font: @hf-normal 1.2em/1 @heading-font;
+
+    li {
+        a, a:visited {
+            color: @black;
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover, &:focus {
+            }
+        }
+    }
+
+    li.current-menu-item,
+    li.current_page_item,
+    li.current_page_ancestor {
+        a {}
+    }
+}
+
+/***
+ * header
+ ***/
+@hn-link-border: @grey;
+@hn-link-border-hover: @cusec-blue;
+@header-logo-border: @cusec-orange;
+
+.header {
+    margin: 5px auto 8px auto;
+
+    .cusec-logo {
+        float: left;
+        line-height: 1;
+        height: 40px;
+        padding-top: 15px;
+        .slide-border(@header-logo-border, 0);
+
+        img {
+            width: 130px;
+        }
+
+        &.is-home {
+        }
+    }
+}
+
+.header-nav {
+    float:right;
+    padding: 0;
+
+    ul {
+        margin: 5px 0;
+
+        li {
+            display: inline-block;
+            margin-left: -4px; /* inline-block fix */
+
+            a {
+                padding: 10px 10px 3px 10px;
+                .slide-border;
+            }
+
+            &:first-child a {
+                padding-left: 0;
+            }
+
+            &:last-child a {
+                padding-right: 0;
+            }
+        }
+
+        li.current-menu-item,
+        li.current_page_item,
+        li.current_page_ancestor {
+            a {
+                border-bottom: 2px solid @hn-link-border-hover;
+            }
+        }
+    }
+}
+
+/***
+ * herounit
+ ***/
+.herounit {
+    background: url(../images/herounit-1800.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    display: table;
+    min-height: 500px;
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+
+    .transition(height, .2s, ease-in-out);
+}
+
+@media @iphone {
+    .herounit {
+        background-size: cover;
+    }
+}
+
+.hu-content {
+    display: table-cell;
+    padding: 40px 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hu-subheading {
+    font: @hf-normal 1.2em/1 @heading-font;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+@media @iphone {
+    .hu-subheading {
+        font-size: 1.0em;
+        line-height: 1.8;
+    }
+}
+
+@media @iphone-h {
+    .hu-subheading {
+        width: 340px;
+    }
+}
+@media @iphone-v {
+    .hu-subheading {
+        width: 250px;
+    }
+}
+.hu-date-loc {
+    font: @hf-normal 2.0em/1.5 @heading-font;
+    margin: 0.8em;
+}
+
+@media @iphone-v {
+    .hu-date-loc {
+        font-size: 1.7em;
+    }
+}
+
+.hu-desc {
+    font-size: 0.9em;
+    line-height: 1.8em;
+    margin-top: 2em;
+}
+
+@media @iphone { .hu-desc { margin: 2em auto 0 auto; } }
+@media @iphone-h { .hu-desc { width: 360px; } }
+@media @iphone-v { .hu-desc { width: 200px; } }
+
+.hu-content .cusec-logo {
+    max-width: 500px;
+    width: 80%;
+}
+
+/***
+ * content
+ */
+.content {
+    .boxShadow(-2px, 1px, 8px, 0, lighten(@black, 50%));
+}
+
+.home-section {
+    text-align: center;
+    padding: 20px;
+
+    ul {
+        font-size: 0.9em;
+        line-height: 2em;
+        margin: 1.3em;
+    }
+}
+
+/***
+ * venue
+ */
+.venue {
+    background: url(../images/white-wall.png) repeat;
+    height: 80px;
+    overflow:hidden;
+
+    .venue-details {
+        margin: 0 auto;
+    }
+}
+
+/***
+ * speakers
+ */
+.speakers {
+    background: url(../images/diamond-upholstery.png) repeat;
+    .boxShadow( 2px, 2px, 5px, 0, lighten(@black, 65%) );
+
+    .speaker-subheading {
+        .section-subheading;
+        font-size: 1.3em;
+    }
+
+    .non-keynotes {
+        .columns(2);
+    }
+
+    .spk-name {
+        font-weight: @bf-bold;
+
+        &:after {
+            content: ' — ';
+            display: inline-block;
+            font-weight: @bf-normal;
+            padding: 0 4px;
+        }
+    }
+}
+
+.sponsors {
+    //background: url(../images/natural-paper.png) repeat;
+    //background: url(../images/geometry.png) repeat;
+    //background: url(../images/geometry2.png) repeat;
+    //background: url(../images/white-wall.png) repeat;
+
+    .spon-tier {
+        display: inline-block;
+
+        .tier-subheading {
+            .section-subheading(@cusec-orange);
+            color: darken(@grey, 40%);
+            font-size: 1em;
+            margin: 1em 80px 0;
+        }
+
+        ul {
+            margin: 0.7em 0;
+            padding: 0 40px;
+            border-right: 1px solid darken(@grey, 10%);
+
+            &.last-child {
+                border-right: none;
+            }
+
+            li {
+                display: inline-block;
+                font-size: 1.2em;
+                padding: 0.3em 10px;
+            }
+
+        }
+
+    }
+
+    hr {
+        width: 200px;
+    }
+}
+
+.schools {
+    background: url(../images/geometry.png) repeat;
+    //background: url(../images/diamond-upholstery.png) repeat;
+
+    ul {
+        .columns(3);
+    }
+}
+
+@media @iphone-h {
+    .schools {
+        ul {
+            .columns(2);
+        }
+    }
+}
+
+@media @iphone-v {
+    .schools {
+        ul {
+            .columns(1);
+        }
+    }
+}
+
+/***
+ * footer
+ ***/
+@footer-content: lighten(@black, 30%);
+
+.footer {
+
+    background: url(../images/hexabump.png) repeat;
+    color: @footer-content;
+    font: @hf-normal 0.8em/1.5 @heading-font;
+    padding: 10px 0;
+    margin: 0;
+
+    a, a:visited {
+        color: @footer-content;
+        text-decoration: none;
+
+        &:hover, &:focus {
+            color: @link-hover;
+        }
+    }
+}

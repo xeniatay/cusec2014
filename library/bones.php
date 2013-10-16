@@ -140,7 +140,13 @@ function bones_scripts_and_styles() {
     }
 
     //adding scripts file in the footer
-    wp_register_script( 'bones-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
+    // Use Google's CDN to prevent noconflict mode for $ in WP
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', false, '1.10.2');
+    wp_register_script( 'underscore', get_stylesheet_directory_uri() . '/library/js/underscore.js', array( 'jquery' ), '', true );
+    wp_register_script( 'herounit', get_stylesheet_directory_uri() . '/library/js/herounit.js', array( 'jquery', 'underscore' ), '', true );
+    wp_register_script( 'parallax', get_stylesheet_directory_uri() . '/library/js/parallax-scroll.js', array( 'jquery', 'underscore'), '', true );
+    wp_register_script( 'cusec2014', get_stylesheet_directory_uri() . '/library/js/cusec2014.js', array( 'jquery', 'herounit', 'parallax' ), '', true );
 
     // enqueue styles and scripts
     wp_enqueue_script( 'bones-modernizr' );
@@ -154,9 +160,14 @@ function bones_scripts_and_styles() {
     using the google cdn. That way it stays cached
     and your site will load faster.
     */
-    wp_enqueue_script( 'jquery' );
-    wp_enqueue_script( 'bones-js' );
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('underscore');
+    wp_enqueue_script('herounit');
+    wp_enqueue_script('parallax');
+    wp_enqueue_script( 'cusec2014' );
 
+    $root_dir = get_stylesheet_directory_uri();
+    wp_localize_script( 'cusec2014', 'root_dir', $root_dir );
   }
 }
 

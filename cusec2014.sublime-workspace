@@ -1,0 +1,1113 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tl-content-width-iph",
+				"tl-content-width-iphone-vert"
+			],
+			[
+				"tl-date",
+				"tl-date-loc-horiz-offset"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "library/js/cusec2014.js",
+			"settings":
+			{
+				"buffer_size": 448,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/less/_cusec2014.less",
+			"settings":
+			{
+				"buffer_size": 3708,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 3278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/bones.php",
+			"settings":
+			{
+				"buffer_size": 14288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 574,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 2693,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/less/_base.less",
+			"settings":
+			{
+				"buffer_size": 1773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/less/_mixins.less",
+			"settings":
+			{
+				"buffer_size": 7024,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/less/style.less",
+			"settings":
+			{
+				"buffer_size": 889,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/less/_responsive-mixins.less",
+			"settings":
+			{
+				"buffer_size": 1041,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec2014.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/cusec2014.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/less/variables.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/less/xeniatay.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_normalize.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/bones.php",
+		"/Users/xenia/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/synchprobs/catmouse.c",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/thread/thread.c",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/include/synch.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/thread/synch.c",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/test/synchtest.c",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/include/bitmap.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/lib/bitmap.c",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/include/lib.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/compile/ASST1/opt-A1.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/startup/menu.c",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/startup/main.c",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/include/clock.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/thread/clock.c",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/conf/ASST1",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/lib/kprintf.c",
+		"/Users/xenia/projs/cs350/root/include/machine/regdefs.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/arch/sys161/startup/start.S",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/lib/queue.c",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/include/cpu.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/include/current.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/include/thread.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/thread/spinlock.c",
+		"/Users/xenia/projs/cs350/os161-1.99/Makefile",
+		"/Users/xenia/Library/Application Support/Sublime Text 3/Packages/CTags/CTags.sublime-settings",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/include/wchan.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/include/spinlock.h",
+		"/Users/xenia/projs/cs350/os161-1.99/mk/os161.config.mk",
+		"/Users/xenia/projs/cs350/root/sys161.conf",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/arch/mips/include/current.h",
+		"/Users/xenia/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/xenia/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/xenia/projs/cs350/os161-1.99/build/install/include/assert.h",
+		"/Users/xenia/projs/cs350/os161-1.99/kern/arch/sys161/dev/lamebus_machdep.c",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/footer.php",
+		"/Users/xenia/.less-watch",
+		"/Users/xenia/projs/wordpress/wp-config.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/header.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/index.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/less/style.less",
+		"/Users/xenia/projs/indochino/css/base-responsive.css",
+		"/Users/xenia/projs/indochino/css/base-responsive-queries.css",
+		"/Users/xenia/cusec2014/css/main.css",
+		"/Users/xenia/projs/indochino/css/filter.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/functions.php",
+		"/Users/xenia/projs/ng-boilerplate/src/index.html",
+		"/Users/xenia/projs/ng-boilerplate/src/less/xeniatay.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/less/xeniatay.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/less/main.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/bootstrap/less/scaffolding.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/bones.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/js/scripts.js",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/bootstrap/less/mixins.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/less/variables.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/style.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/css/style.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/xeniatay.less",
+		"/Users/xenia/projs/ng-boilerplate/src/app/app.js",
+		"/Users/xenia/projs/ng-boilerplate/src/js/index.js",
+		"/Users/xenia/projs/ng-boilerplate/Gruntfile.js",
+		"/Users/xenia/projs/ng-boilerplate/src/index.js",
+		"/Users/xenia/projs/ng-boilerplate/src/less/main.less",
+		"/Users/xenia/cusec2014/index.html",
+		"/Users/xenia/projs/indochino/js/admin/attributes.js",
+		"/Users/xenia/projs/indochino/js/tailorskit.js",
+		"/Users/xenia/projs/indochino/js/admin/collection.js",
+		"/Users/xenia/projs/ng-boilerplate/src/less/ericmeyerreset.less",
+		"/Users/xenia/projs/ng-boilerplate/build/templates-app.js",
+		"/Users/xenia/projs/ng-boilerplate/build/templates-.js",
+		"/Users/xenia/projs/ng-boilerplate/vendor/bootstrap/less/reset.less",
+		"/Users/xenia/projs/ng-boilerplate/src/app/home/home.less",
+		"/Users/xenia/projs/ng-boilerplate/build/index.html",
+		"/Users/xenia/projs/ng-boilerplate/package.json",
+		"/Users/xenia/projs/wordpress/wp-content/xeniatay/style.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/bones/style.css",
+		"/Users/xenia/.zshrc",
+		"/Users/xenia/dotfiles/zshrc",
+		"/Users/xenia/dotfiles/README.md",
+		"/Users/xenia/mathorient/header.php",
+		"/Users/xenia/cusec2014/README.md"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"~/projs/wordpress/wp-content/themes/cusec2014",
+			"/Users/xenia/projs/cs350/os161-1.99/kern/",
+			"/Users/xenia/projs/cs350/os161-1.99/kern/conf",
+			"/Users/xenia/projs/cs350/os161-1.99/kern/compile/ASST1",
+			"/Users/xenia/projs/cs350/",
+			"/Users/xenia/projs/cs350/os161-1.99",
+			"~/projs/cs350",
+			".",
+			"~/projs/wordpress/",
+			"~/projs/wordpress/wp-content/",
+			"~/projs/wordpress/wp-content/themes/xeniatay/",
+			"~/projs/wordpress/wp-content/themes/xeniatay/library/bootstrap",
+			"..",
+			".",
+			"./src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bones-js",
+			"enqueue",
+			"bones_main_nav",
+			"bitmap",
+			"dbflags",
+			"DEBUG",
+			"debug",
+			"DB_CATMOUSE",
+			"cpu0",
+			"? for menu",
+			"curcpu",
+			"c_hardclocks",
+			"hardclock",
+			"curcpu",
+			"wchan_destroy",
+			"wchan",
+			"curthread",
+			"do_i_hold",
+			"locktest",
+			"uw-locktest1",
+			"curthread",
+			"NDEBUG",
+			"debug",
+			"hardclock",
+			"div",
+			"margin-top:28px",
+			"hide-input",
+			"jquery-1.10.2.min",
+			"jquery/jquery-1.10.2.min",
+			"js/jquery/jquery-1.10.2.min",
+			"wp-includes/js/jquery/jquery-1.10.2.min",
+			"wp-includes/js/jquery/jquery-1.10.2.min.map",
+			"js/jquery",
+			"jquery",
+			"pull-left",
+			"LESS",
+			"wp_head",
+			"ngBoilerplate",
+			"jumbotron"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "library/js/cusec2014.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": true,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 4,
+								"motion": "vi_exclusive_text_object",
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": "I",
+								"xpos": 9
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								223
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 1
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "library/less/_cusec2014.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								906,
+								906
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 12
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 455.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "library/js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								957,
+								880
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 222.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "library/bones.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4911,
+								4911
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 71
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 2024.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 8
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2309,
+								2309
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 22
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 179.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "library/less/_base.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1773,
+								1773
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "library/less/_mixins.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6868,
+								6868
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 26
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 4174.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "library/less/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 34
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "library/less/_responsive-mixins.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 1
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "cusec2014.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"_base.",
+				"library/less/_base.less"
+			],
+			[
+				"_mix",
+				"library/less/_mixins.less"
+			],
+			[
+				"_normal",
+				"library/less/_normalize.less"
+			],
+			[
+				"style.less",
+				"library/less/style.less"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"catmouse.c",
+				"os161-1.99/kern/synchprobs/catmouse.c"
+			],
+			[
+				"catmouse",
+				"os161-1.99/kern/synchprobs/catmouse.c"
+			],
+			[
+				"thread.c",
+				"os161-1.99/kern/thread/thread.c"
+			],
+			[
+				"synch.h",
+				"os161-1.99/kern/include/synch.h"
+			],
+			[
+				"synchtest",
+				"os161-1.99/kern/test/synchtest.c"
+			],
+			[
+				"ueue.c",
+				"os161-1.99/kern/lib/queue.c"
+			],
+			[
+				"bitmap.h",
+				"os161-1.99/kern/include/bitmap.h"
+			],
+			[
+				"bitmap.c",
+				"os161-1.99/kern/lib/bitmap.c"
+			],
+			[
+				"lib.h",
+				"os161-1.99/kern/include/lib.h"
+			],
+			[
+				"opt-a1",
+				"os161-1.99/kern/compile/ASST1/opt-A1.h"
+			],
+			[
+				"start.c",
+				"os161-1.99/kern/startup/menu.c"
+			],
+			[
+				"main.c",
+				"os161-1.99/kern/startup/main.c"
+			],
+			[
+				"regdefs.h",
+				"root/include/machine/regdefs.h"
+			],
+			[
+				"start.s",
+				"os161-1.99/kern/arch/sys161/startup/start.S"
+			],
+			[
+				"synch.c",
+				"os161-1.99/kern/thread/synch.c"
+			],
+			[
+				"cpu.h",
+				"os161-1.99/kern/include/cpu.h"
+			],
+			[
+				"current.h",
+				"os161-1.99/kern/include/current.h"
+			],
+			[
+				"thread.h",
+				"os161-1.99/kern/include/thread.h"
+			],
+			[
+				"wcha",
+				"os161-1.99/kern/include/wchan.h"
+			],
+			[
+				"wchan",
+				"os161-1.99/kern/include/wchan.h"
+			],
+			[
+				"spin",
+				"os161-1.99/kern/thread/spinlock.c"
+			],
+			[
+				"spinl",
+				"os161-1.99/kern/include/spinlock.h"
+			],
+			[
+				"kern/test/synch",
+				"os161-1.99/kern/test/synchtest.c"
+			],
+			[
+				"threads/",
+				"os161-1.99/kern/thread/synch.c"
+			],
+			[
+				"synch",
+				"os161-1.99/kern/include/synch.h"
+			],
+			[
+				"sys1",
+				"root/sys161.conf"
+			],
+			[
+				"lib.",
+				"kern/include/lib.h"
+			],
+			[
+				"footer.",
+				"footer.php"
+			],
+			[
+				"main.",
+				"css/main.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"vintage":
+		{
+			"last_buffer_search": "hero"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

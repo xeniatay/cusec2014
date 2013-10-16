@@ -1,10 +1,10 @@
 /******************************************************************
-Site Name: 
-Author: 
+Site Name:
+Author:
 
 Stylesheet: Mixins & Constants Stylesheet
 
-This is where you can take advantage of LESS' great features: 
+This is where you can take advantage of LESS' great features:
 Mixins & Constants. I won't go in-depth on how they work exactly,
 there are a few articles below that will help do that. What I will
 tell you is that this will help speed up simple changes like
@@ -12,7 +12,7 @@ changing a color or adding CSS3 techniques like box shadow and
 border-radius.
 
 A WORD OF WARNING: It's very easy to overdo it here. Be careful and
-remember less is more. 
+remember less is more.
 
 ******************************************************************/
 
@@ -32,17 +32,25 @@ TOOLS
 *********************/
 
 // BORDER-BOX ALL THE THINGS! (http://paulirish.com/2012/box-sizing-border-box-ftw/)
-* { 
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing:    border-box; 
-	box-sizing:         border-box; 
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
 }
 
-// http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/ 
+// http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
 .image-replacement {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
 }
 
 /*********************
@@ -51,19 +59,22 @@ Need help w/ choosing your colors? Try this site out:
 http://0to255.com/
 *********************/
 
-@alert-yellow:      #ebe16f;
-@alert-red:         #fbe3e4;
-@alert-green:       #e6efc2;
-@alert-blue:        #d5edf8;
+@alert-yellow: #EBE16F;
+@alert-red: #FBE3E4;
+@alert-green: #E6EFC2;
+@alert-blue: #D5EDF8;
 
-@black:             #000;
-@white:             #fff;
+@black: #2F2F2F;
+@white: #FFFFFF;
+@grey: #EFEFEF;
 
-@bones-pink:        #f01d4f;
-@bones-blue:        #1990db;
+@cusec-blue: #099FF1;
+@cusec-orange: #EFE2BD;
 
-@link-color:        @bones-pink;
-@link-hover:        darken(@link-color, 9%);
+@link-color: @cusec-blue;
+@link-hover: darken(@link-color, 9%);
+
+@bf-color: @black;
 
 /*
 Here's a great tutorial on how to
@@ -76,12 +87,16 @@ http://sachagreif.com/sass-color-variables/
 TYPOGRAPHY
 *********************/
 
-@sans-serif:         "Helvetica Neue", Helvetica, Arial, sans-serif; 
-@serif:              "Georgia", Cambria, Times New Roman, Times, serif; 
+@heading-font: "Quicksand", sans-serif;
+@hf-normal: 400;
+
+@body-font: "Raleway", sans-serif;
+@bf-normal: 400;
+@bf-bold: 600;
 
 
 /* 	To embed your own fonts, use this syntax
-	and place your fonts inside the 
+	and place your fonts inside the
 	library/fonts folder. For more information
 	on embedding fonts, go to:
 	http://www.fontsquirrel.com/
@@ -100,8 +115,8 @@ TYPOGRAPHY
 	}
 */
 
-/* 
-use the best ampersand 
+/*
+use the best ampersand
 http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
 span.amp {
@@ -150,11 +165,11 @@ span.amp {
 BORDER RADIUS
 *********************/
 
-/* 
-NOTE: For older browser support (and some mobile), 
-don't use the shorthand to define *different* corners. 
+/*
+NOTE: For older browser support (and some mobile),
+don't use the shorthand to define *different* corners.
 
-USAGE: .border-radius(4px); 
+USAGE: .border-radius(4px);
 
 */
 .border-radius(@radius: 4px) {
@@ -179,7 +194,7 @@ TRANISTION
 
 /*********************
 CSS3 GRADIENTS
-Be careful with these since they can 
+Be careful with these since they can
 really slow down your CSS. Don't overdo it.
 *********************/
 
@@ -201,13 +216,13 @@ BOX SHADOW
 .boxShadow(@x: 0, @y: 0, @radius: 4px, @spread: 0, @color: rgba(0,0,0,0.5)) when (isnumber(@x)) {
 	-webkit-box-shadow: @x @y @radius @spread @color;
 	   -moz-box-shadow: @x @y @radius @spread @color;
-			box-shadow: @x @y @radius @spread @color; 
+			box-shadow: @x @y @radius @spread @color;
 }
 /* .boxShadow(none); */
 .boxShadow(@x: none) when (iskeyword(@x)) {
 	-webkit-box-shadow: @x;
 	   -moz-box-shadow: @x;
-			box-shadow: @x; 
+			box-shadow: @x;
 }
 
 /*********************
@@ -215,9 +230,9 @@ BUTTONS
 *********************/
 
 .button, .button:visited {
-	border: 1px solid darken(@bones-pink, 13%);
-	border-top-color: darken(@bones-pink, 7%);
-	border-left-color: darken(@bones-pink, 7%);
+	border: 1px solid darken(@cusec-blue, 13%);
+	border-top-color: darken(@cusec-blue, 7%);
+	border-left-color: darken(@cusec-blue, 7%);
 	padding: 4px 12px;
 	color: @white;
 	display: inline-block;
@@ -230,33 +245,72 @@ BUTTONS
 	line-height: 21px;
 	.transition();
 	.border-radius(4px);
-	.css-gradient(@bones-pink,darken(@bones-pink, 5%));
+	.css-gradient(@cusec-blue,darken(@cusec-blue, 5%));
 
 	&:hover, &:focus {
 		color: @white;
-	  border: 1px solid darken(@bones-pink, 13%);
-	  border-top-color: darken(@bones-pink, 20%);
-	 	border-left-color: darken(@bones-pink, 20%);
-		.css-gradient(darken(@bones-pink, 5%),darken(@bones-pink, 10%));
+	  border: 1px solid darken(@cusec-blue, 13%);
+	  border-top-color: darken(@cusec-blue, 20%);
+	 	border-left-color: darken(@cusec-blue, 20%);
+		.css-gradient(darken(@cusec-blue, 5%),darken(@cusec-blue, 10%));
 	}
-	
+
 	&:active {
-		.css-gradient(darken(@bones-pink, 5%),@bones-pink);
-	}	
+		.css-gradient(darken(@cusec-blue, 5%),@cusec-blue);
+	}
 }
 
 .blue-button, .blue-button:visited {
-	border-color: darken(@bones-blue, 10%);
-	text-shadow: 0 1px 1px darken(@bones-blue, 10%);
-	.css-gradient( @bones-blue, darken(@bones-blue, 5%) );
-	-webkit-box-shadow: inset 0 0 3px lighten(@bones-blue, 16%);
-       -moz-box-shadow: inset 0 0 3px lighten(@bones-blue, 16%);
-   	        box-shadow: inset 0 0 3px lighten(@bones-blue, 16%);
+	border-color: darken(@cusec-blue, 10%);
+	text-shadow: 0 1px 1px darken(@cusec-blue, 10%);
+	.css-gradient( @cusec-blue, darken(@cusec-blue, 5%) );
+	-webkit-box-shadow: inset 0 0 3px lighten(@cusec-blue, 16%);
+       -moz-box-shadow: inset 0 0 3px lighten(@cusec-blue, 16%);
+   	        box-shadow: inset 0 0 3px lighten(@cusec-blue, 16%);
 	&:hover, &:focus {
-		border-color: darken(@bones-blue, 15%);
-		.css-gradient( darken(@bones-blue, 4%), darken(@bones-blue, 10%) );
+		border-color: darken(@cusec-blue, 15%);
+		.css-gradient( darken(@cusec-blue, 4%), darken(@cusec-blue, 10%) );
 	}
 	&:active {
-		.css-gradient( darken(@bones-blue, 5%), @bones-blue );
+		.css-gradient( darken(@cusec-blue, 5%), @cusec-blue );
 	}
+}
+
+/***
+ * columns
+ ***/
+.columns (@num) {
+    -moz-column-count: @num; /* Firefox */
+    -webkit-column-count: @num; /* Safari and Chrome */
+    column-count: @num;
+ }
+
+/***
+ * personal
+ ***/
+
+.slide-border (@color: @cusec-blue, @margin: 3px) {
+    &:after {
+        content: ' ';
+        background-color: @color;
+        display: block;
+        height: 2px;
+        margin-top: @margin;
+        width: 0;
+        .transition(all, .2s, ease-in-out);
+    }
+
+    &:hover, &:focus {
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
 }

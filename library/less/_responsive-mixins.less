@@ -1,0 +1,52 @@
+/***
+ * variables
+ ***/
+@iphone-v: ~"( max-width:479px )";
+@iphone-h: ~"( min-width:480px ) and ( max-width:719px )";
+@iphone: ~"( max-width:719px )";
+@ipad: ~"( min-width:720px ) and ( max-width:960px )";
+@widescreen: ~"( min-width: 1260px )";
+
+/***
+ * mixins / classes
+ ***/
+.container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    *zoom: 1;
+}
+
+@media @iphone-v {
+    .container {
+        width: 300px;
+    }
+}
+
+@media @iphone-h {
+    .container {
+        width: 460px;
+    }
+}
+
+@media @ipad {
+    .container {
+        width: 700px;
+    }
+}
+
+@media @widescreen {
+    .container {
+        width: 1180px;
+    }
+}
+
+.show-mobile { display: none !important; }
+@media @iphone { .show-mobile { display: block !important; } }
+.hide-mobile { display: block !important; }
+@media @iphone { .hide-mobile { display: none !important; } }
+.hide-ipad { display: block !important; }
+@media @ipad { .hide-ipad { display: none !important; } }
+.show-ipad { display: none; }
+@media @ipad { .show-ipad { display: block !important; } }
+

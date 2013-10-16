@@ -30,34 +30,34 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+		<!-- google web fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Quicksand:400|Raleway:400,600' rel='stylesheet' type='text/css'>
+
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
 		<!-- drop Google Analytics Here -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-42941833-1', 'cusec.net');
+			ga('send', 'pageview');
+		</script>
 		<!-- end analytics -->
 
 	</head>
-
 	<body <?php body_class(); ?>>
 
-		<div id="container">
+		<header id='header' class='header container clearfix hide' role='banner'>
+			<a class='<?php if (is_home()) { echo "is-home"; } ?>' href='<?php echo home_url(); ?>' rel='nofollow'>
+				<img class='cusec-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/cusec-logo-wide.png' alt='CUSEC 2014'/>
+			</a>
 
-			<header class="header" role="banner">
-
-				<div id="inner-header" class="wrap clearfix">
-
-					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-
-					<!-- if you'd like to use the site description you can un-comment it below -->
-					<?php // bloginfo('description'); ?>
-
-
-					<nav role="navigation">
-						<?php bones_main_nav(); ?>
-					</nav>
-
-				</div> <!-- end #inner-header -->
-
-			</header> <!-- end header -->
+			<nav class='header-nav' role='navigation'>
+				<?php bones_main_nav(); ?>
+			</nav>
+		</header>
