@@ -307,6 +307,12 @@ BUTTONS
     }
 }
 
+.slide-border-disabled (@color: @cusec-blue, @margin: 3px) {
+    &:hover, &:focus {
+        &:after { width: 0%; }
+    }
+}
+
 .hide {
 	display: none;
 }

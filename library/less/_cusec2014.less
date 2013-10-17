@@ -8,35 +8,44 @@
 
 .section-heading {
     color: @section-heading;
-    font: @hf-normal 1.8em/1 @heading-font;
-    letter-spacing: 1px;
+    font: @hf-normal 2em/1 @heading-font;
+    letter-spacing: 2px;
+    position: relative;
     text-transform: uppercase;
+    text-shadow: 0px 1px @cusec-blue;
+
+    @media @iphone {
+        font-size: 1.5em;
+    }
+
+    @media @ipad {
+        font-size: 1.7em;
+    }
 
     &:before {
-        /*
-        border: 0;
-        height: 1px;
-        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
-        background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
-        background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
-        background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
-        background-repeat: no-repeat;
-        background-size: 100% 1px;
-        width: 200px;
-        background-position: center;
-        display: inline-block;
-        padding-right: 20px;
-        padding-top: 0.5em;
-        content: ' ';
-        */
+        margin-left: -35px;
     }
 
     &:after {
-        content: ' ';
+        padding-left: 25px;
     }
 
     &:before, &:after {
+        content: '♦';
+        font-size: 0.5em;
+        margin-top: -8px;
+        position: absolute;
+        top: 50%;
+
+        @media @iphone {
+            margin-top: -4px;
+        }
+
+        @media @ipad {
+            margin-top: -6px;
+        }
     }
+
 }
 
 .section-subheading(@border: darken(@cusec-blue, 5%)) {
@@ -46,6 +55,14 @@
     text-transform: uppercase;
     margin: 1em 0 0 0;
     padding-bottom: 1px;
+
+    @media @iphone {
+        font-size: 1.1em;
+    }
+
+    @media @ipad {
+        font-size: 1.3em;
+    }
 }
 
 /***
@@ -83,36 +100,86 @@
 .header {
     margin: 5px auto 8px auto;
 
-    .cusec-logo {
+    .logo-wrapper {
         float: left;
         line-height: 1;
         height: 40px;
         padding-top: 15px;
         .slide-border(@header-logo-border, 0);
 
-        img {
-            width: 130px;
+        .cusec-logo {
+            width: 146px;
         }
 
         &.is-home {
+        }
+
+        @media @iphone {
+            display: block;
+            float: none;
+            text-align: center;
+            width: 100%;
+            .slide-border-disabled;
         }
     }
 }
 
 .header-nav {
-    float:right;
+    float: right;
     padding: 0;
+
+    @media @iphone {
+        float: left;
+        width: 100%;
+    }
 
     ul {
         margin: 5px 0;
+
 
         li {
             display: inline-block;
             margin-left: -4px; /* inline-block fix */
 
+            @media @iphone {
+                border-top: 1px solid @grey;
+                display: block;
+                width: 100%;
+            }
+
             a {
                 padding: 10px 10px 3px 10px;
                 .slide-border;
+
+                &.disabled {
+                    .slide-border-disabled;
+                    cursor: default;
+
+                    .comingsoon {
+                        color: darken(@grey, 20%);
+                        font-size: 0.5em;
+                        position: absolute;
+                        text-align: center;
+                        opacity: 0;
+                        padding: 3px 0 0 10px;
+                        .transition(opacity, 0.2s, ease-in-out);
+                    }
+
+                    &:hover .comingsoon {
+                        opacity: 100;
+                    }
+                }
+
+                @media @iphone {
+                    padding-left: 0;
+                    padding-right: 0;
+                    text-align: center;
+                    .slide-border-disabled;
+
+                    &:hover {
+                        color: @cusec-blue;
+                    }
+                }
             }
 
             &:first-child a {
@@ -146,13 +213,11 @@
     margin: 0 auto;
     width: 100%;
 
-    .transition(height, .2s, ease-in-out);
-}
-
-@media @iphone {
-    .herounit {
+    @media @iphone {
         background-size: cover;
     }
+
+    .transition(height, .2s, ease-in-out);
 }
 
 .hu-content {
@@ -167,45 +232,48 @@
     letter-spacing: 1px;
     margin: 0 auto;
     text-transform: uppercase;
-}
 
-@media @iphone {
-    .hu-subheading {
+    @media @iphone {
         font-size: 1.0em;
         line-height: 1.8;
     }
-}
 
-@media @iphone-h {
-    .hu-subheading {
+    @media @iphone-h {
         width: 340px;
     }
-}
-@media @iphone-v {
-    .hu-subheading {
+
+    @media @iphone-v {
         width: 250px;
     }
 }
+
 .hu-date-loc {
     font: @hf-normal 2.0em/1.5 @heading-font;
     margin: 0.8em;
-}
 
-@media @iphone-v {
-    .hu-date-loc {
+    @media @iphone-v {
         font-size: 1.7em;
     }
 }
+
 
 .hu-desc {
     font-size: 0.9em;
     line-height: 1.8em;
     margin-top: 2em;
-}
 
-@media @iphone { .hu-desc { margin: 2em auto 0 auto; } }
-@media @iphone-h { .hu-desc { width: 360px; } }
-@media @iphone-v { .hu-desc { width: 200px; } }
+    @media @iphone-v {
+        width: 200px;
+    }
+
+    @media @iphone-h {
+        width: 360px;
+    }
+
+    @media @iphone {
+        margin: 2em auto 0 auto;
+    }
+}
 
 .hu-content .cusec-logo {
     max-width: 500px;
@@ -257,21 +325,45 @@
 
     .non-keynotes {
         .columns(2);
+
+        @media @ltipad {
+            .columns(1);
+        }
+    }
+
+    ul > li {
+        margin: 0.8em 0;
     }
 
     .spk-name {
         font-weight: @bf-bold;
+    }
 
-        &:after {
+    .spk-job {
+        @media @iphone {
+            display: none
+        }
+
+        @media @ipad {
+            display: block;
+        }
+
+        &:before {
             content: ' — ';
             display: inline-block;
-            font-weight: @bf-normal;
             padding: 0 4px;
+
+            @media @ipad {
+                content: '';
+            }
         }
     }
 }
 
 .sponsors {
+    @horiz-padding: 2.6em;
+    @horiz-padding-ipad: 2.1em;
+    @horiz-padding-widescreen: 3.5em;
     //background: url(../images/natural-paper.png) repeat;
     //background: url(../images/geometry.png) repeat;
     //background: url(../images/geometry2.png) repeat;
@@ -280,17 +372,34 @@
     .spon-tier {
         display: inline-block;
 
+        @media @iphone {
+            display: block;
+        }
+
         .tier-subheading {
             .section-subheading(@cusec-orange);
             color: darken(@grey, 40%);
-            font-size: 1em;
-            margin: 1em 80px 0;
+            font-size: 0.9em;
+            padding: 0;
+            margin: 1em auto 0;
         }
 
         ul {
             margin: 0.7em 0;
-            padding: 0 40px;
+            padding: 0 @horiz-padding;
             border-right: 1px solid darken(@grey, 10%);
+
+            @media @iphone {
+                border: none;
+            }
+
+            @media @ipad {
+                padding: 0 @horiz-padding-ipad;
+            }
+
+            @media @widescreen {
+                padding: 0 @horiz-padding-widescreen;
+            }
 
             &.last-child {
                 border-right: none;
@@ -298,8 +407,28 @@
 
             li {
                 display: inline-block;
-                font-size: 1.2em;
-                padding: 0.3em 10px;
+                font-size: 1.1em;
+                padding: 0.3em 0;
+                margin-right: @horiz-padding;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                @media @iphone {
+                    display: block;
+                    margin-right: 0;
+                }
+
+                @media @ipad {
+                    font-size: 1em;
+                    margin-right: @horiz-padding-ipad;
+                }
+
+                @media @widescreen {
+                    font-size: 1.2em;
+                    margin-right: @horiz-padding-widescreen;
+                }
             }
 
         }
@@ -317,21 +446,13 @@
 
     ul {
         .columns(3);
-    }
-}
 
-@media @iphone-h {
-    .schools {
-        ul {
-            .columns(2);
-        }
-    }
-}
-
-@media @iphone-v {
-    .schools {
-        ul {
+        @media @iphone-v {
             .columns(1);
+        }
+
+        @media @iphone-h {
+            .columns(2);
         }
     }
 }
@@ -355,6 +476,31 @@
 
         &:hover, &:focus {
             color: @link-hover;
+        }
+    }
+
+    p {
+        position: relative;
+        z-index: 2;
+
+        @media @iphone {
+            display: block;
+            text-align: center;
+            float: none;
+        }
+    }
+
+    .cusec-credit {
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+
+        @media @iphone {
+            display: block;
+            position: relative;
         }
     }
 }

@@ -328,31 +328,47 @@ BUTTONS
  ***/
 .section-heading {
   color: #004566;
-  font: 400 1.8em/1 "Quicksand", sans-serif;
-  letter-spacing: 1px;
+  font: 400 2em/1 "Quicksand", sans-serif;
+  letter-spacing: 2px;
+  position: relative;
   text-transform: uppercase;
+  text-shadow: 0px 1px #099ff1;
+}
+@media ( max-width:719px ) {
+  .section-heading {
+    font-size: 1.5em;
+  }
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .section-heading {
+    font-size: 1.7em;
+  }
 }
 .section-heading:before {
-  /*
-        border: 0;
-        height: 1px;
-        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
-        background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
-        background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
-        background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25));
-        background-repeat: no-repeat;
-        background-size: 100% 1px;
-        width: 200px;
-        background-position: center;
-        display: inline-block;
-        padding-right: 20px;
-        padding-top: 0.5em;
-        content: ' ';
-        */
-
+  margin-left: -35px;
 }
 .section-heading:after {
-  content: ' ';
+  padding-left: 25px;
+}
+.section-heading:before,
+.section-heading:after {
+  content: '♦';
+  font-size: 0.5em;
+  margin-top: -8px;
+  position: absolute;
+  top: 50%;
+}
+@media ( max-width:719px ) {
+  .section-heading:before,
+  .section-heading:after {
+    margin-top: -4px;
+  }
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .section-heading:before,
+  .section-heading:after {
+    margin-top: -6px;
+  }
 }
 /***
  * navigation
@@ -373,13 +389,13 @@ BUTTONS
 .header {
   margin: 5px auto 8px auto;
 }
-.header .cusec-logo {
+.header .logo-wrapper {
   float: left;
   line-height: 1;
   height: 40px;
   padding-top: 15px;
 }
-.header .cusec-logo:after {
+.header .logo-wrapper:after {
   content: ' ';
   background-color: #efe2bd;
   display: block;
@@ -392,16 +408,34 @@ BUTTONS
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.header .cusec-logo:hover:after,
-.header .cusec-logo:focus:after {
+.header .logo-wrapper:hover:after,
+.header .logo-wrapper:focus:after {
   width: 100%;
 }
-.header .cusec-logo img {
-  width: 130px;
+.header .logo-wrapper .cusec-logo {
+  width: 146px;
+}
+@media ( max-width:719px ) {
+  .header .logo-wrapper {
+    display: block;
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .header .logo-wrapper:hover:after,
+  .header .logo-wrapper:focus:after {
+    width: 0%;
+  }
 }
 .header-nav {
   float: right;
   padding: 0;
+}
+@media ( max-width:719px ) {
+  .header-nav {
+    float: left;
+    width: 100%;
+  }
 }
 .header-nav ul {
   margin: 5px 0;
@@ -411,6 +445,13 @@ BUTTONS
   margin-left: -4px;
   /* inline-block fix */
 
+}
+@media ( max-width:719px ) {
+  .header-nav ul li {
+    border-top: 1px solid #efefef;
+    display: block;
+    width: 100%;
+  }
 }
 .header-nav ul li a {
   padding: 10px 10px 3px 10px;
@@ -431,6 +472,43 @@ BUTTONS
 .header-nav ul li a:hover:after,
 .header-nav ul li a:focus:after {
   width: 100%;
+}
+.header-nav ul li a.disabled {
+  cursor: default;
+}
+.header-nav ul li a.disabled:hover:after,
+.header-nav ul li a.disabled:focus:after {
+  width: 0%;
+}
+.header-nav ul li a.disabled .comingsoon {
+  color: #bcbcbc;
+  font-size: 0.5em;
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  padding: 3px 0 0 10px;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+.header-nav ul li a.disabled:hover .comingsoon {
+  opacity: 100;
+}
+@media ( max-width:719px ) {
+  .header-nav ul li a {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  .header-nav ul li a:hover:after,
+  .header-nav ul li a:focus:after {
+    width: 0%;
+  }
+  .header-nav ul li a:hover {
+    color: #099ff1;
+  }
 }
 .header-nav ul li:first-child a {
   padding-left: 0;
@@ -507,9 +585,9 @@ BUTTONS
   line-height: 1.8em;
   margin-top: 2em;
 }
-@media ( max-width:719px ) {
+@media ( max-width:479px ) {
   .hu-desc {
-    margin: 2em auto 0 auto;
+    width: 200px;
   }
 }
 @media ( min-width:480px ) and ( max-width:719px ) {
@@ -517,9 +595,9 @@ BUTTONS
     width: 360px;
   }
 }
-@media ( max-width:479px ) {
+@media ( max-width:719px ) {
   .hu-desc {
-    width: 200px;
+    margin: 2em auto 0 auto;
   }
 }
 .hu-content .cusec-logo {
@@ -572,6 +650,16 @@ BUTTONS
   padding-bottom: 1px;
   font-size: 1.3em;
 }
+@media ( max-width:719px ) {
+  .speakers .speaker-subheading {
+    font-size: 1.1em;
+  }
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .speakers .speaker-subheading {
+    font-size: 1.3em;
+  }
+}
 .speakers .non-keynotes {
   -moz-column-count: 2;
   /* Firefox */
@@ -581,17 +669,50 @@ BUTTONS
 
   column-count: 2;
 }
+@media ( max-width:960px ) {
+  .speakers .non-keynotes {
+    -moz-column-count: 1;
+    /* Firefox */
+  
+    -webkit-column-count: 1;
+    /* Safari and Chrome */
+  
+    column-count: 1;
+  }
+}
+.speakers ul > li {
+  margin: 0.8em 0;
+}
 .speakers .spk-name {
   font-weight: 600;
 }
-.speakers .spk-name:after {
+@media ( max-width:719px ) {
+  .speakers .spk-job {
+    display: none;
+  }
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .speakers .spk-job {
+    display: block;
+  }
+}
+.speakers .spk-job:before {
   content: ' — ';
   display: inline-block;
-  font-weight: 400;
   padding: 0 4px;
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .speakers .spk-job:before {
+    content: '';
+  }
 }
 .sponsors .spon-tier {
   display: inline-block;
+}
+@media ( max-width:719px ) {
+  .sponsors .spon-tier {
+    display: block;
+  }
 }
 .sponsors .spon-tier .tier-subheading {
   border-bottom: 2px solid #efe2bd;
@@ -601,21 +722,69 @@ BUTTONS
   margin: 1em 0 0 0;
   padding-bottom: 1px;
   color: #898989;
-  font-size: 1em;
-  margin: 1em 80px 0;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 1em auto 0;
+}
+@media ( max-width:719px ) {
+  .sponsors .spon-tier .tier-subheading {
+    font-size: 1.1em;
+  }
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .sponsors .spon-tier .tier-subheading {
+    font-size: 1.3em;
+  }
 }
 .sponsors .spon-tier ul {
   margin: 0.7em 0;
-  padding: 0 40px;
+  padding: 0 2.6em;
   border-right: 1px solid #d6d6d6;
+}
+@media ( max-width:719px ) {
+  .sponsors .spon-tier ul {
+    border: none;
+  }
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .sponsors .spon-tier ul {
+    padding: 0 2.1em;
+  }
+}
+@media ( min-width: 1260px ) {
+  .sponsors .spon-tier ul {
+    padding: 0 3.5em;
+  }
 }
 .sponsors .spon-tier ul.last-child {
   border-right: none;
 }
 .sponsors .spon-tier ul li {
   display: inline-block;
-  font-size: 1.2em;
-  padding: 0.3em 10px;
+  font-size: 1.1em;
+  padding: 0.3em 0;
+  margin-right: 2.6em;
+}
+.sponsors .spon-tier ul li:last-child {
+  margin-right: 0;
+}
+@media ( max-width:719px ) {
+  .sponsors .spon-tier ul li {
+    display: block;
+    margin-right: 0;
+  }
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .sponsors .spon-tier ul li {
+    font-size: 1em;
+    margin-right: 2.1em;
+  }
+}
+@media ( min-width: 1260px ) {
+  .sponsors .spon-tier ul li {
+    font-size: 1.2em;
+    margin-right: 3.5em;
+  }
 }
 .sponsors hr {
   width: 200px;
@@ -632,17 +801,6 @@ BUTTONS
 
   column-count: 3;
 }
-@media ( min-width:480px ) and ( max-width:719px ) {
-  .schools ul {
-    -moz-column-count: 2;
-    /* Firefox */
-  
-    -webkit-column-count: 2;
-    /* Safari and Chrome */
-  
-    column-count: 2;
-  }
-}
 @media ( max-width:479px ) {
   .schools ul {
     -moz-column-count: 1;
@@ -652,6 +810,17 @@ BUTTONS
     /* Safari and Chrome */
   
     column-count: 1;
+  }
+}
+@media ( min-width:480px ) and ( max-width:719px ) {
+  .schools ul {
+    -moz-column-count: 2;
+    /* Firefox */
+  
+    -webkit-column-count: 2;
+    /* Safari and Chrome */
+  
+    column-count: 2;
   }
 }
 /***
@@ -674,4 +843,29 @@ BUTTONS
 .footer a:focus,
 .footer a:visited:focus {
   color: #0782c5;
+}
+.footer p {
+  position: relative;
+  z-index: 2;
+}
+@media ( max-width:719px ) {
+  .footer p {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+}
+.footer .cusec-credit {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+@media ( max-width:719px ) {
+  .footer .cusec-credit {
+    display: block;
+    position: relative;
+  }
 }

@@ -1,4 +1,4 @@
-<div class='home-section speakers'>
+<div class='home-section speakers' id='speakers'>
     <div class='container'>
         <h2 class='section-heading light'>Speakers</h2>
         <h3 class='speaker-subheading'>Keynotes</h3>
@@ -41,17 +41,17 @@
                 </span>
             </li><li>
                 <span class='spk-name'>
-                    Dr. Derek Ruths
-                </span>
-                <span class='spk-job'>
-                    Asst. Professor, Network Dynamics Lab, McGill University
-                </span>
-            </li><li>
-                <span class='spk-name'>
                     Ian Chan
                 </span>
                 <span class='spk-job'>
                     Engineer, Twitter
+                </span>
+            </li><li>
+                <span class='spk-name'>
+                    Nadim Kobeissi
+                </span>
+                <span class='spk-job'>
+                    Developer, Cryptocat
                 </span>
             </li><li>
                 <span class='spk-name'>
@@ -69,10 +69,10 @@
                 </span>
             </li><li>
                 <span class='spk-name'>
-                    Nadim Kobeissi
+                    Dr. Derek Ruths
                 </span>
-                <span class='spk-job'>
-                    Developer, Cryptocat
+                <span class='spk-job spk-job-derekruth'>
+                    Asst. Professor, Network Dynamics Lab, McGill University
                 </span>
             </li>
         </ul>

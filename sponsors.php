@@ -1,4 +1,4 @@
-    <div class='home-section sponsors'>
+    <div class='home-section sponsors' id='sponsors'>
         <div class='container'>
             <h2 class='section-heading light'>Sponsors</h2>
 

@@ -46,9 +46,9 @@ var resizeHeroUnit = (function() {
      */
     getOffsetHeight = function() {
         var elems = {
-                header: '#header',
-                content: '#main-content',
-                footer: '#footer'
+                header: '#header'
+                //, content: '#main-content',
+                //footer: '#footer'
             },
             offsetHeight = 0;
 

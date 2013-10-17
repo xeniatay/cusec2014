@@ -52,12 +52,24 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<header id='header' class='header container clearfix hide' role='banner'>
-			<a class='<?php if (is_home()) { echo "is-home"; } ?>' href='<?php echo home_url(); ?>' rel='nofollow'>
+		<header id='header' class='header container clearfix' role='banner'>
+			<a class='<?php if (is_home()) { echo "is-home"; } ?> logo-wrapper' href='<?php echo home_url(); ?>' rel='nofollow'>
 				<img class='cusec-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/cusec-logo-wide.png' alt='CUSEC 2014'/>
 			</a>
 
 			<nav class='header-nav' role='navigation'>
-				<?php bones_main_nav(); ?>
+				<ul class='nav top-nav'>
+					<li>
+						<a href="#speakers" title='Speakers'>Speakers</a>
+					</li><li>
+						<a href="#sponsors" title='Sponsors'>Sponsors</a>
+					</li><li>
+						<a href="javascript:void(0);" class='disabled'>
+							Schools
+							<span class='comingsoon'>Coming Soon</span>
+						</a>
+					</li>
+				</ul>
+				<?php //bones_main_nav(); ?>
 			</nav>
 		</header>
