@@ -41,5 +41,9 @@
                     </li>
                 </ul>
             </div>
+
+            <p class='to-be-announced spon-announce'>
+                Additional sponsors <strong>to be revealed!</strong>
+            </p>
         </div>
     </div>

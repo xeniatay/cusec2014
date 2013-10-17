@@ -259,3 +259,9 @@ BUTTONS
 .show {
   display: block;
 }
+.no-hyphens {
+  word-wrap: normal;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}

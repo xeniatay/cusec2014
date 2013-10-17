@@ -459,10 +459,10 @@ to remove them if you like or add your own. If you want to update
 the normalize styles, make sure to edit from this point up.
 ******************************************************************/
 p {
-  -webkit-hyphens: auto;
-  -epub-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
 }
 b,
 strong,
@@ -752,6 +752,12 @@ BUTTONS
 .show {
   display: block;
 }
+.no-hyphens {
+  word-wrap: normal;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
 /***
  * variables
  ***/
@@ -840,6 +846,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #2f2f2f;
+  word-wrap: normal;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
 }
 @media ( min-width:720px ) and ( max-width:960px ) {
   body {
@@ -1215,6 +1225,12 @@ BUTTONS
 .show {
   display: block;
 }
+.no-hyphens {
+  word-wrap: normal;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
 /***
  * variables
  ***/
@@ -1282,6 +1298,10 @@ BUTTONS
 /***
  * layout
  ***/
+html,
+body {
+  height: 100%;
+}
 .section-heading {
   color: #004566;
   font: 400 2em/1 "Quicksand", sans-serif;
@@ -1301,7 +1321,7 @@ BUTTONS
   }
 }
 .section-heading:before {
-  margin-left: -35px;
+  padding-right: 25px;
 }
 .section-heading:after {
   padding-left: 25px;
@@ -1310,21 +1330,7 @@ BUTTONS
 .section-heading:after {
   content: '♦';
   font-size: 0.5em;
-  margin-top: -8px;
-  position: absolute;
-  top: 50%;
-}
-@media ( max-width:719px ) {
-  .section-heading:before,
-  .section-heading:after {
-    margin-top: -4px;
-  }
-}
-@media ( min-width:720px ) and ( max-width:960px ) {
-  .section-heading:before,
-  .section-heading:after {
-    margin-top: -6px;
-  }
+  vertical-align: middle;
 }
 /***
  * navigation
@@ -1481,6 +1487,7 @@ BUTTONS
 .header-nav ul li a.disabled .comingsoon {
   color: #bcbcbc;
   font-size: 0.5em;
+  display: block;
   position: absolute;
   text-align: center;
   opacity: 0;
@@ -1490,6 +1497,14 @@ BUTTONS
   -ms-transition: opacity 0.2s ease-in-out;
   -o-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
+}
+@media ( max-width:719px ) {
+  .header-nav ul li a.disabled .comingsoon {
+    color: #a3a3a3;
+    display: inline;
+    font-size: 0.6em;
+    line-height: 1.2;
+  }
 }
 .header-nav ul li a.disabled:hover .comingsoon {
   opacity: 100;
@@ -1527,7 +1542,7 @@ BUTTONS
  * herounit
  ***/
 .herounit {
-  background: url(../images/herounit-1800.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/herounit-960.jpg) 50% 0 no-repeat fixed;
   background-size: cover;
   display: table;
   min-height: 500px;
@@ -1540,9 +1555,29 @@ BUTTONS
   -o-transition: height 0.2s ease-in-out;
   transition: height 0.2s ease-in-out;
 }
+@media ( max-width:479px ) {
+  .herounit {
+    background-image: url(../images/herounit-320.jpg);
+  }
+}
+@media ( min-width:480px ) and ( max-width:719px ) {
+  .herounit {
+    background-image: url(../images/herounit-480.jpg);
+  }
+}
 @media ( max-width:719px ) {
   .herounit {
     background-size: cover;
+  }
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .herounit {
+    background-image: url(../images/herounit-720.jpg);
+  }
+}
+@media ( min-width: 1260px ) {
+  .herounit {
+    background-image: url(../images/herounit-1800.jpg);
   }
 }
 .hu-content {
@@ -1623,6 +1658,10 @@ BUTTONS
   line-height: 2em;
   margin: 1.3em;
 }
+.to-be-announced {
+  margin: 1.5em auto;
+  padding: 1em;
+}
 /***
  * venue
  */
@@ -1661,6 +1700,13 @@ BUTTONS
   .speakers .speaker-subheading {
     font-size: 1.3em;
   }
+}
+.speakers .spk-announce {
+  background: #DFDFDF;
+}
+.speakers .spk-cta {
+  font-size: 0.9em;
+  margin: 1.5em auto;
 }
 .speakers .non-keynotes {
   -moz-column-count: 2;
@@ -1707,6 +1753,9 @@ BUTTONS
   .speakers .spk-job:before {
     content: '';
   }
+}
+.sponsors .spon-announce {
+  background: url(../images/natural-paper.png) repeat;
 }
 .sponsors .spon-tier {
   display: inline-block;

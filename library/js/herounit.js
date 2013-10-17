@@ -5,22 +5,27 @@
 
 var resizeHeroUnit = (function() {
 
-    var MIN_HEIGHT = 500;
+    var MIN_HEIGHT = 500,
+        MOBILE = 720;
 
     var heroUnit = $('#herounit'),
         huHeight = $(heroUnit).outerHeight();
 
     var init = function() {
 
-        var docHeight = $(document).height(),
-            winHeight = $(window).height(),
-            offsetHeight = getOffsetHeight();
+        if ($(window).width() < MOBILE) {
+            $(heroUnit).css( 'height', 'auto');
+        } else {
+            var docHeight = $(document).height(),
+                winHeight = $(window).height(),
+                offsetHeight = getOffsetHeight();
 
-        if ( (huHeight + offsetHeight) <= winHeight) {
-            setHeight(offsetHeight);
+            if ( (huHeight + offsetHeight) <= winHeight) {
+                setHeight(offsetHeight);
+            }
+
+            initEvents();
         }
-
-        initEvents();
 
     },
 
@@ -32,12 +37,16 @@ var resizeHeroUnit = (function() {
 
     onResize = function() {
 
-        var docHeight = $(document).height(),
-            winHeight = $(window).height(),
-            offsetHeight = getOffsetHeight();
+        if ($(window).width() < MOBILE) {
+            $(heroUnit).css( 'height', 'auto');
+        } else {
+            var docHeight = $(document).height(),
+                winHeight = $(window).height(),
+                offsetHeight = getOffsetHeight();
 
-        if ( (huHeight) != winHeight) {
-            setHeight(offsetHeight);
+            if ( (huHeight) != winHeight) {
+                setHeight(offsetHeight);
+            }
         }
     },
 
