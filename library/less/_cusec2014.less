@@ -214,7 +214,7 @@ body {
  * herounit
  ***/
 .herounit {
-    background: url(../images/herounit-960.jpg) 50% 0 no-repeat fixed;
+    background: url(../images/herounit-960.jpg) 50% 0 no-repeat;
     background-size: cover;
     display: table;
     min-height: 500px;
@@ -231,7 +231,7 @@ body {
     }
 
     @media @iphone {
-        background-size: cover;
+        background-position: right top;
     }
 
     @media @ipad {
@@ -243,6 +243,10 @@ body {
     }
 
     .transition(height, .2s, ease-in-out);
+
+    &.parallax-scroll {
+        background-attachment: fixed;
+    }
 }
 
 .hu-content {
@@ -510,13 +514,51 @@ body {
  ***/
 @footer-content: lighten(@black, 30%);
 
-.footer {
-
-    background: url(../images/hexabump.png) repeat;
+.footer-content {
     color: @footer-content;
     font: @hf-normal 0.8em/1.5 @heading-font;
-    padding: 10px 0;
     margin: 0;
+}
+
+.footer-social {
+    background: url(../images/hexabump-light.png) repeat;
+    padding: 10px 0 5px;
+    text-align: center;
+
+    .footer-icon {
+        background: @black;
+        border-radius: 50%;
+        display: inline-block;
+        height: 35px;
+        margin: 0 5px;
+        position: relative;
+        width: 35px;
+
+        img {
+            left: 0;
+            padding: 8px;
+            position: absolute;
+            opacity: 0.3;
+            right: 0;
+            width: 35px;
+            .transition;
+
+        }
+
+        &:hover {
+            background: darken(@black, 2%);
+
+            img {
+                opacity: 0.5;
+                padding: 6px;
+            }
+        }
+    }
+}
+
+.footer-credits {
+    background: url(../images/hexabump.png) repeat;
+    padding: 10px 0;
 
     a, a:visited {
         color: @footer-content;

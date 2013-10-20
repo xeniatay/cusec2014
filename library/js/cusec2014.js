@@ -7,10 +7,7 @@ jQuery(document).ready(function($) {
     var MOBILE = 720;
 
     resizeHeroUnit.init();
-
-    if ($(window).width() > MOBILE) {
-        parallaxScroll.init();
-    }
+    parallaxScroll.init();
 
     svg.checkCompatibility();
     smoothScroll();

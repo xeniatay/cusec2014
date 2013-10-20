@@ -537,7 +537,7 @@ body {
  * herounit
  ***/
 .herounit {
-  background: url(../images/herounit-960.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/herounit-960.jpg) 50% 0 no-repeat;
   background-size: cover;
   display: table;
   min-height: 500px;
@@ -562,7 +562,7 @@ body {
 }
 @media ( max-width:719px ) {
   .herounit {
-    background-size: cover;
+    background-position: right top;
   }
 }
 @media ( min-width:720px ) and ( max-width:960px ) {
@@ -574,6 +574,9 @@ body {
   .herounit {
     background-image: url(../images/herounit-1800.jpg);
   }
+}
+.herounit.parallax-scroll {
+  background-attachment: fixed;
 }
 .hu-content {
   display: table-cell;
@@ -877,36 +880,72 @@ body {
 /***
  * footer
  ***/
-.footer {
-  background: url(../images/hexabump.png) repeat;
+.footer-content {
   color: #7c7c7c;
   font: 400 0.8em/1.5 "quicksandregular", sans-serif;
-  padding: 10px 0;
   margin: 0;
 }
-.footer a,
-.footer a:visited {
+.footer-social {
+  background: url(../images/hexabump-light.png) repeat;
+  padding: 10px 0 5px;
+  text-align: center;
+}
+.footer-social .footer-icon {
+  background: #2f2f2f;
+  border-radius: 50%;
+  display: inline-block;
+  height: 35px;
+  margin: 0 5px;
+  position: relative;
+  width: 35px;
+}
+.footer-social .footer-icon img {
+  left: 0;
+  padding: 8px;
+  position: absolute;
+  opacity: 0.3;
+  right: 0;
+  width: 35px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.footer-social .footer-icon:hover {
+  background: #2a2a2a;
+}
+.footer-social .footer-icon:hover img {
+  opacity: 0.5;
+  padding: 6px;
+}
+.footer-credits {
+  background: url(../images/hexabump.png) repeat;
+  padding: 10px 0;
+}
+.footer-credits a,
+.footer-credits a:visited {
   color: #7c7c7c;
   text-decoration: none;
 }
-.footer a:hover,
-.footer a:visited:hover,
-.footer a:focus,
-.footer a:visited:focus {
+.footer-credits a:hover,
+.footer-credits a:visited:hover,
+.footer-credits a:focus,
+.footer-credits a:visited:focus {
   color: #0782c5;
 }
-.footer p {
+.footer-credits p {
   position: relative;
   z-index: 2;
 }
 @media ( max-width:719px ) {
-  .footer p {
+  .footer-credits p {
     display: block;
     text-align: center;
     float: none;
   }
 }
-.footer .cusec-credit {
+.footer-credits .cusec-credit {
   display: inline-block;
   text-align: center;
   position: absolute;
@@ -915,7 +954,7 @@ body {
   z-index: 1;
 }
 @media ( max-width:719px ) {
-  .footer .cusec-credit {
+  .footer-credits .cusec-credit {
     display: block;
     position: relative;
   }

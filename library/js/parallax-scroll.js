@@ -5,9 +5,16 @@
 
 var parallaxScroll = ( function() {
 
-    var paraObjs = $('.parallax-scroll');
+    var MOBILE = 720;
+
+    var paraObjs;
 
     var init = function() {
+
+        if ( !($(window).width() < MOBILE) ) {
+            $('#herounit').addClass('parallax-scroll');
+            paraObjs = $('.parallax-scroll');
+        }
 
         initEvents();
 
@@ -16,6 +23,19 @@ var parallaxScroll = ( function() {
     initEvents = function() {
 
         $(window).scroll( onScroll );
+        $(window).resize( _.debounce( onResize, 300 ) );
+
+    },
+
+    onResize = function() {
+
+        if ($(window).width() < MOBILE) {
+            $('#herounit').removeClass('parallax-scroll');
+            paraObjs = null;
+        } else {
+            $('#herounit').addClass('parallax-scroll');
+            paraObjs = $('.parallax-scroll');
+        }
 
     },
 
