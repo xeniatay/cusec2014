@@ -7,11 +7,14 @@ var parallaxScroll = ( function() {
 
     var MOBILE = 720;
 
-    var paraObjs;
+    var paraObjs,
+        isMobile;
 
     var init = function() {
 
-        if ( !($(window).width() < MOBILE) ) {
+        isMobile = ( $(window).width() < MOBILE );
+
+        if ( !isMobile ) {
             $('#herounit').addClass('parallax-scroll');
             paraObjs = $('.parallax-scroll');
         }
@@ -23,16 +26,18 @@ var parallaxScroll = ( function() {
     initEvents = function() {
 
         $(window).scroll( onScroll );
-        $(window).resize( _.debounce( onResize, 300 ) );
+        $(window).resize( _.debounce( onResize, 100 ) );
 
     },
 
     onResize = function() {
 
-        if ($(window).width() < MOBILE) {
+        if ( $(window).width() < MOBILE ) {
+            isMobile = true;
             $('#herounit').removeClass('parallax-scroll');
             paraObjs = null;
         } else {
+            isMobile = false;
             $('#herounit').addClass('parallax-scroll');
             paraObjs = $('.parallax-scroll');
         }
@@ -41,12 +46,16 @@ var parallaxScroll = ( function() {
 
     onScroll = function() {
 
-        _.each( paraObjs, function(paraObj) {
-            var yPos = -( $(window).scrollTop() / $(paraObj).data('speed') ),
-                coords = '50% ' + yPos + 'px';
+        if (!isMobile) {
 
-            $(paraObj).css({ backgroundPosition: coords });
-        });
+            _.each( paraObjs, function(paraObj) {
+                var yPos = -( $(window).scrollTop() / $(paraObj).data('speed') ),
+                    coords = '50% ' + yPos + 'px';
+
+                $(paraObj).css({ backgroundPosition: coords });
+            });
+
+        }
 
     };
 

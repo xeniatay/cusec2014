@@ -8,46 +8,18 @@ var resizeHeroUnit = (function() {
     var MIN_HEIGHT = 500,
         MOBILE = 720;
 
-    var heroUnit = $('#herounit'),
-        huHeight = $(heroUnit).outerHeight();
+    var heroUnit = $('#herounit');
 
     var init = function() {
 
-        if ($(window).width() < MOBILE) {
-            $(heroUnit).css( 'height', 'auto');
-        } else {
-            var docHeight = $(document).height(),
-                winHeight = $(window).height(),
-                offsetHeight = getOffsetHeight();
-
-            if ( (huHeight + offsetHeight) <= winHeight) {
-                setHeight(offsetHeight);
-            }
-
-            initEvents();
-        }
-
+        calcHeight();
+        initEvents();
     },
 
     initEvents = function() {
 
-        $(window).resize( _.debounce( onResize, 300 ) );
+        $(window).resize( _.debounce( calcHeight, 300 ) );
 
-    },
-
-    onResize = function() {
-
-        if ($(window).width() < MOBILE) {
-            $(heroUnit).css( 'height', 'auto');
-        } else {
-            var docHeight = $(document).height(),
-                winHeight = $(window).height(),
-                offsetHeight = getOffsetHeight();
-
-            if ( (huHeight) != winHeight) {
-                setHeight(offsetHeight);
-            }
-        }
     },
 
     /***
@@ -71,9 +43,25 @@ var resizeHeroUnit = (function() {
 
     },
 
-    setHeight = function(offsetHeight) {
+    calcHeight = function() {
 
-        var winHeight = $(window).height();
+        if ($(window).width() < MOBILE) {
+            $(heroUnit).css( 'height', 'auto');
+        } else {
+            var docHeight = $(document).height(),
+                winHeight = $(window).height(),
+                offsetHeight = getOffsetHeight(),
+                huHeight = $(heroUnit).outerHeight();
+
+            if ( (huHeight + offsetHeight) <= winHeight) {
+                setHeight(winHeight, huHeight, offsetHeight);
+            }
+
+        }
+
+    },
+
+    setHeight = function(winHeight, huHeight, offsetHeight) {
 
         huHeight = winHeight - (offsetHeight);
         $(heroUnit).css( 'height', (MIN_HEIGHT < huHeight) ? huHeight : MIN_HEIGHT );
@@ -83,5 +71,6 @@ var resizeHeroUnit = (function() {
     return {
         init: init
     }
+
 })();
 

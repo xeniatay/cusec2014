@@ -1583,7 +1583,7 @@ body {
 }
 @media ( max-width:719px ) {
   .herounit {
-    background-position: right top;
+    background-position: left top;
   }
 }
 @media ( min-width:720px ) and ( max-width:960px ) {
