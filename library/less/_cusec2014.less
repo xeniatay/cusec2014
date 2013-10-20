@@ -95,6 +95,10 @@ body {
 .header {
     margin: 5px auto 8px auto;
 
+    @media @iphone {
+        width: 100%;
+    }
+
     .logo-wrapper {
         float: left;
         line-height: 1;
@@ -102,19 +106,19 @@ body {
         padding-top: 15px;
         .slide-border(@header-logo-border, 0);
 
-        .cusec-logo {
-            width: 146px;
-        }
-
-        &.is-home {
-        }
-
         @media @iphone {
             display: block;
             float: none;
             text-align: center;
             width: 100%;
             .slide-border-disabled;
+        }
+
+        .cusec-logo {
+            width: 146px;
+        }
+
+        &.is-home {
         }
     }
 }
@@ -137,6 +141,7 @@ body {
             margin-left: -4px; /* inline-block fix */
 
             @media @iphone {
+                margin: 0;
                 border-top: 1px solid @grey;
                 display: block;
                 width: 100%;
@@ -180,6 +185,7 @@ body {
                     .slide-border-disabled;
 
                     &:hover {
+                        background-color: #EFEFEF;
                         color: @cusec-blue;
                     }
                 }
@@ -308,7 +314,12 @@ body {
 
 .home-section {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
+
+    .home-section-cta {
+        font-size: 0.9em;
+        margin: 1.5em 1em;
+    }
 
     ul {
         font-size: 0.9em;
@@ -318,8 +329,9 @@ body {
 }
 
 .to-be-announced {
-    margin: 1.5em auto;
+    margin: 1.5em 1.5em;
     padding: 1em;
+
 }
 
 /***
@@ -349,11 +361,6 @@ body {
 
     .spk-announce {
         background: #DFDFDF;
-    }
-
-    .spk-cta {
-        font-size: 0.9em;
-        margin: 1.5em auto;
     }
 
     .non-keynotes {
@@ -419,6 +426,10 @@ body {
             font-size: 0.9em;
             padding: 0;
             margin: 1em auto 0;
+
+            @media @ltipad {
+                font-size: 0.9em;
+            }
         }
 
         ul {

@@ -31,7 +31,7 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<!-- google web fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Quicksand:400|Raleway:400,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
 
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
@@ -46,6 +46,10 @@
 
 			ga('create', 'UA-42941833-1', 'cusec.net');
 			ga('send', 'pageview');
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-42941833-1']);
+			_gaq.push(['_trackPageview']);
 		</script>
 		<!-- end analytics -->
 

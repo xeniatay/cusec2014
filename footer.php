@@ -10,6 +10,10 @@
 					<a href='mailto:info@cusec.net' title='info@cusec.net' onClick="_gaq.push(['_trackEvent', 'mailto', 'info']);">Contact</a> |
 					<a href='mailto:sponsor@cusec.net' title='sponsor@cusec.net' onClick="_gaq.push(['_trackEvent', 'mailto', 'sponsorship']);">Sponsor</a>
 				</p>
+				<!--
+                <a href="http://www.twitter.com/cusec" title="@cusec" onclick="_gaq.push(['_trackEvent', 'Social Media', 'Twitter', 'Clicked to Twitter']);">Twitter</a> |
+                <a href="http://www.facebook.com/pages/CUSEC/9884406702" title="CUSEC on Facebook" onclick="_gaq.push(['_trackEvent', 'Social Media', 'Facebook', 'Clicked to Facebook']);">Facebook</a>
+            -->
 			</div>
 		</footer>
 

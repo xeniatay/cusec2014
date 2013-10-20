@@ -338,7 +338,7 @@ body {
 }
 .section-heading {
   color: #004566;
-  font: 400 2em/1 "Quicksand", sans-serif;
+  font: 400 2em/1 "quicksandregular", sans-serif;
   letter-spacing: 2px;
   position: relative;
   text-transform: uppercase;
@@ -370,7 +370,7 @@ body {
  * navigation
  ***/
 .nav {
-  font: 400 1.2em/1 "Quicksand", sans-serif;
+  font: 400 1.2em/1 "quicksandregular", sans-serif;
 }
 .nav li a,
 .nav li a:visited {
@@ -384,6 +384,11 @@ body {
  ***/
 .header {
   margin: 5px auto 8px auto;
+}
+@media ( max-width:719px ) {
+  .header {
+    width: 100%;
+  }
 }
 .header .logo-wrapper {
   float: left;
@@ -408,9 +413,6 @@ body {
 .header .logo-wrapper:focus:after {
   width: 100%;
 }
-.header .logo-wrapper .cusec-logo {
-  width: 146px;
-}
 @media ( max-width:719px ) {
   .header .logo-wrapper {
     display: block;
@@ -422,6 +424,9 @@ body {
   .header .logo-wrapper:focus:after {
     width: 0%;
   }
+}
+.header .logo-wrapper .cusec-logo {
+  width: 146px;
 }
 .header-nav {
   float: right;
@@ -444,6 +449,7 @@ body {
 }
 @media ( max-width:719px ) {
   .header-nav ul li {
+    margin: 0;
     border-top: 1px solid #efefef;
     display: block;
     width: 100%;
@@ -512,6 +518,7 @@ body {
     width: 0%;
   }
   .header-nav ul li a:hover {
+    background-color: #EFEFEF;
     color: #099ff1;
   }
 }
@@ -575,7 +582,7 @@ body {
   text-align: center;
 }
 .hu-subheading {
-  font: 400 1.2em/1 "Quicksand", sans-serif;
+  font: 400 1.2em/1 "quicksandregular", sans-serif;
   letter-spacing: 1px;
   margin: 0 auto;
   text-transform: uppercase;
@@ -597,7 +604,7 @@ body {
   }
 }
 .hu-date-loc {
-  font: 400 2em/1.5 "Quicksand", sans-serif;
+  font: 400 2em/1.5 "quicksandregular", sans-serif;
   margin: 0.8em;
 }
 @media ( max-width:479px ) {
@@ -639,7 +646,11 @@ body {
 }
 .home-section {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
+}
+.home-section .home-section-cta {
+  font-size: 0.9em;
+  margin: 1.5em 1em;
 }
 .home-section ul {
   font-size: 0.9em;
@@ -647,7 +658,7 @@ body {
   margin: 1.3em;
 }
 .to-be-announced {
-  margin: 1.5em auto;
+  margin: 1.5em 1.5em;
   padding: 1em;
 }
 /***
@@ -691,10 +702,6 @@ body {
 }
 .speakers .spk-announce {
   background: #DFDFDF;
-}
-.speakers .spk-cta {
-  font-size: 0.9em;
-  margin: 1.5em auto;
 }
 .speakers .non-keynotes {
   -moz-column-count: 2;
@@ -773,6 +780,11 @@ body {
 @media ( min-width:720px ) and ( max-width:960px ) {
   .sponsors .spon-tier .tier-subheading {
     font-size: 1.3em;
+  }
+}
+@media ( max-width:960px ) {
+  .sponsors .spon-tier .tier-subheading {
+    font-size: 0.9em;
   }
 }
 .sponsors .spon-tier ul {
@@ -868,7 +880,7 @@ body {
 .footer {
   background: url(../images/hexabump.png) repeat;
   color: #7c7c7c;
-  font: 400 0.8em/1.5 "Quicksand", sans-serif;
+  font: 400 0.8em/1.5 "quicksandregular", sans-serif;
   padding: 10px 0;
   margin: 0;
 }
