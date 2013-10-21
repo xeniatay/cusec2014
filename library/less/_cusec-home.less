@@ -1,5 +1,9 @@
-@import "_mixins.less";
-@import "_responsive-mixins.less";
+/*
+background: url(../images/natural-paper.png) repeat;
+background: url(../images/geometry.png) repeat;
+background: url(../images/geometry2.png) repeat;
+background: url(../images/white-wall.png) repeat;
+*/
 
 /***
  * layout
@@ -404,18 +408,15 @@ body {
     }
 }
 
-.sponsors {
-    @horiz-padding: 2.6em;
-    @horiz-padding-ipad: 2.1em;
-    @horiz-padding-widescreen: 3.5em;
-    //background: url(../images/natural-paper.png) repeat;
-    //background: url(../images/geometry.png) repeat;
-    //background: url(../images/geometry2.png) repeat;
-    //background: url(../images/white-wall.png) repeat;
 
-    .spon-announce {
-        background: url(../images/natural-paper.png) repeat;
-    }
+@spon-horiz-padding: 2.6em;
+@spon-horiz-padding-ipad: 2.1em;
+@spon-horiz-padding-widescreen: 3.5em;
+
+.sponsors.home-section {
+    .spons-shared-styles;
+
+    hr { width: 200px; }
 
     .spon-tier {
         display: inline-block;
@@ -434,61 +435,56 @@ body {
             @media @ltipad {
                 font-size: 0.9em;
             }
-        }
 
-        ul {
-            margin: 0.7em 0;
-            padding: 0 @horiz-padding;
-            border-right: 1px solid darken(@grey, 10%);
-
-            @media @iphone {
-                border: none;
-            }
-
-            @media @ipad {
-                padding: 0 @horiz-padding-ipad;
-            }
-
-            @media @widescreen {
-                padding: 0 @horiz-padding-widescreen;
-            }
-
-            &.last-child {
-                border-right: none;
-            }
-
-            li {
-                display: inline-block;
-                font-size: 1.1em;
-                padding: 0.3em 0;
-                margin-right: @horiz-padding;
-
-                &:last-child {
-                    margin-right: 0;
-                }
+            ul.tier-list {
+                border-right: 1px solid darken(@grey, 10%);
+                margin: 0.7em 0;
+                padding: 0 @spon-horiz-padding;
 
                 @media @iphone {
-                    display: block;
-                    margin-right: 0;
+                    border: none;
                 }
 
                 @media @ipad {
-                    font-size: 1em;
-                    margin-right: @horiz-padding-ipad;
+                    padding: 0 @spon-horiz-padding-ipad;
                 }
 
                 @media @widescreen {
-                    font-size: 1.2em;
-                    margin-right: @horiz-padding-widescreen;
+                    padding: 0 @spon-horiz-padding-widescreen;
+                }
+
+                &.last-child {
+                    border-right: none;
+                }
+
+                li {
+                    display: inline-block;
+                    font-size: 1.1em;
+                    padding: 0.3em 0;
+                    margin-right: @spon-horiz-padding;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    @media @iphone {
+                        display: block;
+                        margin-right: 0;
+                    }
+
+                    @media @ipad {
+                        font-size: 1em;
+                        margin-right: @spon-horiz-padding-ipad;
+                    }
+
+                    @media @widescreen {
+                        font-size: 1.2em;
+                        margin-right: @spon-horiz-padding-widescreen;
+                    }
                 }
             }
-
         }
 
-    }
-
-    hr {
-        width: 200px;
     }
 }
 

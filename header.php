@@ -74,6 +74,6 @@
 						</a>
 					</li>
 				</ul>
-				<?php //bones_main_nav(); ?>
+				<?php bones_main_nav(); ?>
 			</nav>
 		</header>

@@ -12,6 +12,14 @@ jQuery(document).ready(function($) {
     svg.checkCompatibility();
     smoothScroll();
 
+  $('#spon-nav-affix').affix({
+    offset: {
+      top: 100
+    , bottom: function () {
+        return (this.bottom = $('.bs-footer').outerHeight(true))
+      }
+    }
+  })
 });
 
 /***

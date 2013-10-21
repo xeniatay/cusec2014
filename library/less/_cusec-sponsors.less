@@ -1,0 +1,60 @@
+.page-content {
+    background: url(../images/white-wall.png) repeat;
+}
+
+.sponsors.page-sponsors {
+    .spons-shared-styles;
+    text-align: center;
+
+    hr.spon-div {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    .spon-tier {
+    }
+
+    .tier-subheading {
+        .section-subheading;
+    }
+
+    ul.tier-list > li {
+        display: block;
+
+        .spon-link {
+            @link-color: darken(@cusec-blue, 20%);
+            @link-hover: @cusec-blue;
+
+            color: @link-color;
+            display: block;
+            font-size: 0.8em;
+            margin: 0 auto;
+            padding: 20px;
+            width: 600px;
+
+            @media @ltipad {
+                font-size: 0.9em;
+            }
+
+            &:hover, &:focus {
+                color: @link-hover;
+            }
+
+            .spon-logo {
+                /*
+                .boxShadow(0px, 0px, 4px, 0, darken(@grey, 10%));
+                border: 1px solid darken(@grey, 10%);
+                padding: 20px;
+                */
+                display: block;
+                margin: 0 auto 20px;
+            }
+        }
+    }
+
+    .tier-partner .spon-logo { width: 100%; }
+    .tier-platinium .spon-logo { width: 90%; }
+    .tier-gold .spon-logo { width: 90%; }
+    .tier-silver .spon-logo { width: 70%; }
+    .tier-bronze .spon-logo { width: 60%; }
+}
