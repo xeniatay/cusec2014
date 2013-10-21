@@ -66,7 +66,7 @@
 					<li>
 						<a href="#speakers" title='Speakers'>Speakers</a>
 					</li><li>
-						<a href="#sponsors" title='Sponsors'>Sponsors</a>
+						<a href="/sponsors" title='Sponsors'>Sponsors</a>
 					</li><li>
 						<a href="javascript:void(0);" class='disabled'>
 							Schools
@@ -74,6 +74,6 @@
 						</a>
 					</li>
 				</ul>
-				<?php bones_main_nav(); ?>
+				<?php //bones_main_nav(); ?>
 			</nav>
 		</header>
