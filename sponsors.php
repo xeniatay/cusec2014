@@ -1,6 +1,10 @@
     <div class='home-section sponsors' id='sponsors'>
         <div class='container'>
-                <h2 class='section-heading light'>Sponsors</h2>
+                <h2 class='section-heading spon-heading light'>
+                    <a href='/sponsors' title='Sponsors'>
+                        Sponsors
+                    </a>
+                </h2>
 
             <div class='spon-feature'>
                 <!--

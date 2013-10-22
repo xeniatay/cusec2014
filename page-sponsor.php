@@ -12,6 +12,7 @@ Template Name: Sponsor Page Template
                 <h2 class='section-heading light'>Sponsors</h2>
 
                 <p class='spon-cta'>
+                    CUSEC is only possible with the support of all our sponsors.<br/>
                     Want to be a CUSEC 2014 sponsor? Contact Samira at
                     <a class='spon-link' href="mailto:sponsor@cusec.net" title="sponsor@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'sponsorship']);">sponsor@cusec.net.</a>
                 </p>

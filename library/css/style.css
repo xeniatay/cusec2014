@@ -1451,6 +1451,9 @@ a.view-all:after {
 .sponsors.home-section .spon-announce {
   background: url(../images/natural-paper.png) repeat;
 }
+.sponsors.home-section .spon-heading a {
+  color: #004566;
+}
 .sponsors.home-section .spon-tier {
   display: inline-block;
 }
