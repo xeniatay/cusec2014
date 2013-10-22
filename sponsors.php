@@ -1,7 +1,7 @@
     <div class='home-section sponsors' id='sponsors'>
         <div class='container'>
                 <h2 class='section-heading spon-heading light'>
-                    <a href='<?php get_site_url(); ?>/sponsors' title='Sponsors'>
+                    <a href='<?php echo home_url(); ?>/sponsors' title='Sponsors'>
                         Sponsors
                     </a>
                 </h2>
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <a class='view-all spon-view-all' href='/sponsors' title='View All Sponsors'>
+            <a class='view-all spon-view-all' href='<?php echo home_url(); ?>/sponsors' title='View All Sponsors'>
                 View All Sponsors
             </a>
 

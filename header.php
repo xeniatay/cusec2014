@@ -70,7 +70,7 @@
 					</li><li>
 						<a href="#speakers" title='Speakers'>Speakers</a>
 					</li><li>
-						<a href="<?php get_site_url(); ?>/sponsors" title='Sponsors'>Sponsors</a>
+						<a href="<?php echo home_url(); ?>/sponsors" title='Sponsors'>Sponsors</a>
 					</li><li>
 						<a href="javascript:void(0);" class='disabled'>
 							Schools
