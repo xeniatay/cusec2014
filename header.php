@@ -68,7 +68,7 @@
 				        	Register
 						</a>
 					</li><li>
-						<a href="#speakers" title='Speakers'>Speakers</a>
+						<a href="<?php echo home_url(); ?>#speakers" title='Speakers'>Speakers</a>
 					</li><li>
 						<a href="<?php echo home_url(); ?>/sponsors" title='Sponsors'>Sponsors</a>
 					</li><li>
