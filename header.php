@@ -37,6 +37,8 @@
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
+		<meta property="og:image" content="<?php echo home_url(); ?>/library/images/cusec-logo-wide.png"/>
+
 		<!-- drop Google Analytics Here -->
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
