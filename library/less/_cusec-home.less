@@ -152,7 +152,7 @@ body {
             }
 
             a {
-                padding: 10px 10px 3px 10px;
+                padding: 10px 20px 3px 20px;
                 .slide-border;
 
                 &.disabled {
@@ -313,6 +313,25 @@ body {
     width: 80%;
 }
 
+.hu-content .register-button {
+    //background: lighten(@cusec-blue, 5%);
+    background: @white;
+    background: #f9f4e4;
+    color: @black;
+    display: inline-block;
+    font: @hf-normal 2em/1 @heading-font;
+    margin: 20px auto;
+    padding: 20px;
+    text-transform: uppercase;
+
+    .boxShadow(0px, 0px, 4px, 0, lighten(@black, 30%));
+    .transition;
+
+    &:hover {
+        color: darken(@cusec-sat-orange, 20%);
+    }
+}
+
 /***
  * content
  */
@@ -340,6 +359,25 @@ body {
     margin: 1.5em 1.5em;
     padding: 1em;
 
+}
+
+a.view-all {
+    @link-color: darken(@cusec-blue, 20%);
+    @link-hover: @cusec-blue;
+
+    color: @link-color;
+    display: inline-block;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+
+    &:hover {
+        color: @link-hover;
+    }
+
+    &:after {
+        content: '→';
+        vertical-align: middle;
+    }
 }
 
 /***
@@ -410,6 +448,7 @@ body {
 
 
 @spon-horiz-padding: 2.6em;
+@spon-horiz-padding-iphone-h: 1em;
 @spon-horiz-padding-ipad: 2.1em;
 @spon-horiz-padding-widescreen: 3.5em;
 
@@ -417,6 +456,10 @@ body {
     .spons-shared-styles;
 
     hr { width: 200px; }
+
+    .spon-announce {
+        background: url(../images/natural-paper.png) repeat;
+    }
 
     .spon-tier {
         display: inline-block;
@@ -435,56 +478,62 @@ body {
             @media @ltipad {
                 font-size: 0.9em;
             }
+        }
 
-            ul.tier-list {
-                border-right: 1px solid darken(@grey, 10%);
-                margin: 0.7em 0;
-                padding: 0 @spon-horiz-padding;
+        ul.tier-list {
+            margin: 0.7em 0;
+            padding: 0 @spon-horiz-padding;
 
-                @media @iphone {
-                    border: none;
+            @media @iphone {
+                border: none;
+            }
+
+            @media @ipad {
+                padding: 0 @spon-horiz-padding-ipad;
+            }
+
+            @media @widescreen {
+                padding: 0 @spon-horiz-padding-widescreen;
+            }
+
+            li {
+                display: inline-block;
+                font-size: 1.1em;
+                padding: 0.3em 0;
+                margin-right: @spon-horiz-padding;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                @media @iphone-v {
+                    display: block;
+                    margin-right: 0;
+                }
+
+                @media @iphone-h {
+                    margin-right: @spon-horiz-padding-iphone-h;
                 }
 
                 @media @ipad {
-                    padding: 0 @spon-horiz-padding-ipad;
+                    font-size: 1em;
+                    margin-right: @spon-horiz-padding-ipad;
                 }
 
                 @media @widescreen {
-                    padding: 0 @spon-horiz-padding-widescreen;
+                    font-size: 1.2em;
+                    margin-right: @spon-horiz-padding-widescreen;
                 }
+            }
 
-                &.last-child {
-                    border-right: none;
-                }
+            .spon-logo {
+                width: 150px;
 
-                li {
-                    display: inline-block;
-                    font-size: 1.1em;
-                    padding: 0.3em 0;
-                    margin-right: @spon-horiz-padding;
-
-                    &:last-child {
-                        margin-right: 0;
-                    }
-
-                    @media @iphone {
-                        display: block;
-                        margin-right: 0;
-                    }
-
-                    @media @ipad {
-                        font-size: 1em;
-                        margin-right: @spon-horiz-padding-ipad;
-                    }
-
-                    @media @widescreen {
-                        font-size: 1.2em;
-                        margin-right: @spon-horiz-padding-widescreen;
-                    }
+                @media @iphone {
+                    width: 100px;
                 }
             }
         }
-
     }
 }
 

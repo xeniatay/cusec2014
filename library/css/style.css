@@ -747,10 +747,10 @@ BUTTONS
  * personal
  ***/
 .hide {
-  display: none;
+  display: none !important;
 }
 .show {
-  display: block;
+  display: block !important;
 }
 .no-hyphens {
   word-wrap: normal;
@@ -973,9 +973,6 @@ footer styles
   font-weight: normal;
   font-style: normal;
 }
-.spons-shared-styles .spon-announce {
-  background: url(../images/natural-paper.png) repeat;
-}
 .spons-shared-styles .spon-tier ul.tier-list > li {
   font-size: 1.1em;
 }
@@ -1115,7 +1112,7 @@ body {
   }
 }
 .header-nav ul li a {
-  padding: 10px 10px 3px 10px;
+  padding: 10px 20px 3px 20px;
 }
 .header-nav ul li a:after {
   content: ' ';
@@ -1298,6 +1295,27 @@ body {
   max-width: 500px;
   width: 80%;
 }
+.hu-content .register-button {
+  background: #ffffff;
+  background: #f9f4e4;
+  color: #2f2f2f;
+  display: inline-block;
+  font: 400 2em/1 "quicksandregular", sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 4px 0 #7c7c7c;
+  -moz-box-shadow: 0px 0px 4px 0 #7c7c7c;
+  box-shadow: 0px 0px 4px 0 #7c7c7c;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.hu-content .register-button:hover {
+  color: #997100;
+}
 /***
  * content
  */
@@ -1322,6 +1340,19 @@ body {
 .to-be-announced {
   margin: 1.5em 1.5em;
   padding: 1em;
+}
+a.view-all {
+  color: #055e8f;
+  display: inline-block;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+a.view-all:hover {
+  color: #099ff1;
+}
+a.view-all:after {
+  content: '→';
+  vertical-align: middle;
 }
 /***
  * venue
@@ -1411,14 +1442,14 @@ body {
     content: '';
   }
 }
-.sponsors.home-section .spon-announce {
-  background: url(../images/natural-paper.png) repeat;
-}
 .sponsors.home-section .spon-tier ul.tier-list > li {
   font-size: 1.1em;
 }
 .sponsors.home-section hr {
   width: 200px;
+}
+.sponsors.home-section .spon-announce {
+  background: url(../images/natural-paper.png) repeat;
 }
 .sponsors.home-section .spon-tier {
   display: inline-block;
@@ -1455,54 +1486,63 @@ body {
     font-size: 0.9em;
   }
 }
-.sponsors.home-section .spon-tier .tier-subheading ul.tier-list {
-  border-right: 1px solid #d6d6d6;
+.sponsors.home-section .spon-tier ul.tier-list {
   margin: 0.7em 0;
   padding: 0 2.6em;
 }
 @media ( max-width:719px ) {
-  .sponsors.home-section .spon-tier .tier-subheading ul.tier-list {
+  .sponsors.home-section .spon-tier ul.tier-list {
     border: none;
   }
 }
 @media ( min-width:720px ) and ( max-width:960px ) {
-  .sponsors.home-section .spon-tier .tier-subheading ul.tier-list {
+  .sponsors.home-section .spon-tier ul.tier-list {
     padding: 0 2.1em;
   }
 }
 @media ( min-width: 1260px ) {
-  .sponsors.home-section .spon-tier .tier-subheading ul.tier-list {
+  .sponsors.home-section .spon-tier ul.tier-list {
     padding: 0 3.5em;
   }
 }
-.sponsors.home-section .spon-tier .tier-subheading ul.tier-list.last-child {
-  border-right: none;
-}
-.sponsors.home-section .spon-tier .tier-subheading ul.tier-list li {
+.sponsors.home-section .spon-tier ul.tier-list li {
   display: inline-block;
   font-size: 1.1em;
   padding: 0.3em 0;
   margin-right: 2.6em;
 }
-.sponsors.home-section .spon-tier .tier-subheading ul.tier-list li:last-child {
+.sponsors.home-section .spon-tier ul.tier-list li:last-child {
   margin-right: 0;
 }
-@media ( max-width:719px ) {
-  .sponsors.home-section .spon-tier .tier-subheading ul.tier-list li {
+@media ( max-width:479px ) {
+  .sponsors.home-section .spon-tier ul.tier-list li {
     display: block;
     margin-right: 0;
   }
 }
+@media ( min-width:480px ) and ( max-width:719px ) {
+  .sponsors.home-section .spon-tier ul.tier-list li {
+    margin-right: 1em;
+  }
+}
 @media ( min-width:720px ) and ( max-width:960px ) {
-  .sponsors.home-section .spon-tier .tier-subheading ul.tier-list li {
+  .sponsors.home-section .spon-tier ul.tier-list li {
     font-size: 1em;
     margin-right: 2.1em;
   }
 }
 @media ( min-width: 1260px ) {
-  .sponsors.home-section .spon-tier .tier-subheading ul.tier-list li {
+  .sponsors.home-section .spon-tier ul.tier-list li {
     font-size: 1.2em;
     margin-right: 3.5em;
+  }
+}
+.sponsors.home-section .spon-tier ul.tier-list .spon-logo {
+  width: 150px;
+}
+@media ( max-width:719px ) {
+  .sponsors.home-section .spon-tier ul.tier-list .spon-logo {
+    width: 100px;
   }
 }
 .schools {
@@ -1623,12 +1663,12 @@ body {
 }
 .page-content {
   background: url(../images/white-wall.png) repeat;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 .sponsors.page-sponsors {
   text-align: center;
-}
-.sponsors.page-sponsors .spon-announce {
-  background: url(../images/natural-paper.png) repeat;
 }
 .sponsors.page-sponsors .spon-tier ul.tier-list > li {
   font-size: 1.1em;
@@ -1636,6 +1676,9 @@ body {
 .sponsors.page-sponsors hr.spon-div {
   margin: 0 auto;
   width: 200px;
+}
+.sponsors.page-sponsors .spon-cta {
+  margin: 20px auto;
 }
 .sponsors.page-sponsors .tier-subheading {
   border-bottom: 2px solid #088fd8;
@@ -1662,9 +1705,19 @@ body {
   color: #055e8f;
   display: block;
   font-size: 0.8em;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 20px auto;
+  opacity: 0.9;
   width: 600px;
+}
+@media ( max-width:479px ) {
+  .sponsors.page-sponsors ul.tier-list > li .spon-link {
+    width: 300px;
+  }
+}
+@media ( min-width:480px ) and ( max-width:719px ) {
+  .sponsors.page-sponsors ul.tier-list > li .spon-link {
+    width: 400px;
+  }
 }
 @media ( max-width:960px ) {
   .sponsors.page-sponsors ul.tier-list > li .spon-link {
@@ -1674,29 +1727,27 @@ body {
 .sponsors.page-sponsors ul.tier-list > li .spon-link:hover,
 .sponsors.page-sponsors ul.tier-list > li .spon-link:focus {
   color: #099ff1;
+  opacity: 1.0;
+}
+.sponsors.page-sponsors ul.tier-list > li .spon-link:hover .spon-logo,
+.sponsors.page-sponsors ul.tier-list > li .spon-link:focus .spon-logo {
+  background-color: #efefef;
 }
 .sponsors.page-sponsors ul.tier-list > li .spon-link .spon-logo {
-  /*
-                .boxShadow(0px, 0px, 4px, 0, darken(@grey, 10%));
-                border: 1px solid darken(@grey, 10%);
-                padding: 20px;
-                */
-
+  background-color: #efefef;
+  padding: 20px;
   display: block;
   margin: 0 auto 20px;
 }
 .sponsors.page-sponsors .tier-partner .spon-logo {
   width: 100%;
 }
-.sponsors.page-sponsors .tier-platinium .spon-logo {
-  width: 90%;
-}
 .sponsors.page-sponsors .tier-gold .spon-logo {
   width: 90%;
 }
 .sponsors.page-sponsors .tier-silver .spon-logo {
-  width: 70%;
+  width: 80%;
 }
 .sponsors.page-sponsors .tier-bronze .spon-logo {
-  width: 60%;
+  width: 70%;
 }

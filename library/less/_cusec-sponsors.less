@@ -1,5 +1,6 @@
 .page-content {
     background: url(../images/white-wall.png) repeat;
+    .boxShadow(none);
 }
 
 .sponsors.page-sponsors {
@@ -11,7 +12,8 @@
         width: 200px;
     }
 
-    .spon-tier {
+    .spon-cta {
+        margin: 20px auto;
     }
 
     .tier-subheading {
@@ -28,9 +30,17 @@
             color: @link-color;
             display: block;
             font-size: 0.8em;
-            margin: 0 auto;
-            padding: 20px;
+            margin: 20px auto;
+            opacity: 0.9;
             width: 600px;
+
+            @media @iphone-v {
+                width: 300px;
+            }
+
+            @media @iphone-h {
+                width: 400px;
+            }
 
             @media @ltipad {
                 font-size: 0.9em;
@@ -38,14 +48,16 @@
 
             &:hover, &:focus {
                 color: @link-hover;
+                opacity: 1.0;
+
+                .spon-logo {
+                    background-color: mix(@white, @grey, 0.9);
+                }
             }
 
             .spon-logo {
-                /*
-                .boxShadow(0px, 0px, 4px, 0, darken(@grey, 10%));
-                border: 1px solid darken(@grey, 10%);
+                background-color: @grey;
                 padding: 20px;
-                */
                 display: block;
                 margin: 0 auto 20px;
             }
@@ -53,8 +65,8 @@
     }
 
     .tier-partner .spon-logo { width: 100%; }
-    .tier-platinium .spon-logo { width: 90%; }
+    //.tier-platinium .spon-logo { width: 90%; }
     .tier-gold .spon-logo { width: 90%; }
-    .tier-silver .spon-logo { width: 70%; }
-    .tier-bronze .spon-logo { width: 60%; }
+    .tier-silver .spon-logo { width: 80%; }
+    .tier-bronze .spon-logo { width: 70%; }
 }

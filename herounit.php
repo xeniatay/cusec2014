@@ -6,5 +6,8 @@
         <p class='hu-desc'>
             CUSEC brings together passionate students from across Canada.<br/>Meet like-minded peers, learn from world-renowned experts and discover career opportunities with exciting companies.
         </p>
+        <a class="register-button guestlist-event-206958" href="#">
+            Register for CUSEC
+        </a>
     </div>
 </div>

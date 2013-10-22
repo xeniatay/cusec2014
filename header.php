@@ -64,6 +64,10 @@
 			<nav class='header-nav' role='navigation'>
 				<ul class='nav top-nav'>
 					<li>
+				        <a class="hu-register-button guestlist-event-206958" href="#">
+				        	Register
+						</a>
+					</li><li>
 						<a href="#speakers" title='Speakers'>Speakers</a>
 					</li><li>
 						<a href="/sponsors" title='Sponsors'>Sponsors</a>
@@ -73,6 +77,7 @@
 							<span class='comingsoon'>Coming Soon</span>
 						</a>
 					</li>
+
 				</ul>
 				<?php //bones_main_nav(); ?>
 			</nav>
