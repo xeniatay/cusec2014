@@ -327,6 +327,10 @@ body {
     .boxShadow(0px, 0px, 4px, 0, lighten(@black, 30%));
     .transition;
 
+    @media @iphone-v {
+        font-size: 1.5em;
+    }
+
     &:hover {
         color: darken(@cusec-sat-orange, 20%);
     }
@@ -463,6 +467,12 @@ a.view-all {
 
     .spon-heading a {
         color: #004566;
+    }
+
+    .spon-feature {
+        @media @iphone {
+            margin-top: 20px;
+        }
     }
 
     .spon-tier {
