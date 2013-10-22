@@ -69,6 +69,20 @@
                 </span>
             </li><li>
                 <span class='spk-name'>
+                    Steve Sisalith
+                </span>
+                <span class='spk-job spk-job-stevesisalith'>
+                    Software Developer, SAP Labs
+                </span>
+            </li><li>
+                <span class='spk-name'>
+                    Julia Evans
+                </span>
+                <span class='spk-job spk-job-juliaevans'>
+                    Data Scientist & Co-Organizer of Montreal All-Girl Hack Night and PyLadies
+                </span>
+            </li><li>
+                <span class='spk-name'>
                     Dr. Derek Ruths
                 </span>
                 <span class='spk-job spk-job-derekruth'>
