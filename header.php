@@ -68,6 +68,8 @@
 				        	Register
 						</a>
 					</li><li>
+						<a href="<?php echo home_url(); ?>#venue" title='Venue'>Venue</a>
+					</li><li>
 						<a href="<?php echo home_url(); ?>#speakers" title='Speakers'>Speakers</a>
 					</li><li>
 						<a href="<?php echo home_url(); ?>/sponsors" title='Sponsors'>Sponsors</a>

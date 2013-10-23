@@ -1,4 +1,4 @@
-    <div class='venue home-section'>
+    <div id='venue' class='venue home-section'>
         <div class='container'>
             <div class='clearfix'>
                 <h2 class='section-heading dark'>Venue</h2>
