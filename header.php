@@ -60,7 +60,7 @@
 
 		<header id='header' class='header container clearfix' role='banner'>
 			<a class='<?php if (is_home()) { echo "is-home"; } ?> logo-wrapper' href='<?php echo home_url(); ?>' rel='nofollow'>
-				<img class='cusec-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/cusec-logo-wide.png' alt='CUSEC 2014'/>
+				<img class='cusec-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/cusec-logo-wide.png' itemprop='image' alt='CUSEC 2014'/>
 			</a>
 
 			<nav class='header-nav' role='navigation'>
