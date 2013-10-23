@@ -753,10 +753,10 @@ body {
   .speakers .non-keynotes {
     -moz-column-count: 1;
     /* Firefox */
-  
+
     -webkit-column-count: 1;
     /* Safari and Chrome */
-  
+
     column-count: 1;
   }
 }
@@ -898,10 +898,10 @@ body {
   .schools ul {
     -moz-column-count: 1;
     /* Firefox */
-  
+
     -webkit-column-count: 1;
     /* Safari and Chrome */
-  
+
     column-count: 1;
   }
 }
@@ -909,10 +909,10 @@ body {
   .schools ul {
     -moz-column-count: 2;
     /* Firefox */
-  
+
     -webkit-column-count: 2;
     /* Safari and Chrome */
-  
+
     column-count: 2;
   }
 }

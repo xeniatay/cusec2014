@@ -1363,12 +1363,37 @@ a.view-all:after {
  * venue
  */
 .venue {
-  background: url(../images/white-wall.png) repeat;
-  height: 80px;
-  overflow: hidden;
+  background: url(../images/venue-map-bg-blur.png) no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #e2e2e2;
+}
+.venue .venue-map {
+  height: 150px;
 }
 .venue .venue-details {
-  margin: 0 auto;
+  margin: 20px auto;
+}
+.venue .venue-details address {
+  font-size: 1.4em;
+  font-style: normal;
+  line-height: 1.8;
+}
+@media ( max-width:719px ) {
+  .venue .venue-details address {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+}
+.venue .venue-details address a {
+  color: #2f2f2f;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.venue .venue-details address a:hover {
+  color: #077fc0;
 }
 /***
  * speakers

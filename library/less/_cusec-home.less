@@ -388,12 +388,36 @@ a.view-all {
  * venue
  */
 .venue {
-    background: url(../images/white-wall.png) repeat;
-    height: 80px;
-    overflow:hidden;
+    background: url(../images/venue-map-bg-blur.png) no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid darken(@grey, 5%);
+
+    .venue-map {
+        height: 150px;
+    }
 
     .venue-details {
-        margin: 0 auto;
+        margin: 20px auto;
+
+        address {
+            font-size: 1.4em;
+            font-style: normal;
+            line-height: 1.8;
+
+            @media @iphone {
+                font-size: 1em;
+                line-height: 1.5;
+            }
+
+            a {
+                color: @black;
+                .transition;
+
+                &:hover {
+                    color: darken(@cusec-blue, 10%);
+                }
+            }
+        }
     }
 }
 

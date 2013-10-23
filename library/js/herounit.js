@@ -47,6 +47,7 @@ var resizeHeroUnit = (function() {
 
         if ($(window).width() < MOBILE) {
             $(heroUnit).css( 'height', 'auto');
+            $(heroUnit).css( 'backgroundPosition', 'left top');
         } else {
             var docHeight = $(document).height(),
                 winHeight = $(window).height(),
