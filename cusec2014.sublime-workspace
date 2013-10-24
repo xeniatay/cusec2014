@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"slide-bor",
+				"slide-border-disabled"
+			],
+			[
+				"slide-",
+				"slide-border-disabled"
+			],
+			[
+				"horiz",
+				"horiz-padding-ipad"
+			],
+			[
 				"tl-content-width-iph",
 				"tl-content-width-iphone-vert"
 			],
@@ -16,50 +28,18 @@
 	"buffers":
 	[
 		{
-			"file": "library/js/cusec2014.js",
+			"file": "venue.php",
 			"settings":
 			{
-				"buffer_size": 448,
+				"buffer_size": 1189,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.php",
+			"file": "library/less/_cusec-home.less",
 			"settings":
 			{
-				"buffer_size": 1786,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/less/_cusec2014.less",
-			"settings":
-			{
-				"buffer_size": 3708,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/js/scripts.js",
-			"settings":
-			{
-				"buffer_size": 3278,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/bones.php",
-			"settings":
-			{
-				"buffer_size": 14288,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 574,
+				"buffer_size": 12885,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,39 +47,39 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 2693,
+				"buffer_size": 3607,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "library/less/_base.less",
+			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 1773,
+				"buffer_size": 1945,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "library/less/_mixins.less",
+			"file": "herounit.php",
 			"settings":
 			{
-				"buffer_size": 7024,
+				"buffer_size": 872,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "library/less/style.less",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 889,
+				"buffer_size": 282,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "library/less/_responsive-mixins.less",
+			"file": "library/js/herounit.js",
 			"settings":
 			{
-				"buffer_size": 1041,
+				"buffer_size": 1705,
 				"line_ending": "Unix"
 			}
 		}
@@ -107,9 +87,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 49.0,
+		"height": 349.0,
 		"selected_items":
 		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -137,12 +121,42 @@
 	},
 	"file_history":
 	[
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/style.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/cusec2014.js",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/bones.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/herounit.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_mixins.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-shared-styles.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/speakers.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-sponsors.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/footer.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/sponsors.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/header.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-sponsor.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_cusec-shared-styles.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/index.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-custom.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/herounit.js",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/parallax-scroll.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec2014.less",
+		"/Users/xenia/projs/wordpress/wp-admin/admin-functions.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec2014.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_normalize.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_base.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_customfonts.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_responsive-mixins.less",
+		"/Users/xenia/projs/indochino/js/collection-moderndandy.js",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/style.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/scripts.js",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/schools.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/venue.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/parallaxScroll.js",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/heroUnit.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/cusec2014.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/less/variables.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/xeniatay/library/less/xeniatay.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_normalize.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/bones.php",
 		"/Users/xenia/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/xenia/projs/cs350/os161-1.99/kern/synchprobs/catmouse.c",
 		"/Users/xenia/projs/cs350/os161-1.99/kern/thread/thread.c",
@@ -256,6 +270,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"get_site_url",
+			"url",
+			"/sponsors",
+			"get_site_url",
+			"spon-announce",
+			"-moz-hyphens",
+			"section-subheading",
+			"sp-tier",
+			"cusec-logo.svg:w",
+			"cusec-logo.svg",
 			"bones-js",
 			"enqueue",
 			"bones_main_nav",
@@ -302,6 +326,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"spon-tier",
+			"logo-svg.png"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -312,41 +338,41 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "library/js/cusec2014.js",
+					"file": "venue.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 448,
+						"buffer_size": 1189,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								448,
-								448
+								19,
+								19
 							]
 						],
 						"settings":
 						{
 							"highlight_line": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"vintage":
 							{
 								"action": null,
 								"action_digits":
 								[
 								],
-								"cancel_action": true,
+								"cancel_action": false,
 								"expecting_register": false,
 								"expecting_user_input": false,
-								"mode": 4,
-								"motion": "vi_exclusive_text_object",
+								"mode": 2,
+								"motion": null,
 								"motion_digits":
 								[
 								],
@@ -356,8 +382,8 @@
 								"stashed_action": null,
 								"user_action_input": null,
 								"user_input": null,
-								"user_motion_input": "I",
-								"xpos": 9
+								"user_motion_input": null,
+								"xpos": 19
 							}
 						},
 						"translation.x": 0.0,
@@ -368,129 +394,25 @@
 				},
 				{
 					"buffer": 1,
-					"file": "index.php",
+					"file": "library/less/_cusec-home.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1786,
+						"buffer_size": 12885,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								223,
-								223
+								7517,
+								7517
 							]
 						],
 						"settings":
 						{
 							"highlight_line": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 1
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "library/less/_cusec2014.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3708,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								906,
-								906
-							]
-						],
-						"settings":
-						{
-							"highlight_line": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 12
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 455.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "library/js/scripts.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3278,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								957,
-								880
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"vintage":
@@ -518,31 +440,33 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 222.0,
+						"translation.y": 6395.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "library/bones.php",
+					"buffer": 2,
+					"file": "header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14288,
+						"buffer_size": 3607,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4911,
-								4911
+								3186,
+								3186
 							]
 						],
 						"settings":
 						{
+							"highlight_line": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"vintage":
 							{
 								"action": null,
@@ -564,37 +488,138 @@
 								"user_action_input": null,
 								"user_input": null,
 								"user_motion_input": null,
-								"xpos": 71
+								"xpos": 66
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 2024.0,
+						"translation.y": 716.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "footer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 574,
+						"buffer_size": 1945,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								458,
-								458
+								1721,
+								1783
 							]
 						],
 						"settings":
 						{
-							"highlight_line": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 184
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "herounit.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 69
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"vintage":
 							{
 								"action": null,
@@ -627,233 +652,24 @@
 				},
 				{
 					"buffer": 6,
-					"file": "header.php",
+					"file": "library/js/herounit.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2693,
+						"buffer_size": 1705,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2309,
-								2309
+								1094,
+								1094
 							]
 						],
 						"settings":
 						{
-							"highlight_line": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 22
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 179.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "library/less/_base.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1773,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1773,
-								1773
-							]
-						],
-						"settings":
-						{
-							"highlight_line": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 1080.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "library/less/_mixins.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7024,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6868,
-								6868
-							]
-						],
-						"settings":
-						{
-							"highlight_line": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 26
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 4174.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "library/less/style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 889,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								345,
-								345
-							]
-						],
-						"settings":
-						{
-							"highlight_line": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 34
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "library/less/_responsive-mixins.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1041,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								272,
-								272
-							]
-						],
-						"settings":
-						{
-							"highlight_line": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"vintage":
@@ -877,11 +693,11 @@
 								"user_action_input": null,
 								"user_input": null,
 								"user_motion_input": null,
-								"xpos": 1
+								"xpos": 15
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 444.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -932,12 +748,172 @@
 		"selected_items":
 		[
 			[
+				"hea",
+				"header.php"
+			],
+			[
+				"hero",
+				"herounit.php"
+			],
+			[
+				"cusec-home.l",
+				"library/less/_cusec-home.less"
+			],
+			[
+				"cusec-",
+				"library/less/_cusec-home.css"
+			],
+			[
+				"venu",
+				"venue.php"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
 				"foo",
 				"footer.php"
 			],
 			[
+				"head",
+				"header.php"
+			],
+			[
+				"spons",
+				"sponsors.php"
+			],
+			[
+				"spea",
+				"speakers.php"
+			],
+			[
+				"mix",
+				"library/less/_mixins.less"
+			],
+			[
+				"heo",
+				"herounit.php"
+			],
+			[
+				"he",
+				"herounit.php"
+			],
+			[
+				"her",
+				"herounit.php"
+			],
+			[
+				"bones",
+				"library/bones.php"
+			],
+			[
 				"foot",
 				"footer.php"
+			],
+			[
+				"sponso",
+				"sponsors.php"
+			],
+			[
+				"jss",
+				"library/js/cusec2014.js"
+			],
+			[
+				"js",
+				"library/js/cusec2014.js"
+			],
+			[
+				"cusec",
+				"library/js/cusec2014.js"
+			],
+			[
+				"bones.p",
+				"library/bones.php"
+			],
+			[
+				"mixin",
+				"library/less/_mixins.less"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"custom",
+				"page-custom.php"
+			],
+			[
+				"herou",
+				"library/js/herounit.js"
+			],
+			[
+				"para",
+				"library/js/parallax-scroll.js"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"st",
+				"library/less/style.less"
+			],
+			[
+				"style.less",
+				"library/less/style.less"
+			],
+			[
+				"fo",
+				"footer.php"
+			],
+			[
+				"speak",
+				"speakers.php"
+			],
+			[
+				"spon",
+				"sponsors.php"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"spos",
+				"sponsors.php"
+			],
+			[
+				"heru",
+				"herounit.php"
+			],
+			[
+				"speakers",
+				"speakers.php"
+			],
+			[
+				"base",
+				"library/less/_base.less"
+			],
+			[
+				"respons",
+				"library/less/_responsive-mixins.less"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"mixins",
+				"library/less/_mixins.less"
+			],
+			[
+				"herouni",
+				"library/js/herounit.js"
 			],
 			[
 				"_base.",
@@ -950,14 +926,6 @@
 			[
 				"_normal",
 				"library/less/_normalize.less"
-			],
-			[
-				"style.less",
-				"library/less/style.less"
-			],
-			[
-				"footer",
-				"footer.php"
 			],
 			[
 				"catmouse.c",
@@ -1098,7 +1066,7 @@
 	{
 		"vintage":
 		{
-			"last_buffer_search": "hero"
+			"last_buffer_search": "mobile"
 		}
 	},
 	"show_minimap": true,
