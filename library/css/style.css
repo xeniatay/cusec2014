@@ -1370,6 +1370,9 @@ a.view-all:after {
 .venue .venue-map {
   height: 150px;
 }
+.venue .venue-info {
+  margin: 20px;
+}
 .venue .venue-details {
   margin: 20px auto;
 }

@@ -12,6 +12,9 @@
                                 <br/>H3B 4C9, Montreal, QC Canada
                         </a>
                     </address>
+                    <p class='venue-info'>For booking information, contact your Head Delegate or send an e-mail to
+                        <a href='mailto:chair@cusec.net' title='chair@cusec.net' onClick="_gaq.push(['_trackEvent', 'mailto', 'chair']);">chair@cusec.net</a>
+                    </p>
                 </div>
             </div>
         </div>

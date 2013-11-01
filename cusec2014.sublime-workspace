@@ -27,62 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "venue.php",
-			"settings":
-			{
-				"buffer_size": 1189,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/less/_cusec-home.less",
-			"settings":
-			{
-				"buffer_size": 12885,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "header.php",
-			"settings":
-			{
-				"buffer_size": 3607,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 1945,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "herounit.php",
-			"settings":
-			{
-				"buffer_size": 872,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 282,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library/js/herounit.js",
-			"settings":
-			{
-				"buffer_size": 1705,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -121,24 +65,26 @@
 	},
 	"file_history":
 	[
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-sponsor.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/404.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/herounit.js",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/header.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/sponsors.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/index.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/herounit.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/footer.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/venue.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/style.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/cusec2014.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/bones.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/herounit.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_mixins.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-shared-styles.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/speakers.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-sponsors.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/footer.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/sponsors.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/header.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-sponsor.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_cusec-shared-styles.css",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/index.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-custom.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/herounit.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/parallax-scroll.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec2014.less",
 		"/Users/xenia/projs/wordpress/wp-admin/admin-functions.php",
@@ -151,7 +97,6 @@
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/style.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/scripts.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/schools.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/venue.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/parallaxScroll.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/heroUnit.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/cusec2014.less",
@@ -338,370 +283,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "venue.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1189,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19,
-								19
-							]
-						],
-						"settings":
-						{
-							"highlight_line": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 19
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "library/less/_cusec-home.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12885,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7517,
-								7517
-							]
-						],
-						"settings":
-						{
-							"highlight_line": true,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 6395.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3607,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3186,
-								3186
-							]
-						],
-						"settings":
-						{
-							"highlight_line": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 66
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 716.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "footer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1945,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1721,
-								1783
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 184
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "herounit.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 872,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								724,
-								724
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 69
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								102,
-								102
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 8
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "library/js/herounit.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1705,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1094,
-								1094
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 15
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 444.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -748,7 +331,31 @@
 		"selected_items":
 		[
 			[
+				"hu.js",
+				"library/js/herounit.js"
+			],
+			[
+				"page-sp",
+				"page-sponsor.php"
+			],
+			[
 				"hea",
+				"header.php"
+			],
+			[
+				"spons",
+				"sponsors.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"404",
+				"404.php"
+			],
+			[
+				"head",
 				"header.php"
 			],
 			[
@@ -774,14 +381,6 @@
 			[
 				"foo",
 				"footer.php"
-			],
-			[
-				"head",
-				"header.php"
-			],
-			[
-				"spons",
-				"sponsors.php"
 			],
 			[
 				"spea",
@@ -902,10 +501,6 @@
 			[
 				"respons",
 				"library/less/_responsive-mixins.less"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"mixins",
@@ -1066,7 +661,7 @@
 	{
 		"vintage":
 		{
-			"last_buffer_search": "mobile"
+			"last_buffer_search": "condensed"
 		}
 	},
 	"show_minimap": true,
