@@ -139,7 +139,6 @@ body {
     ul {
         margin: 5px 0;
 
-
         li {
             display: inline-block;
             margin-left: -4px; /* inline-block fix */
@@ -152,8 +151,12 @@ body {
             }
 
             a {
-                padding: 10px 20px 3px 20px;
+                padding: 10px 10px 3px 10px;
                 .slide-border;
+
+                @media @widescreen {
+                    padding: 10px 20px 3px 20px;
+                }
 
                 &.disabled {
                     .slide-border-disabled;
@@ -480,7 +483,7 @@ a.view-all {
 
 
 @spon-horiz-padding: 2.6em;
-@spon-horiz-padding-iphone-h: 1em;
+@spon-horiz-padding-iphone-h: 3em;
 @spon-horiz-padding-ipad: 2.1em;
 @spon-horiz-padding-widescreen: 3.5em;
 
@@ -526,10 +529,6 @@ a.view-all {
             margin: 0.7em 0;
             padding: 0 @spon-horiz-padding;
 
-            @media @iphone {
-                border: none;
-            }
-
             @media @ipad {
                 padding: 0 @spon-horiz-padding-ipad;
             }
@@ -538,15 +537,20 @@ a.view-all {
                 padding: 0 @spon-horiz-padding-widescreen;
             }
 
+            &.partner {
+                border-right: 1px solid @grey;
+
+                @media @ltwidescreen {
+                    border: none;
+                }
+            }
+
             li {
                 display: inline-block;
                 font-size: 1.1em;
                 padding: 0.3em 0;
                 margin-right: @spon-horiz-padding;
-
-                &:last-child {
-                    margin-right: 0;
-                }
+                opacity: 0.9;
 
                 @media @iphone-v {
                     display: block;
@@ -554,7 +558,11 @@ a.view-all {
                 }
 
                 @media @iphone-h {
-                    margin-right: @spon-horiz-padding-iphone-h;
+                    margin: 0;
+
+                    &:nth-child(odd) {
+                        margin-right: @spon-horiz-padding-iphone-h;
+                    }
                 }
 
                 @media @ipad {
@@ -566,14 +574,75 @@ a.view-all {
                     font-size: 1.2em;
                     margin-right: @spon-horiz-padding-widescreen;
                 }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+
             }
 
-            .spon-logo {
-                width: 150px;
+            .spon-link {
+                display: table-cell;
+                vertical-align: middle;
+                height: 90px;
 
                 @media @iphone {
-                    width: 100px;
+                    display: block;
+                    height: auto;
+                    padding: 10px 0;
                 }
+
+                @media @widescreen {
+                    height: 160px;
+                }
+
+                img.spon-logo {
+                    width: 150px;
+
+                    @media @iphone-v {
+                        width: 100px;
+                    }
+
+                    @media @iphone-h {
+                        width: 150px;
+                    }
+
+                    @media @ipad {
+                        width: 130px;
+                    }
+                }
+
+                &.csec-link {
+                    padding-top: 10px;
+                    height: 160px;
+
+                    @media @iphone-v {
+                        height: 120px;
+                    }
+
+                    @media @ipad {
+                        height: 100px;
+                    }
+
+                    @media @widescreen {
+                        height: 150px;
+                    }
+
+                    img.csec-logo {
+                        height: 140px;
+                        width: auto;
+
+                        @media @iphone-v {
+                            height: 100px;
+                        }
+                    }
+
+                 }
+
             }
         }
     }

@@ -1,14 +1,3 @@
-/******************************************************************
-Site Name:
-Author:
-
-Stylesheet: Main Stylesheet
-
-Here's where the magic happens. Here, you'll see we are calling in
-the separate media queries. The base mobile goes outside any query
-and is called at the beginning, after that we call the rest
-of the styles inside media queries.
-******************************************************************/
 /*! normalize.css 2012-07-07T09:50 UTC - http://github.com/necolas/normalize.css */
 /* ==========================================================================
    HTML5 display definitions
@@ -979,6 +968,96 @@ footer styles
 .page-content {
   padding: 1px 0;
 }
+.page-content {
+  background: url(../images/white-wall.png) repeat;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.sponsors.page-sponsors {
+  text-align: center;
+}
+.sponsors.page-sponsors .spon-tier ul.tier-list > li {
+  font-size: 1.1em;
+}
+.sponsors.page-sponsors hr.spon-div {
+  margin: 0 auto;
+  width: 200px;
+}
+.sponsors.page-sponsors .spon-cta {
+  margin: 20px auto;
+}
+.sponsors.page-sponsors .tier-subheading {
+  border-bottom: 2px solid #088fd8;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 1em 0 0 0;
+  padding-bottom: 1px;
+}
+@media ( max-width:719px ) {
+  .sponsors.page-sponsors .tier-subheading {
+    font-size: 1.1em;
+  }
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .sponsors.page-sponsors .tier-subheading {
+    font-size: 1.3em;
+  }
+}
+.sponsors.page-sponsors ul.tier-list > li {
+  display: block;
+}
+.sponsors.page-sponsors ul.tier-list > li .spon-link {
+  color: #055e8f;
+  display: block;
+  font-size: 0.8em;
+  margin: 20px auto;
+  opacity: 0.9;
+  width: 600px;
+}
+@media ( max-width:479px ) {
+  .sponsors.page-sponsors ul.tier-list > li .spon-link {
+    width: 300px;
+  }
+}
+@media ( min-width:480px ) and ( max-width:719px ) {
+  .sponsors.page-sponsors ul.tier-list > li .spon-link {
+    width: 400px;
+  }
+}
+@media ( max-width:960px ) {
+  .sponsors.page-sponsors ul.tier-list > li .spon-link {
+    font-size: 0.9em;
+  }
+}
+.sponsors.page-sponsors ul.tier-list > li .spon-link:hover,
+.sponsors.page-sponsors ul.tier-list > li .spon-link:focus {
+  color: #099ff1;
+  opacity: 1.0;
+}
+.sponsors.page-sponsors ul.tier-list > li .spon-link:hover .spon-logo,
+.sponsors.page-sponsors ul.tier-list > li .spon-link:focus .spon-logo {
+  background-color: #efefef;
+}
+.sponsors.page-sponsors ul.tier-list > li .spon-link .spon-logo {
+  background-color: #efefef;
+  padding: 20px;
+  display: block;
+  margin: 0 auto 20px;
+}
+.sponsors.page-sponsors .tier-partner .spon-logo {
+  width: 100%;
+}
+.sponsors.page-sponsors .tier-gold .spon-logo {
+  width: 90%;
+}
+.sponsors.page-sponsors .tier-silver .spon-logo {
+  width: 80%;
+}
+.sponsors.page-sponsors .tier-bronze .spon-logo {
+  width: 70%;
+}
 /*
 background: url(../images/natural-paper.png) repeat;
 background: url(../images/geometry.png) repeat;
@@ -1112,7 +1191,7 @@ body {
   }
 }
 .header-nav ul li a {
-  padding: 10px 10px 3px 10px;
+  padding: 10px 20px 3px 20px;
 }
 .header-nav ul li a:after {
   content: ' ';
@@ -1130,11 +1209,6 @@ body {
 .header-nav ul li a:hover:after,
 .header-nav ul li a:focus:after {
   width: 100%;
-}
-@media ( min-width: 1260px ) {
-  .header-nav ul li a {
-    padding: 10px 20px 3px 20px;
-  }
 }
 .header-nav ul li a.disabled {
   cursor: default;
@@ -1569,10 +1643,7 @@ a.view-all:after {
 }
 @media ( min-width:480px ) and ( max-width:719px ) {
   .sponsors.home-section .spon-tier ul.tier-list li {
-    margin: 0;
-  }
-  .sponsors.home-section .spon-tier ul.tier-list li:nth-child(odd) {
-    margin-right: 3em;
+    margin-right: 1em;
   }
 }
 @media ( min-width:720px ) and ( max-width:960px ) {
@@ -1596,64 +1667,33 @@ a.view-all:after {
 .sponsors.home-section .spon-tier ul.tier-list .spon-link {
   display: table-cell;
   vertical-align: middle;
-  height: 90px;
+  height: 150px;
 }
-@media ( max-width:719px ) {
+@media ( min-width:720px ) and ( max-width:960px ) {
   .sponsors.home-section .spon-tier ul.tier-list .spon-link {
-    display: block;
-    height: auto;
-    padding: 10px 0;
-  }
-}
-@media ( min-width: 1260px ) {
-  .sponsors.home-section .spon-tier ul.tier-list .spon-link {
-    height: 160px;
+    height: 90px;
   }
 }
 .sponsors.home-section .spon-tier ul.tier-list .spon-link img.spon-logo {
   width: 150px;
 }
-@media ( max-width:479px ) {
-  .sponsors.home-section .spon-tier ul.tier-list .spon-link img.spon-logo {
-    width: 100px;
+.sponsors.home-section .spon-tier ul.tier-list .spon-link img.spon-logo.csec-logo {
+  height: 150px;
+  width: auto;
+}
+@media ( min-width:720px ) and ( max-width:960px ) {
+  .sponsors.home-section .spon-tier ul.tier-list .spon-link img.spon-logo.csec-logo {
+    height: 130px;
   }
 }
-@media ( min-width:480px ) and ( max-width:719px ) {
+@media ( max-width:719px ) {
   .sponsors.home-section .spon-tier ul.tier-list .spon-link img.spon-logo {
-    width: 150px;
+    width: 100px;
   }
 }
 @media ( min-width:720px ) and ( max-width:960px ) {
   .sponsors.home-section .spon-tier ul.tier-list .spon-link img.spon-logo {
     width: 130px;
-  }
-}
-.sponsors.home-section .spon-tier ul.tier-list .spon-link.csec-link {
-  padding-top: 10px;
-  height: 160px;
-}
-@media ( max-width:479px ) {
-  .sponsors.home-section .spon-tier ul.tier-list .spon-link.csec-link {
-    height: 120px;
-  }
-}
-@media ( min-width:720px ) and ( max-width:960px ) {
-  .sponsors.home-section .spon-tier ul.tier-list .spon-link.csec-link {
-    height: 100px;
-  }
-}
-@media ( min-width: 1260px ) {
-  .sponsors.home-section .spon-tier ul.tier-list .spon-link.csec-link {
-    height: 150px;
-  }
-}
-.sponsors.home-section .spon-tier ul.tier-list .spon-link.csec-link img.csec-logo {
-  height: 140px;
-  width: auto;
-}
-@media ( max-width:479px ) {
-  .sponsors.home-section .spon-tier ul.tier-list .spon-link.csec-link img.csec-logo {
-    height: 100px;
   }
 }
 .schools {
@@ -1771,121 +1811,4 @@ a.view-all:after {
     display: block;
     position: relative;
   }
-}
-.page-content {
-  background: url(../images/white-wall.png) repeat;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-.sponsors.page-sponsors {
-  text-align: center;
-}
-.sponsors.page-sponsors .spon-tier ul.tier-list > li {
-  font-size: 1.1em;
-}
-.sponsors.page-sponsors hr.spon-div {
-  margin: 0 auto;
-  width: 200px;
-}
-.sponsors.page-sponsors .spon-cta {
-  margin: 20px auto;
-}
-.sponsors.page-sponsors .tier-subheading {
-  border-bottom: 2px solid #088fd8;
-  display: inline-block;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin: 1em 0 0 0;
-  padding-bottom: 1px;
-}
-@media ( max-width:719px ) {
-  .sponsors.page-sponsors .tier-subheading {
-    font-size: 1.1em;
-  }
-}
-@media ( min-width:720px ) and ( max-width:960px ) {
-  .sponsors.page-sponsors .tier-subheading {
-    font-size: 1.3em;
-  }
-}
-.sponsors.page-sponsors ul.tier-list > li {
-  display: block;
-}
-.sponsors.page-sponsors ul.tier-list > li .spon-link {
-  color: #055e8f;
-  display: block;
-  font-size: 0.8em;
-  margin: 20px auto;
-  opacity: 0.9;
-  width: 600px;
-}
-@media ( max-width:479px ) {
-  .sponsors.page-sponsors ul.tier-list > li .spon-link {
-    width: 300px;
-  }
-}
-@media ( min-width:480px ) and ( max-width:719px ) {
-  .sponsors.page-sponsors ul.tier-list > li .spon-link {
-    width: 400px;
-  }
-}
-@media ( max-width:960px ) {
-  .sponsors.page-sponsors ul.tier-list > li .spon-link {
-    font-size: 0.9em;
-  }
-}
-.sponsors.page-sponsors ul.tier-list > li .spon-link:hover,
-.sponsors.page-sponsors ul.tier-list > li .spon-link:focus {
-  color: #099ff1;
-  opacity: 1.0;
-}
-.sponsors.page-sponsors ul.tier-list > li .spon-link:hover .spon-logo,
-.sponsors.page-sponsors ul.tier-list > li .spon-link:focus .spon-logo {
-  background-color: #efefef;
-}
-.sponsors.page-sponsors ul.tier-list > li .spon-link .spon-logo {
-  background-color: #efefef;
-  padding: 20px;
-  display: block;
-  margin: 0 auto 20px;
-}
-.sponsors.page-sponsors ul.tier-list > li .spon-link .spon-logo.csec {
-  height: 300px;
-  width: auto;
-}
-@media ( max-width:479px ) {
-  .sponsors.page-sponsors ul.tier-list > li .spon-link .spon-logo.csec {
-    height: 200px;
-  }
-}
-@media ( min-width:480px ) and ( max-width:719px ) {
-  .sponsors.page-sponsors ul.tier-list > li .spon-link .spon-logo.csec {
-    height: 250px;
-  }
-}
-.sponsors.page-sponsors ul.tier-list > li .spon-link .spon-logo.ibm {
-  width: 400px;
-}
-@media ( max-width:479px ) {
-  .sponsors.page-sponsors ul.tier-list > li .spon-link .spon-logo.ibm {
-    width: 200px;
-  }
-}
-@media ( min-width:480px ) and ( max-width:719px ) {
-  .sponsors.page-sponsors ul.tier-list > li .spon-link .spon-logo.ibm {
-    width: 300px;
-  }
-}
-.sponsors.page-sponsors .tier-partner .spon-logo {
-  width: 100%;
-}
-.sponsors.page-sponsors .tier-gold .spon-logo {
-  width: 90%;
-}
-.sponsors.page-sponsors .tier-silver .spon-logo {
-  width: 80%;
-}
-.sponsors.page-sponsors .tier-bronze .spon-logo {
-  width: 70%;
 }

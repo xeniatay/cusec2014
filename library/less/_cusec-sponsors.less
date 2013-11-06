@@ -60,6 +60,31 @@
                 padding: 20px;
                 display: block;
                 margin: 0 auto 20px;
+
+                &.csec {
+                    height: 300px;
+                    width: auto;
+
+                    @media @iphone-v {
+                        height: 200px;
+                    }
+
+                    @media @iphone-h {
+                        height: 250px;
+                    }
+                }
+
+                &.ibm {
+                    width: 400px;
+
+                    @media @iphone-v {
+                        width: 200px;
+                    }
+
+                    @media @iphone-h {
+                        width: 300px;
+                    }
+                }
             }
         }
     }

@@ -65,6 +65,9 @@
 	},
 	"file_history":
 	[
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/footer.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/venue.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-sponsor.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/404.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/herounit.js",
@@ -72,9 +75,6 @@
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/sponsors.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/index.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/herounit.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/footer.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/venue.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/style.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/cusec2014.js",
@@ -331,6 +331,18 @@
 		"selected_items":
 		[
 			[
+				"home",
+				"library/less/_cusec-home.less"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"venue",
+				"venue.php"
+			],
+			[
 				"hu.js",
 				"library/js/herounit.js"
 			],
@@ -405,10 +417,6 @@
 			[
 				"bones",
 				"library/bones.php"
-			],
-			[
-				"foot",
-				"footer.php"
 			],
 			[
 				"sponso",
@@ -661,7 +669,7 @@
 	{
 		"vintage":
 		{
-			"last_buffer_search": "condensed"
+			"last_buffer_search": "venue"
 		}
 	},
 	"show_minimap": true,

@@ -17,14 +17,12 @@ Template Name: Sponsor Page Template
                     <a class='spon-link' href="mailto:sponsor@cusec.net" title="sponsor@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'sponsorship']);">sponsor@cusec.net.</a>
                 </p>
 
-                <div id='tier-partner' class='spon-tier tier-partner hide'>
+                <div id='tier-partner' class='spon-tier tier-partner'>
                     <h3 class='tier-subheading'>Partner</h3>
                     <ul class='tier-list'>
                         <li>
                             <a class='spon-link' href='http://www.cse-cst.gc.ca/index-eng.html' title='Communications Security Establishment Canada'>
-                                <!--
-                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/csec.png' alt='CSEC - CUSEC Partner Sponsor'/>
-                                 -->
+                                <img class='spon-logo csec' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/csec.png' alt='CSEC - CUSEC Partner Sponsor'/>
                             </a>
                         </li>
                     </ul>
@@ -47,11 +45,9 @@ Template Name: Sponsor Page Template
                             </a>
                         </li>
                         <hr class='spon-div'/>
-                        <li class='hide'>
+                        <li>
                             <a class='spon-link' href='http://www.ibm.com/ca/en/' title='IBM'>
-                                <!--
-                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/ibm.png' alt='IBM - CUSEC Gold Sponsor'/>
-                                -->
+                                <img class='spon-logo ibm' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/ibm.png' alt='IBM - CUSEC Gold Sponsor'/>
                             </a>
                         </li>
                         <hr class='spon-div'/>
