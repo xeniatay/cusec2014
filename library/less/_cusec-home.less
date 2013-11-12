@@ -537,14 +537,6 @@ a.view-all {
                 padding: 0 @spon-horiz-padding-widescreen;
             }
 
-            &.partner {
-                border-right: 1px solid @grey;
-
-                @media @ltwidescreen {
-                    border: none;
-                }
-            }
-
             li {
                 display: inline-block;
                 font-size: 1.1em;
@@ -552,17 +544,9 @@ a.view-all {
                 margin-right: @spon-horiz-padding;
                 opacity: 0.9;
 
-                @media @iphone-v {
+                @media @iphone {
                     display: block;
                     margin-right: 0;
-                }
-
-                @media @iphone-h {
-                    margin: 0;
-
-                    &:nth-child(odd) {
-                        margin-right: @spon-horiz-padding-iphone-h;
-                    }
                 }
 
                 @media @ipad {
@@ -601,18 +585,18 @@ a.view-all {
                 }
 
                 img.spon-logo {
-                    width: 150px;
+                    width: 130px;
 
-                    @media @iphone-v {
+                    @media @iphone {
                         width: 100px;
                     }
 
-                    @media @iphone-h {
-                        width: 150px;
+                    @media @ipad {
+                        width: 100px;
                     }
 
-                    @media @ipad {
-                        width: 130px;
+                    @media @widescreen {
+                        width: 150px;
                     }
                 }
 
