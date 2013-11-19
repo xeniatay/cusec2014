@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Sponsor Page Template
+Template Name: Schools Page Template
 */
 ?>
 
@@ -11,131 +11,213 @@ Template Name: Sponsor Page Template
             <div class='container'>
                 <h2 class='section-heading light'>Schools</h2>
 
-                <p class='spon-cta'>
+                <p class='page-cta'>
+                    Get in touch with your school’s Head Delegate to find out more about getting to CUSEC with your school!
+
                     Ask Santi about what to say here.<br/>
                     Want to be a CUSEC 2014 delegate? Contact Santiago at
-                    <a class='spon-link' href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', '???']);">???@cusec.net.</a>
+                    <a class='page-cta-mailto' href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', '???']);">???@cusec.net.</a>
                 </p>
 
-                <h3 class='section-subheading'>Schools</h3>
-                <h3 class='section-subheading'>Head Delegates</h3>
+                <div class='school-name'>
+                    <h3 class='school-subheading'>Schools</h3>
+                </div>
 
-                <ul class='schools-list'>
+                <div class='school-hds'>
+                    <h3 class='school-subheading'>Head Delegates</h3>
+                </div>
+
+                <ul class='schools-list clearfix'>
                     <li>
-                        <a class='school-link' href='www.concordia.ca'>
-                            Concordia University
-                        </a>
+                        <div class='school-name'>
+                            <a href='http://www.concordia.ca' title='Concordia University'>
+                                Concordia University
+                            </a>
+                        </div>
                         <div class='school-hds'>
-                            Daniel Ricci, Kyle Sama 
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Patrick Nguyen
+                            </a>
                         </div>
                     </li><li>
-                        <a class='school-link' href='www.mcgill.ca'>
-                            McGill University
-                        </a>
+                        <div class='school-name'>
+                            <a href='http://www.mcgill.ca' title='McGill University'>
+                                McGill University
+                            </a>
+                        </div>
                         <div class='school-hds'>
-                            Alex Selesse , Alison Van der Wee, Sami Jaber
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Sami Jaber
+                            </a>
+                        </div>
+                    </li><li class='hide'>
+                        <div class='school-name'>
+                            <a href='http://www.umoncton.ca' title='Université de Moncton'>
+                                Université de Moncton
+                            </a>
+                        </div>
+                        <div class='school-hds'>
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                ???
+                            </a>
                         </div>
                     </li><li>
-                        <a class='school-link' href='www.umoncton.ca'>
-                            Université de Moncton
-                        </a>
+                        <div class='school-name'>
+                            <a href='http://www.uottawa.ca' title='University of Ottawa'>
+                                University of Ottawa
+                            </a>
+                        </div>
                         <div class='school-hds'>
-                            Maryleen Mompoint, Lucas Boko
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Stephanie Zeidan
+                            </a>
                         </div>
                     </li><li>
-                        <a class='school-link' href='www.uottawa.ca'>
-                            University of Ottawa
-                        </a>
+                        <div class='school-name'>
+                            <a href='http://www.carleton.ca' title='Carleton University'>
+                                Carleton University
+                            </a>
+                        </div>
                         <div class='school-hds'>
-                            Andrea Bourdeau, Antoine Grondin, Stephanie Zeidan
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Kruti Bagde
+                            </a>
                         </div>
                     </li><li>
-                        <a class='school-link' href='www.carleton.ca'>
-                            Carleton University
-                        </a>
+                        <div class='school-name'>
+                            <a href='http://www.uoguelph.ca' title='University of Guelph'>
+                                University of Guelph
+                            </a>
+                        </div>
                         <div class='school-hds'>
-                            Alex Craig, Kruti Bagde
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Julian Horvat
+                            </a>
+                        </div>
+                    </li><li class='hide'>
+                        <div class='school-name'>
+                            <a href='http://www.trentu.ca' title='Trent University'>
+                                Trent University
+                            </a>
+                        </div>
+                        <div class='school-hds'>
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                ???
+                            </a>
                         </div>
                     </li><li>
-                        <a class='school-link' href='www.uoguelph.ca'>
-                            University of Guelph
-                        </a>
+                        <div class='school-name'>
+                            <a href='http://www.mcmaster.ca' title='McMaster University'>
+                                McMaster University
+                            </a>
+                        </div>
                         <div class='school-hds'>
-                            Chad Chabot, Danielle Fudger, Julian Horvat
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Saif Myageri
+                            </a>
+                        </div>
+                    </li><li class='hide'>
+                        <div class='school-name'>
+                            <a href='http://www.queensu.ca' title="Queen's Univeristy">
+                                Queen’s University
+                            </a>
+                        </div>
+                        <div class='school-hds'>
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                ???
+                            </a>
                         </div>
                     </li><li>
-                        <a class='school-link' href='www.trentu.ca'>
-                            Trent University
-                        </a>
-                        <div class='school-hds'>
-                            Dan Mathers
+                        <div class='school-name'>
+                            <a href='http://www.utsc.utoronto.ca' title='University of Toronto Scarborough'>
+                                University of Toronto Scarborough
+                            </a>
                         </div>
-                    </li><li>
-                        <a class='school-link' href='www.mcmaster.ca'>
-                            McMaster University
-                        </a>
                         <div class='school-hds'>
-                            Matt Nelson, Aimal Khan, Saif Myageri
-                        </div>
-                    </li><li>
-                        <a class='school-link' href='www.queensu.ca'>
-                            Queen’s University
-                        </a>
-                        <div class='school-hds'>
-                            Chris Cooper
-                        </div>
-                    </li><li>
-                        <a class='school-link' href='www.utsc.utoronto.ca'>
-                            University of Toronto Scarborough
-                        </a>
-                        <div class='school-hds'>
-                            John Hok, Caradec Bisesar, David Kua
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                David Kua
+                            </a>
                         </div>
                     </li>
-                    </li><li>
-                        <a class='school-link' href='www.utoronto.ca'>
-                            University of Toronto
-                        </a>
+                    </li><li class='hide'>
+                        <div class='school-name'>
+                            <a href='http://www.utoronto.ca' title='University of Toronto'>
+                                University of Toronto
+                            </a>
+                        </div>
                         <div class='school-hds'>
-                            Alex Krassikov, Sarah Jane Hong
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Alex Krassikov, Sarah Jane Hong
+                            </a>
                         </div>
                     </li><li>
-                        <a class='school-link' href='www.uwaterloo.ca'>
-                            University of Waterloo
-                        </a>
+                        <div class='school-name'>
+                            <a href='http://www.uwaterloo.ca' title='University of Waterloo'>
+                                University of Waterloo
+                            </a>
+                        </div>
                         <div class='school-hds'>
-                            Kevin Veloso, Santiago Gil, Joel Phillip, Bowen Xu, Alykhan Kanji
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Alykhan Kanji
+                            </a>
                         </div>
                     </li><li>
-                        <a class='school-link' href='www.yorku.ca'>
-                            York University
-                        </a>
-                        <div class='school-hds'>
-                            Nataly Sheinin
+                        <div class='school-name'>
+                            <a href='http://www.yorku.ca' title='York University'>
+                                York University
+                            </a>
                         </div>
-                    </li><li>
-                        <a class='school-link' href='www.ucalgary.ca'>
-                            University of Calgary
-                        </a>
                         <div class='school-hds'>
-                            Vahid Garousi
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Nataly Sheinin, Miguel Ocampo-Gooding
+                            </a>
                         </div>
-                    </li><li>
-                        <a class='school-link' href='www.usherbrooke.ca'>
-                            Université de Sherbrooke
-                        </a>
-                        <div class='school-hds'>
-                            Mathieu Germain
+                    </li><li class='hide'>
+                        <div class='school-name'>
+                            <a href='http://www.ucalgary.ca' title='University of Calgary'>
+                                University of Calgary
+                            </a>
                         </div>
-                    </li><li>
-                        <a class='school-link' href='www.dal.ca'>
-                            Dalhousie University
-                        </a>
                         <div class='school-hds'>
-                            Computer Science Society
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                Vahid Garousi
+                            </a>
+                        </div>
+                    </li><li class='hide'>
+                        <div class='school-name'>
+                            <a href='http://www.usherbrooke.ca' title='Université de Sherbrooke'>
+                                Université de Sherbrooke
+                            </a>
+                        </div>
+                        <div class='school-hds'>
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                IS THIS A HD?
+                                Mathieu Germain
+                            </a>
+                        </div>
+                    </li><li class='hide'>
+                        <div class='school-name'>
+                            <a href='http://www.dal.ca' title='Dalhousie University'>
+                                Dalhousie University
+                            </a>
+                        </div>
+                        <div class='school-hds'>
+                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                                IS THIS A HD?
+                                Computer Science Society
+                            </a>
                         </div>
                     </li>
                 </ul>
+
+                <p class='page-cta'>
+                    Can't find your school? Contact us at
+                    <a class='page-cta-mailto' href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', '???']);">
+                        ???@cusec.net
+                    </a>
+                    to be a head delegate.
+                </p>
+
             </div>
         </div>
     </div>

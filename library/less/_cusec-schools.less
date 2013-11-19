@@ -6,91 +6,52 @@
 }
 
 .page-schools {
-    .spons-shared-styles;
     text-align: center;
+    margin-bottom: 50px;
 
-    hr.spon-div {
-        margin: 0 auto;
-        width: 200px;
-    }
-
-    .spon-cta {
+    .page-cta {
         margin: 20px auto;
     }
 
-    ul.tier-list > li {
-        display: block;
+    .school-subheading {
+        .section-subheading;
+    }
 
-        .spon-link {
-            @link-color: darken(@cusec-blue, 20%);
-            @link-hover: @cusec-blue;
+    .schools-list {
+        margin-bottom: 30px;
 
-            color: @link-color;
-            display: block;
-            font-size: 0.8em;
-            margin: 20px auto;
-            opacity: 0.9;
-            width: 600px;
+        li {
+            .clearfix;
+            border-top: 1px solid @grey;
+            padding: 10px 0;
 
-            @media @iphone-v {
-                width: 300px;
+            &:last-child {
+                border-bottom: 1px solid @grey;
             }
 
-            @media @iphone-h {
-                width: 400px;
-            }
-
-            @media @ltipad {
-                font-size: 0.9em;
-            }
-
-            &:hover, &:focus {
-                color: @link-hover;
-                opacity: 1.0;
-
-                .spon-logo {
-                    background-color: @white;
-                }
-            }
-
-            .spon-logo {
-                border: 5px solid @grey;
-                background-color: mix(@white, @grey, 70%);
-                padding: 20px;
-                display: block;
-                margin: 0 auto 20px;
-
-                &.csec {
-                    height: 300px;
-                    width: auto;
-
-                    @media @iphone-v {
-                        height: 200px;
-                    }
-
-                    @media @iphone-h {
-                        height: 250px;
-                    }
-                }
-
-                &.ibm {
-                    width: 400px;
-
-                    @media @iphone-v {
-                        width: 200px;
-                    }
-
-                    @media @iphone-h {
-                        width: 300px;
-                    }
-                }
+            &:hover {
+                background-color: lighten(@grey, 1%);
             }
         }
     }
 
-    .tier-partner .spon-logo { width: 100%; }
-    //.tier-platinium .spon-logo { width: 90%; }
-    .tier-gold .spon-logo { width: 90%; }
-    .tier-silver .spon-logo { width: 80%; }
-    .tier-bronze .spon-logo { width: 70%; }
+    .school-subheading {
+        margin-bottom: 15px;
+    }
+
+    .school-name,
+    .school-hds {
+        display: block;
+        float: left;
+        width: 50%;
+
+        a {
+            display: inline;
+            color: darken(@cusec-blue, 10%);
+        }
+    }
+
+    .school-hds {
+        border-left: 1px solid @grey;
+    }
 }
