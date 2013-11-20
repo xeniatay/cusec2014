@@ -13,10 +13,6 @@ Template Name: Schools Page Template
 
                 <p class='page-cta'>
                     Get in touch with your school’s Head Delegate to find out more about getting to CUSEC with your school!
-
-                    Ask Santi about what to say here.<br/>
-                    Want to be a CUSEC 2014 delegate? Contact Santiago at
-                    <a class='page-cta-mailto' href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', '???']);">???@cusec.net.</a>
                 </p>
 
                 <div class='school-name'>
@@ -35,7 +31,7 @@ Template Name: Schools Page Template
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                            <a href="mailto:concordia@cusec.net" title="concordia@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Concordia']);">
                                 Patrick Nguyen
                             </a>
                         </div>
@@ -46,19 +42,8 @@ Template Name: Schools Page Template
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                            <a href="mailto:mcgill@cusec.net" title="mcgill@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - McGill']);">
                                 Sami Jaber
-                            </a>
-                        </div>
-                    </li><li class='hide'>
-                        <div class='school-name'>
-                            <a href='http://www.umoncton.ca' title='Université de Moncton'>
-                                Université de Moncton
-                            </a>
-                        </div>
-                        <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
-                                ???
                             </a>
                         </div>
                     </li><li>
@@ -68,7 +53,7 @@ Template Name: Schools Page Template
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                            <a href="mailto:ottawa@cusec.net" title="ottawa@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Ottawa']);">
                                 Stephanie Zeidan
                             </a>
                         </div>
@@ -79,7 +64,7 @@ Template Name: Schools Page Template
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                            <a href="mailto:carleton@cusec.net" title="carleton@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Carleton']);">
                                 Kruti Bagde
                             </a>
                         </div>
@@ -90,19 +75,8 @@ Template Name: Schools Page Template
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                            <a href="mailto:guelph@cusec.net" title="guelph@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Guelph']);">
                                 Julian Horvat
-                            </a>
-                        </div>
-                    </li><li class='hide'>
-                        <div class='school-name'>
-                            <a href='http://www.trentu.ca' title='Trent University'>
-                                Trent University
-                            </a>
-                        </div>
-                        <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
-                                ???
                             </a>
                         </div>
                     </li><li>
@@ -112,19 +86,8 @@ Template Name: Schools Page Template
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                            <a href="mailto:mcmaster@cusec.net" title="mcmaster@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - McMaster']);">
                                 Saif Myageri
-                            </a>
-                        </div>
-                    </li><li class='hide'>
-                        <div class='school-name'>
-                            <a href='http://www.queensu.ca' title="Queen's Univeristy">
-                                Queen’s University
-                            </a>
-                        </div>
-                        <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
-                                ???
                             </a>
                         </div>
                     </li><li>
@@ -134,20 +97,8 @@ Template Name: Schools Page Template
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                            <a href="mailto:utsc@cusec.net" title="utsc@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - UTSC']);">
                                 David Kua
-                            </a>
-                        </div>
-                    </li>
-                    </li><li class='hide'>
-                        <div class='school-name'>
-                            <a href='http://www.utoronto.ca' title='University of Toronto'>
-                                University of Toronto
-                            </a>
-                        </div>
-                        <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
-                                Alex Krassikov, Sarah Jane Hong
                             </a>
                         </div>
                     </li><li>
@@ -157,7 +108,7 @@ Template Name: Schools Page Template
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                            <a href="mailto:waterloo@cusec.net" title="waterloo@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Waterloo']);">
                                 Alykhan Kanji
                             </a>
                         </div>
@@ -168,52 +119,17 @@ Template Name: Schools Page Template
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
+                            <a href="mailto:york@cusec.net" title="york@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - York']);">
                                 Nataly Sheinin, Miguel Ocampo-Gooding
-                            </a>
-                        </div>
-                    </li><li class='hide'>
-                        <div class='school-name'>
-                            <a href='http://www.ucalgary.ca' title='University of Calgary'>
-                                University of Calgary
-                            </a>
-                        </div>
-                        <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
-                                Vahid Garousi
-                            </a>
-                        </div>
-                    </li><li class='hide'>
-                        <div class='school-name'>
-                            <a href='http://www.usherbrooke.ca' title='Université de Sherbrooke'>
-                                Université de Sherbrooke
-                            </a>
-                        </div>
-                        <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
-                                IS THIS A HD?
-                                Mathieu Germain
-                            </a>
-                        </div>
-                    </li><li class='hide'>
-                        <div class='school-name'>
-                            <a href='http://www.dal.ca' title='Dalhousie University'>
-                                Dalhousie University
-                            </a>
-                        </div>
-                        <div class='school-hds'>
-                            <a href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - ???']);">
-                                IS THIS A HD?
-                                Computer Science Society
                             </a>
                         </div>
                     </li>
                 </ul>
 
                 <p class='page-cta'>
-                    Can't find your school? Contact us at
-                    <a class='page-cta-mailto' href="mailto:???@cusec.net" title="???@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', '???']);">
-                        ???@cusec.net
+                    Want to be a Head Delegate for your school? Contact us at
+                    <a class='page-cta-mailto' href="mailto:info@cusec.net" title="info@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'info']);">
+                        info@cusec.net
                     </a>
                     to be a head delegate.
                 </p>
