@@ -75,13 +75,14 @@
 						<a href="<?php echo home_url(); ?>/sponsors" title='Sponsors'>Sponsors</a>
 					</li><li>
 						<a href="<?php echo home_url(); ?>/schools">Schools</a>
-					</li><li>
+					</li>
+				<!--
+					<li>
 						<a href="javascript:void(0);" class='disabled'>
 							Resume Upload
 							<span class='comingsoon'>Coming Soon</span>
 						</a>
 					</li>
-				<!--
 					<li>
 						<a href="<?php echo home_url(); ?>/team">Team</a>
 					</li>
