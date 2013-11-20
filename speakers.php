@@ -21,6 +21,12 @@
                 </span><span class='spk-job'>
                     Creator &amp; Destroyer of Software, Destroy All Software LLC
                 </span>
+            </li><li>
+                <span class='spk-name'>
+                    Michelle Zatlyn
+                </span><span class='spk-job'>
+                    Co-founder & Head of User Experience, CloudFlare Inc.
+                </span>
             </li>
         </ul>
         <hr/>
@@ -31,7 +37,6 @@
                 </span><span class='spk-job'>
                     Founder, Context.IO
                 </span>
-
             </li><li>
                 <span class='spk-name'>
                     David Mirza
@@ -87,6 +92,13 @@
                 </span>
                 <span class='spk-job spk-job-derekruth'>
                     Asst. Professor, Network Dynamics Lab, McGill University
+                </span>
+            </li><li>
+                <span class='spk-name'>
+                    Carlos Sanchez
+                </span>
+                <span class='spk-job spk-job-derekruth'>
+                    Development Director, Rocket Squid
                 </span>
             </li>
         </ul>
