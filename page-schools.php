@@ -26,6 +26,17 @@ Template Name: Schools Page Template
                 <ul class='schools-list clearfix'>
                     <li>
                         <div class='school-name'>
+                            <a href='http://www.carleton.ca' title='Carleton University'>
+                                Carleton University
+                            </a>
+                        </div>
+                        <div class='school-hds'>
+                            <a href="mailto:carleton@cusec.net" title="carleton@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Carleton']);">
+                                Kruti Bagde
+                            </a>
+                        </div>
+                    </li><li>
+                        <div class='school-name'>
                             <a href='http://www.concordia.ca' title='Concordia University'>
                                 Concordia University
                             </a>
@@ -48,24 +59,13 @@ Template Name: Schools Page Template
                         </div>
                     </li><li>
                         <div class='school-name'>
-                            <a href='http://www.uottawa.ca' title='University of Ottawa'>
-                                University of Ottawa
+                            <a href='http://www.mcmaster.ca' title='McMaster University'>
+                                McMaster University
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:ottawa@cusec.net" title="ottawa@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Ottawa']);">
-                                Stephanie Zeidan
-                            </a>
-                        </div>
-                    </li><li>
-                        <div class='school-name'>
-                            <a href='http://www.carleton.ca' title='Carleton University'>
-                                Carleton University
-                            </a>
-                        </div>
-                        <div class='school-hds'>
-                            <a href="mailto:carleton@cusec.net" title="carleton@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Carleton']);">
-                                Kruti Bagde
+                            <a href="mailto:mcmaster@cusec.net" title="mcmaster@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - McMaster']);">
+                                Saif Myageri
                             </a>
                         </div>
                     </li><li>
@@ -81,13 +81,13 @@ Template Name: Schools Page Template
                         </div>
                     </li><li>
                         <div class='school-name'>
-                            <a href='http://www.mcmaster.ca' title='McMaster University'>
-                                McMaster University
+                            <a href='http://www.uottawa.ca' title='University of Ottawa'>
+                                University of Ottawa
                             </a>
                         </div>
                         <div class='school-hds'>
-                            <a href="mailto:mcmaster@cusec.net" title="mcmaster@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - McMaster']);">
-                                Saif Myageri
+                            <a href="mailto:ottawa@cusec.net" title="ottawa@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Ottawa']);">
+                                Stephanie Zeidan
                             </a>
                         </div>
                     </li><li>
@@ -110,6 +110,17 @@ Template Name: Schools Page Template
                         <div class='school-hds'>
                             <a href="mailto:waterloo@cusec.net" title="waterloo@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Waterloo']);">
                                 Alykhan Kanji
+                            </a>
+                        </div>
+                    </li><li>
+                        <div class='school-name'>
+                            <a href='http://www.wlu.ca/' title='Wilfrid Laurier University'>
+                                Wilfrid Laurier University
+                            </a>
+                        </div>
+                        <div class='school-hds'>
+                            <a href="mailto:laurier@cusec.net" title="laurier@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - WLU']);">
+                                Vaughan Hilts
                             </a>
                         </div>
                     </li><li>
