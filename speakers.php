@@ -5,9 +5,9 @@
         <ul class='speaker-details keynotes'>
             <li>
                 <span class='spk-name'>
-                    Tobias Lütke
+                    Don Olmstead
                 </span><span class='spk-job'>
-                    CEO, Shopify
+                    Software Engineer, Sony Network Entertainment International
                 </span>
             </li><li>
                 <span class='spk-name'>
@@ -98,7 +98,7 @@
                     Carlos Sanchez
                 </span>
                 <span class='spk-job spk-job-derekruth'>
-                    Development Director, Rocket Squid
+                    Development Director, Rocket Squid, EA
                 </span>
             </li>
         </ul>
