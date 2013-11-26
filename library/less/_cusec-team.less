@@ -6,24 +6,32 @@
 }
 
 .page-team {
+    .clearfix;
     text-align: center;
     margin-bottom: 50px;
 
-    .team-row {
-        .clearfix;
+    .team-profiles {
+        margin: 0 auto;
     }
 
-    .team-member {
-        border-right: 1px solid darken(@grey, 10%);
+    .team-profile {
         box-sizing: border-box;
         float: left;
+        height: 425px;
         text-align: center;
-        padding: 20px 50px;
-        width: 50%;
+        padding: 0 50px;
+        margin: 20px 0;
+        width: 49%;
+
+        &:nth-child(odd) {
+            border-right: 1px solid darken(@grey, 10%);
+        }
+
     }
 
-    .member-name,
-    .member-pos {
+    .profile-name,
+    .profile-pos {
+        font: @hf-normal 2em/0.8 @heading-font;
         color: darken(@cusec-blue, 8%);
         display: block;
         font-size: 1.2em;
@@ -34,14 +42,15 @@
         }
     }
 
-    .member-pic {
+    .profile-pic {
+        border-radius: 50%;
         display: block;
         margin: 20px auto;
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
     }
 
-    .member-desc {
+    .profile-desc {
     }
 
 }
