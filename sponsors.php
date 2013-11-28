@@ -32,7 +32,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class='spon-link' href='http://www.ibm.com/ca/en/' title='IBM'>
+                            <a class='spon-link' href='http://www.ibm.com/extremeblue' title='IBM'>
                                 <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/ibm.png' alt='IBM - CUSEC Gold Sponsor'/>
                             </a>
                         </li>
@@ -44,6 +44,11 @@
                         <li>
                             <a class='spon-link' href='https://www.dreamspark.com/' title='Microsoft Dreamspark'>
                                 <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/microsoft-dreamspark.png' alt='Microsoft Dreamspark - CUSEC Gold Sponsor'/>
+                            </a>
+                        </li>
+                        <li>
+                            <a class='spon-link' href='https://www.palantir.com/' title='Palantir'>
+                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/palantir.png' alt='Palantir'/>
                             </a>
                         </li>
                     </ul>
