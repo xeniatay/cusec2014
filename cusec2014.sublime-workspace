@@ -27,6 +27,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "page-team.php",
+			"settings":
+			{
+				"buffer_size": 11373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/less/_cusec-team.less",
+			"settings":
+			{
+				"buffer_size": 1200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-schools.php",
+			"settings":
+			{
+				"buffer_size": 7324,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/less/_cusec-home.less",
+			"settings":
+			{
+				"buffer_size": 13832,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sponsors.php",
+			"settings":
+			{
+				"buffer_size": 3602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/less/_cusec-sponsors.less",
+			"settings":
+			{
+				"buffer_size": 1971,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -65,25 +113,29 @@
 	},
 	"file_history":
 	[
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/sponsors.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-sponsor.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/speakers.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/schools.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/style.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-sponsors.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/header.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-schools.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/sponsors.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/index.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/style.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-schools.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-shared-styles.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-sponsor.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-team.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_responsive-mixins.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_mixins.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/footer.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/venue.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/404.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/herounit.js",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/header.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/index.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/herounit.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/cusec2014.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/bones.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-shared-styles.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/speakers.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_cusec-shared-styles.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-custom.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/parallax-scroll.js",
@@ -96,7 +148,6 @@
 		"/Users/xenia/projs/indochino/js/collection-moderndandy.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/style.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/scripts.js",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/schools.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/parallaxScroll.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/heroUnit.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/cusec2014.less",
@@ -215,6 +266,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mailto",
+			"section-subheading",
 			"get_site_url",
 			"url",
 			"/sponsors",
@@ -283,8 +336,324 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "page-team.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11373,
+								11373
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							},
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2457.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "library/less/_cusec-team.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								403
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 25
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 145.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "page-schools.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5565,
+								5565
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 29
+							}
+						},
+						"translation.x": 5.0,
+						"translation.y": 1684.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "library/less/_cusec-home.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sponsors.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2002,
+								2002
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 49
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "library/less/_cusec-sponsors.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -331,11 +700,91 @@
 		"selected_items":
 		[
 			[
-				"sponsor",
+				"sponsors.",
 				"library/less/_cusec-sponsors.less"
 			],
 			[
+				"spon",
+				"sponsors.php"
+			],
+			[
+				"spea",
+				"speakers.php"
+			],
+			[
+				"home",
+				"library/less/_cusec-home.less"
+			],
+			[
+				"page-schoo",
+				"page-schools.php"
+			],
+			[
+				"school",
+				"schools.php"
+			],
+			[
+				"team",
+				"page-team.php"
+			],
+			[
+				"spons",
+				"sponsors.php"
+			],
+			[
+				"sponso",
+				"library/less/_cusec-sponsors.less"
+			],
+			[
+				"speak",
+				"speakers.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"index.p",
+				"index.php"
+			],
+			[
+				"style.l",
+				"library/less/style.less"
+			],
+			[
 				"less",
+				"library/less/_cusec-schools.less"
+			],
+			[
+				"share",
+				"library/less/_cusec-shared-styles.less"
+			],
+			[
+				"cusec-schoo",
+				"library/less/_cusec-schools.less"
+			],
+			[
+				"schoo",
+				"schools.php"
+			],
+			[
+				"page-sponso",
+				"page-sponsor.php"
+			],
+			[
+				"page-s",
+				"page-sponsor.php"
+			],
+			[
+				"sponsor",
 				"library/less/_cusec-sponsors.less"
 			],
 			[
@@ -351,16 +800,8 @@
 				"library/less/_mixins.less"
 			],
 			[
-				"home",
-				"library/less/_cusec-home.less"
-			],
-			[
 				"page-sp",
 				"page-sponsor.php"
-			],
-			[
-				"sponso",
-				"sponsors.php"
 			],
 			[
 				"foot",
@@ -373,18 +814,6 @@
 			[
 				"hu.js",
 				"library/js/herounit.js"
-			],
-			[
-				"hea",
-				"header.php"
-			],
-			[
-				"spons",
-				"sponsors.php"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"404",
@@ -417,10 +846,6 @@
 			[
 				"foo",
 				"footer.php"
-			],
-			[
-				"spea",
-				"speakers.php"
 			],
 			[
 				"mix",
@@ -489,18 +914,6 @@
 			[
 				"fo",
 				"footer.php"
-			],
-			[
-				"speak",
-				"speakers.php"
-			],
-			[
-				"spon",
-				"sponsors.php"
-			],
-			[
-				"header",
-				"header.php"
 			],
 			[
 				"spos",
@@ -681,7 +1094,7 @@
 	{
 		"vintage":
 		{
-			"last_buffer_search": "ibm"
+			"last_buffer_search": "hr"
 		}
 	},
 	"show_minimap": true,
