@@ -4,6 +4,8 @@ Template Name: Sponsor Page Template
 */
 ?>
 
+<?php include ('list-sponsors.php'); ?>
+
 <?php get_header(); ?>
 
     <div id='main-content' class='content page-content'>
@@ -17,87 +19,31 @@ Template Name: Sponsor Page Template
                     <a class='spon-link' href="mailto:sponsor@cusec.net" title="sponsor@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'sponsorship']);">sponsor@cusec.net.</a>
                 </p>
 
-                <div id='tier-partner' class='spon-tier tier-partner'>
-                    <h3 class='tier-subheading'>Partner</h3>
+
+                <?php foreach ($tiers as $tier): ?>
+                <div class='spon-tier tier-<?php echo strtolower($tier[level]) ?>'>
+
+                    <h3 class='tier-subheading'><?php echo $tier[level] ?></h3>
                     <ul class='tier-list'>
-                        <li>
-                            <a class='spon-link' href='http://www.cse-cst.gc.ca/index-eng.html' title='Communications Security Establishment Canada'>
-                                <img class='spon-logo csec' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/csec.png' alt='CSEC - CUSEC Partner Sponsor'/>
+
+                    <?php foreach ($tier[sponsors] as $sponsor): ?>
+
+                        <li class='<?php echo $sponsor[id] ?>'>
+                            <a class='spon-link' href='<?php echo $sponsor[link] ?>' title='<?php echo $sponsor[name] ?>'>
+                                <img class='spon-logo'
+                                     src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/<?php echo $sponsor[img] ?>'
+                                     alt='<?php echo $sponsor[name] ?> - CUSEC <?php echo $tier[level] ?> Sponsor'/>
                             </a>
                         </li>
+                        <?php //if ( $sponsor !== end($tier[sponsors]) ) { echo "<hr class='spon-div'/>"; } ?>
+
+                    <?php endforeach; ?>
+
                     </ul>
+                    <hr/>
+
                 </div>
-
-                <hr/>
-
-                <div id='tier-gold' class='spon-tier tier-gold'>
-                    <h3 class='tier-subheading'>Gold</h3>
-                    <ul class='tier-list'>
-                        <li>
-                            <a class='spon-link' href='http://www.morganstanley.com/' title='Morgan Stanley'>
-                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/morganstanley.png' alt='Morgan Stanley - CUSEC Gold Sponsor'/>
-                            </a>
-                        </li>
-                        <hr class='spon-div'/>
-                        <li>
-                            <a class='spon-link' href='http://www.shopify.com/' title='Shopify'>
-                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/shopify.png' alt='Shopify - CUSEC Gold Sponsor'/>
-                            </a>
-                        </li>
-                        <hr class='spon-div'/>
-                        <li>
-                            <a class='spon-link' href='http://www.ibm.com/extremeblue' title='IBM'>
-                                <img class='spon-logo ibm' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/ibm.png' alt='IBM - CUSEC Gold Sponsor'/>
-                            </a>
-                        </li>
-                        <hr class='spon-div'/>
-                        <li>
-                            <a class='spon-link' href='http://www.genetec.com/' title='Genetec'>
-                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/genetec.png' alt='Genetec - CUSEC Gold Sponsor'/>
-                            </a>
-                        </li>
-                        <hr class='spon-div'/>
-                        <li>
-                            <a class='spon-link' href='https://www.dreamspark.com/' title='Microsoft Dreamspark'>
-                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/microsoft-dreamspark.png' alt='Microsoft Dreamspark - CUSEC Gold Sponsor'/>
-                            </a>
-                        </li>
-                        <hr class='spon-div'/>
-                        <li>
-                            <a class='spon-link' href='https://www.palantir.com/' title='Palantir'>
-                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/palantir.png' alt='Palantir'/>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <hr/>
-
-                <div class='spon-tier tier-silver'>
-                    <h3 class='tier-subheading'>Silver</h3>
-                    <ul class='tier-list'>
-                        <li>
-                            <a class='spon-link' href='http://context.io/' title='Context.IO'>
-                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/contextio.png' alt='Context.IO - CUSEC Silver Sponsor'/>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <hr/>
-
-                <div class='spon-tier tier-bronze'>
-                    <h3 class='tier-subheading'>Bronze</h3>
-                    <ul class='tier-list last-child'>
-                        <li>
-                            <a class='spon-link' href='http://www.macadamian.com/' title='Macadamian'>
-                                <img class='spon-logo' src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/macadamian.png' alt='Macadamian - CUSEC Bronze Sponsor'/>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <hr/>
+                <?php endforeach; ?>
 
                 <p class='to-be-announced spon-announce'>
                     Additional sponsors <strong>to be revealed!</strong>

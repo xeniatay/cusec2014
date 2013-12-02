@@ -7,7 +7,6 @@
 		<?php include ('venue.php'); ?>
 		<?php include ('speakers.php'); ?>
 		<?php include ('sponsors.php'); ?>
-		<?php //include ('schools.php'); ?>
 
 	</div>
 

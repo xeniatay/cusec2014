@@ -481,7 +481,6 @@ a.view-all {
     }
 }
 
-
 @spon-horiz-padding: 2.6em;
 @spon-horiz-padding-iphone-h: 3em;
 @spon-horiz-padding-ipad: 2.1em;
@@ -526,7 +525,7 @@ a.view-all {
         }
 
         ul.tier-list {
-            margin: 0.7em 0;
+            margin: 20px 0;
             padding: 0 @spon-horiz-padding;
 
             @media @ipad {
@@ -540,28 +539,16 @@ a.view-all {
             li {
                 display: inline-block;
                 font-size: 1.1em;
-                padding: 0.3em 0;
-                margin-right: @spon-horiz-padding;
+                padding: 5px 20px;
                 opacity: 0.9;
 
                 @media @iphone {
                     display: block;
-                    margin-right: 0;
+                    padding: 5px 0;
                 }
 
-                @media @ipad {
-                    font-size: 1em;
-                    margin-right: @spon-horiz-padding-ipad;
-                }
-
-                @media @widescreen {
-                    font-size: 1.2em;
-                    margin-right: @spon-horiz-padding-widescreen;
-                }
-
-                &:last-child {
-                    margin-right: 0;
-                }
+                @media @ipad { font-size: 1em; }
+                @media @widescreen { font-size: 1.2em; }
 
                 &:hover {
                     opacity: 1;
@@ -572,7 +559,7 @@ a.view-all {
             .spon-link {
                 display: table-cell;
                 vertical-align: middle;
-                height: 90px;
+                height: 50px;
 
                 @media @iphone {
                     display: block;
@@ -581,37 +568,32 @@ a.view-all {
                 }
 
                 @media @widescreen {
-                    height: 160px;
+                    height: 80px;
                 }
 
                 img.spon-logo {
-                    width: 130px;
+                    height: 30px;
 
                     @media @iphone {
-                        width: 100px;
-                    }
-
-                    @media @ipad {
-                        width: 100px;
+                        height: 20px;
                     }
 
                     @media @widescreen {
-                        width: 150px;
+                        height: 40px;
+                    }
+                }
+            }
+
+            li.csec {
+                img.spon-logo {
+                    height: 80px;
+
+                    @media @iphone {
+                        height: 60px;
                     }
                 }
 
-                &.csec-link {
-                    img.csec-logo {
-                        width: 400px;
-
-                        @media @iphone-v {
-                            width: 240px;
-                        }
-                    }
-
-                 }
-
-            }
+             }
         }
     }
 }

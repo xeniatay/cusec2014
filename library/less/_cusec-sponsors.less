@@ -23,26 +23,24 @@
     }
 
     ul.tier-list > li {
-        display: block;
+        display: inline-block;
+        margin: 20px auto;
+        padding: 0 10px;
+
+        @media @iphone {
+            height: 90px;
+            margin: 0;
+        }
 
         .spon-link {
             @link-color: darken(@cusec-blue, 20%);
             @link-hover: @cusec-blue;
 
             color: @link-color;
-            display: block;
+            display: inline-block;
             font-size: 0.8em;
-            margin: 20px auto;
+            height: 100%;
             opacity: 0.9;
-            width: 600px;
-
-            @media @iphone-v {
-                width: 300px;
-            }
-
-            @media @iphone-h {
-                width: 400px;
-            }
 
             @media @ltipad {
                 font-size: 0.9em;
@@ -60,28 +58,15 @@
             .spon-logo {
                 border: 5px solid @grey;
                 background-color: mix(@white, @grey, 70%);
+                height: 100%;
                 padding: 20px;
                 display: block;
-                margin: 0 auto 20px;
-
-                &.ibm {
-                    width: 400px;
-
-                    @media @iphone-v {
-                        width: 200px;
-                    }
-
-                    @media @iphone-h {
-                        width: 300px;
-                    }
-                }
             }
         }
     }
 
-    .tier-partner .spon-logo { width: 100%; }
-    //.tier-platinium .spon-logo { width: 90%; }
-    .tier-gold .spon-logo { width: 90%; }
-    .tier-silver .spon-logo { width: 80%; }
-    .tier-bronze .spon-logo { width: 70%; }
+    .tier-partner .tier-list > li { height: 150px; }
+    .tier-gold .tier-list > li { height: 115px; }
+    .tier-silver .tier-list > li { height: 105px; }
+    .tier-bronze .tier-list > li { height: 100px; }
 }
