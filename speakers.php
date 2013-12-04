@@ -93,13 +93,6 @@
                 <span class='spk-job spk-job-derekruth'>
                     Asst. Professor, Network Dynamics Lab, McGill University
                 </span>
-            </li><li>
-                <span class='spk-name'>
-                    Carlos Sanchez
-                </span>
-                <span class='spk-job spk-job-derekruth'>
-                    Development Director, Rocket Squid, EA
-                </span>
             </li>
         </ul>
 
