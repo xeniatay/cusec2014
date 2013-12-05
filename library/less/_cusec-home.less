@@ -374,10 +374,11 @@ a.view-all {
 
     color: @link-color;
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 1em;
     letter-spacing: 1px;
 
     &:hover {
+        .transition;
         color: @link-hover;
     }
 
@@ -431,7 +432,7 @@ a.view-all {
 /***
  * speakers
  */
-.speakers {
+.home-speakers {
     background: url(../images/diamond-upholstery.png) repeat;
     .boxShadow( 2px, 2px, 5px, 0, lighten(@black, 65%) );
 
@@ -440,43 +441,71 @@ a.view-all {
         font-size: 1.3em;
     }
 
-    .spk-announce {
+    .spk-view-all {
         background: #DFDFDF;
+        color: @black;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 8px 20px;
     }
 
-    .non-keynotes {
-        .columns(2);
 
-        @media @ltipad {
-            .columns(1);
+    .profiles {
+        .clearfix;
+        margin: 30px auto;
+
+        @media @iphone {
+            margin: 10px auto;
+        }
+
+        &> li {
+            float: left;
+            box-sizing: border-box;
+            padding: 10px;
+            width: 25%;
+
+            @media @iphone-v {
+                width: 50%;
+            }
+        }
+
+        .profile-pic {
+            margin: 0 auto;
+
+            @media @ipad {
+                width: 100px;
+            }
+        }
+
+        .profile-text {
+            display: block;
+        }
+
+        .profile-name {
+            font-weight: @bf-bold;
+
+            @media @iphone-h {
+                display: inline-block;
+                line-height: 1.3;
+                margin-top: 8px;
+            }
+
+            @media @iphone {
+                &:after {
+                    display: none;
+                }
+            }
         }
     }
 
-    ul > li {
-        margin: 0.8em 0;
-    }
 
-    .spk-name {
-        font-weight: @bf-bold;
-    }
-
-    .spk-job {
+    .profile-title {
         @media @iphone {
             display: none
         }
 
         @media @ipad {
             display: block;
-        }
-
-        &:before {
-            content: ' — ';
-            display: inline-block;
-            padding: 0 4px;
-
-            @media @ipad {
-                content: '';
-            }
         }
     }
 }

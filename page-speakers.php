@@ -17,7 +17,7 @@ Template Name: Speaker Page Template
                     <?php foreach ($speaker_tiers as $speaker_tier): ?>
                         <?php foreach ($speaker_tier[speakers] as $profile): ?>
                         <li class='profile-quicknav'>
-                            <a href='#<?php echo strtolower( str_replace( " ", "-", $profile[name] ) ) ?>'>
+                            <a href='#<?php echo strtolower( str_replace( " ", "-", $profile[name] ) ) ?>' title='<?php echo $profile[name] ?>'>
                                 <img class=''
                                      src='<?php echo get_template_directory_uri(); ?>/library/images/speakers/<?php echo ($profile[img]) ? $profile[img] : 'placeholder.png' ?>'
                                      alt='<?php echo $profile[name] ?>'/>
@@ -63,6 +63,14 @@ Template Name: Speaker Page Template
                     <?php endforeach; ?>
                     </ul>
                 <?php endforeach; ?>
+
+                <p class='to-be-announced spk-announce'>More speakers <strong>to be announced</strong> &mdash; stay tuned!</p>
+
+                <p class='home-section-cta'>
+                    Want to speak at CUSEC 2014? Contact Dominic at
+                    <a href='mailto:talks@cusec.net' title='talks@cusec.net' onClick="_gaq.push(['_trackEvent', 'mailto', 'talks']);">talks@cusec.net</a>.
+                </p>
+
             </div>
         </div>
     </div>

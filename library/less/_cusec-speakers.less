@@ -1,5 +1,6 @@
 .page-speakers {
     text-align: center;
+    margin-bottom: 40px;
 
     .profiles {
         margin-bottom: 20px;
@@ -13,6 +14,10 @@
     .profiles-quicknav {
         margin: 50px auto;
         width: 800px;
+
+        @media @ltipad {
+            width: auto;
+        }
     }
 
     .profile-quicknav {
@@ -24,13 +29,24 @@
         }
 
         img {
-            height: 100px;
             width: 100px;
+
+            @media @iphone {
+                width: 50px;
+            }
+
+            @media @ipad {
+                width: 80px;
+            }
         }
     }
 
     .profile-desc .coming-soon {
         font-size: 0.9em;
         font-style: italic;
+    }
+
+    .spk-announce {
+        background: #DFDFDF;
     }
 }
