@@ -9,18 +9,18 @@ $speaker_tiers = array(
         'tier' => 'keynote',
         'speakers' => array(
             array(
+                'name' => 'Don Olmstead',
+                'title' => 'Software Engineer, Sony Network Entertainment International',
+                'link' => '',
+                'img' => '',
+                'desc' => ""
+            ),
+            array(
                 'name' => 'Gary Bernhardt',
                 'title' => 'Creator & Destroyer of Software, Destroy All Software LLC',
                 'link' => '',
                 'img' => 'gary-bernhardt.png',
                 'desc' => "Gary Bernhardt is a creator and destroyer of software compelled to understand both sides of heated software debates: Vim and Emacs; Python and Ruby; Git and Mercurial. He runs Destroy All Software, which publishes advanced screencasts for serious developers covering Unix, Ruby, OO design, and TDD."
-            ),
-            array(
-                'name' => 'Zach Holman',
-                'title' => 'Engineer, GitHub',
-                'link' => '',
-                'img' => 'zach-holman.png',
-                'desc' => "Zach joined GitHub in 2010 as one of their first engineering hires. Initially working on what would become GitHub Enterprise, he now hacks on new features and frequently gives talks about building products and growing startups. He lives in San Francisco."
             ),
             array(
                 'name' => 'Michelle Zatlyn',
@@ -30,12 +30,12 @@ $speaker_tiers = array(
                 'desc' => "Michelle Zatlyn is the co-founder & Head of User Experience of CloudFlare, the web performance and security company. <br/>Michelle creates products people love. Prior to CloudFlare, she worked at Google and Toshiba and launched two successful startups. In 2012, CloudFlare was selected by the Wall Street Journal as the Most Innovative Internet Technology company, and named a Technology Pioneer by the World Economic Forum. Today CloudFlare accelerates and protects more than 180 billion page views for more than 800 million unique visitors every month. <br/>Michelle holds a Bachelor of Science degree in Chemistry and a minor in Management, with Distinction, from McGill University. She also holds her MBA from Harvard Business School and was awarded the Dubliner Prize for Entrepreneurship. Michelle is an experienced public speaker, frequent panespeakers and sits on the Open Internet Advisory Committee for the FCC. She was named one of the Top Women to Watch in Technology by the Huffington Post and one of the Top 15 Women to Watch in Tech by Inc. Magazine."
             ),
             array(
-                'name' => 'Don Olmstead',
-                'title' => 'Software Engineer, Sony Network Entertainment International',
+                'name' => 'Zach Holman',
+                'title' => 'Engineer, GitHub',
                 'link' => '',
-                'img' => '',
-                'desc' => ""
-            ),
+                'img' => 'zach-holman.png',
+                'desc' => "Zach joined GitHub in 2010 as one of their first engineering hires. Initially working on what would become GitHub Enterprise, he now hacks on new features and frequently gives talks about building products and growing startups. He lives in San Francisco."
+            )
         ),
     ),
     array(
@@ -77,6 +77,20 @@ $speaker_tiers = array(
                 'desc' => "Josh Matthews is a software developer by trade, education, and passion. He works for Mozilla and has put blood, sweat, and tears into making Firefox a better web browser. Moreover, having spent a number of years as a volunteer for the project, he is fanatical about destroying barriers to entry for new open source contributors, and helping them succeed in whatever challenges they take on."
             ),
             array(
+                'name' => 'Julia Evans',
+                'title' => 'Data Scientist & Co-Organizer of Montreal All-Girl Hack Night and PyLadies Montreal',
+                'link' => '',
+                'img' => 'julia-evans.png',
+                'desc' => "Julia Evans learned to program in math class on her TI-83 graphing calculator. Ten years and a couple of degrees later, she still enjoys programming a lot. She's worked as a web developer and data scientist. She enjoys playing with data and making interesting graphs, learning new programming languages, and learning that things that seem scary actually aren't. <br/>She cofounded Montreal All-Girl Hack Night and PyLadies Montréal, hangs out at Montréal Python a lot, and spent the fall of 2013 at Hacker School working on fun coding projects. Come talk to her about any of these things!"
+            ),
+            array(
+                'name' => 'Kelsey Gilmore-Innis',
+                'title' => 'Senior Backend Engineer, Reverb Technologies Inc.',
+                'link' => '',
+                'img' => '',
+                'desc' => ""
+            ),
+            array(
                 'name' => 'Maria Smirnoff',
                 'title' => 'Manager, TechU.Me/MaTechno.me',
                 'link' => '',
@@ -95,20 +109,6 @@ $speaker_tiers = array(
                 'title' => 'Software Developer, SAP Labs',
                 'link' => '',
                 'img' => 'steve-sisalith.png',
-                'desc' => ""
-            ),
-            array(
-                'name' => 'Julia Evans',
-                'title' => 'Data Scientist & Co-Organizer of Montreal All-Girl Hack Night and PyLadies Montreal',
-                'link' => '',
-                'img' => 'julia-evans.png',
-                'desc' => "Julia Evans learned to program in math class on her TI-83 graphing calculator. Ten years and a couple of degrees later, she still enjoys programming a lot. She's worked as a web developer and data scientist. She enjoys playing with data and making interesting graphs, learning new programming languages, and learning that things that seem scary actually aren't. <br/>She cofounded Montreal All-Girl Hack Night and PyLadies Montréal, hangs out at Montréal Python a lot, and spent the fall of 2013 at Hacker School working on fun coding projects. Come talk to her about any of these things!"
-            ),
-            array(
-                'name' => 'Kelsey Gilmore-Innis',
-                'title' => 'Senior Backend Engineer, Reverb Technologies Inc.',
-                'link' => '',
-                'img' => '',
                 'desc' => ""
             )
         )
