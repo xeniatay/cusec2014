@@ -38,7 +38,7 @@
 		<!-- end of wordpress head -->
 
 		<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/library/images/cusec-logo-condensed.png"/>
-
+		<link rel="image_src" href="<?php echo get_template_directory_uri(); ?>/library/images/cusec-logo-condensed.png"/>
 		<!-- drop Google Analytics Here -->
 		<script type="text/javascript">
 		  var _gaq = _gaq || [];

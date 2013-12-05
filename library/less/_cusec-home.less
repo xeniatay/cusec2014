@@ -486,6 +486,8 @@ a.view-all {
         }
 
         .profile-name {
+            color: darken(@cusec-blue, 25%);
+            display: block;
             font-weight: @bf-bold;
 
             @media @iphone-h {
@@ -494,10 +496,8 @@ a.view-all {
                 margin-top: 8px;
             }
 
-            @media @iphone {
-                &:after {
-                    display: none;
-                }
+            &:after {
+                display: none;
             }
         }
     }
