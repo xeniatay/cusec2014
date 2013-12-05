@@ -70,12 +70,13 @@
 					</li><li>
 						<a href="<?php echo home_url(); ?>#venue" title='Venue'>Venue</a>
 					</li><li>
-						<!-- <a href="<?php echo home_url(); ?>/speakers" title='Speakers'>Speakers</a> -->
-						<a href="<?php echo home_url(); ?>#speakers" title='Speakers'>Speakers</a>
+						<a href="<?php echo home_url(); ?>/speakers" title='Speakers'>Speakers</a>
 					</li><li>
 						<a href="<?php echo home_url(); ?>/sponsors" title='Sponsors'>Sponsors</a>
 					</li><li>
 						<a href="<?php echo home_url(); ?>/schools">Schools</a>
+					</li><li>
+						<a href="<?php echo home_url(); ?>/team">Team</a>
 					</li>
 				<!--
 					<li>

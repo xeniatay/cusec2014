@@ -18,7 +18,7 @@
 						Built by <a href='http://xeniatay.com' title='Xenia Tay'>Xenia Tay</a>
 					</p>
 
-					<p class='cusec-credit'>Presented by the CUSEC 2014 Team</p>
+					<p class='cusec-credit'>Presented by the <a href="<?php echo home_url(); ?>/team">CUSEC 2014 Team</a></p>
 
 					<p class='pull-right'>
 						<a href='mailto:info@cusec.net' title='info@cusec.net' onClick="_gaq.push(['_trackEvent', 'mailto', 'info']);">Contact</a> |
