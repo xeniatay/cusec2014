@@ -27,7 +27,7 @@ Template Name: Team Page Template
                                     <?php endif; ?>
                                 </span>
                                 <span class='profile-title'><?php echo $profile[title] ?></span>
-                                <span class='profile-desc'><?php echo $profile[desc] ?></span>
+                                <p class='profile-desc'><?php echo $profile[desc] ?></p>
                             </div>
                         </li>
                         <?php if ($profile !== end($team)) { echo "<hr/>"; } ?>

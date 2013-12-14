@@ -32,7 +32,7 @@ Template Name: Speaker Page Template
                         <?php if ($speaker_tier[tier] === 'keynote') {
                             echo "Keynotes";
                         } else {
-                            echo "Non-Keynotes";
+                            echo "General";
                         } ?>
                     </h3>
                     <ul class='profiles'>
@@ -50,13 +50,13 @@ Template Name: Speaker Page Template
                                         <?php endif; ?>
                                     </span>
                                     <span class='profile-title'><?php echo $profile[title] ?></span>
-                                    <span class='profile-desc'>
+                                    <p class='profile-desc'>
                                         <?php if ($profile[desc]) {
                                             echo $profile[desc];
                                         } else {
                                             echo "<span class='coming-soon'>Description coming soon.</span>";
                                         } ?>
-                                    </span>
+                                    </p>
                                 </div>
                             </li>
                         <?php if ($profile !== end($speaker_tier[speakers])) { echo "<hr/>"; } ?>

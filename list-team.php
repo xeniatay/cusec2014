@@ -41,15 +41,8 @@ $team = array(
         'desc' => "Xenia is in third year, majoring in Computer Science and minoring in Fine Arts Studio at the University of Waterloo. She builds websites when she isn't on Youtube watching song covers on loop. She loves exploring cities and is aiming to do all 6 of her co-ops in 6 different cities. This is her second CUSEC and her first time in the Webmaster/Designer role."
     ),
     array(
-        'name' => 'Bowen Xu',
-        'title' => 'Co-Director of Sponsorship',
-        'link' => NULL,
-        'img' => 'bowen-xu.png',
-        'desc' => "Bowen is a 3rd year Software Engineering Student at University of Waterloo. He enjoys coding, reading, and going to the gym. This is his second CUSEC and he helps in the Sponsorship team."
-    ),
-    array(
         'name' => 'Samira El-Rayyes',
-        'title' => 'Co-Director of Sponsorship',
+        'title' => 'Director of Sponsorship',
         'link' => 'http://linkedin.com/in/samiraelrayyes',
         'img' => 'samira-el-rayyes.png',
         'desc' => "Samira was first exposed to the world of code in grade ten, and she is now a third year Software Engineering student at the University of Ottawa. After attending her first CUSEC in 2012, she knew that she had to get involved with this awesome event and has been an organizer since. Last year, she handled CUSEC's social media sites and now Samira is the Director of Sponsorship for CUSEC 2014."
@@ -74,6 +67,20 @@ $team = array(
         'link' => 'http://github.com/mef51',
         'img' => 'mohammed-chamma.png',
         'desc' => "Mohammed is a 3rd year Physics-Math student at the University of Ottawa. He programs when physics gets too hard. Right now he's learning about things like Javascript, Go, and Matlab. This is his third CUSEC!"
+    ),
+    array(
+        'name' => 'Bowen Xu',
+        'title' => 'Sponsorship Team',
+        'link' => NULL,
+        'img' => 'bowen-xu.png',
+        'desc' => "Bowen is a 3rd year Software Engineering Student at University of Waterloo. He enjoys coding, reading, and going to the gym. This is his second CUSEC and he helps in the Sponsorship team."
+    ),
+    array(
+        'name' => 'Kruti Bagde',
+        'title' => 'Carleton University Head Delegate',
+        'link' => NULL,
+        'img' => 'kruti-bagde.png',
+        'desc' => "Kruti Bagde is the Head Delegate of Carleton University. She is a second year student at Carleton University Ottawa, in Bachelor of Information Technology, Network Technology. Kruti is also trained Indian classical dancer, loves to dance, read books listen to music, play Basketball, badminton, Guitar, watch movies and TV shows. This year would be her third year at CUSEC. "
     ),
     array(
         'name' => 'Patrick Nguyen',
@@ -147,7 +154,7 @@ $team = array(
     ),
     array(
         'name' => 'Danielle Pham',
-        'title' => 'WAT R U',
+        'title' => '',
         'link' => NULL,
         'img' => 'danielle-pham.png',
         'desc' => "Danielle is in her third year of Computer Science and Biology at McGill. She appreciates readable code, particularly Python and Ruby, as well as minimalistic design. Danielle is interested in learning web development, data analytics and visualization."

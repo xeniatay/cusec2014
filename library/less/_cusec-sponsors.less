@@ -28,8 +28,8 @@
         padding: 0 10px;
 
         @media @iphone {
-            height: 90px;
             margin: 0;
+            padding: 0;
         }
 
         .spon-link {
@@ -65,8 +65,33 @@
         }
     }
 
-    .tier-partner .tier-list > li { height: 150px; }
-    .tier-gold .tier-list > li { height: 115px; }
-    .tier-silver .tier-list > li { height: 105px; }
-    .tier-bronze .tier-list > li { height: 100px; }
+    @partner-height: 150px;
+    @gold-height: 115px;
+    @silver-height: 105px;
+    @bronze-height: 100px;
+
+    .tier-partner .tier-list > li {
+        height: @partner-height;
+        @media @iphone { height: 0.6 * @partner-height; }
+        @media @ipad { height: 0.8 * @partner-height; }
+    }
+
+    .tier-gold .tier-list > li {
+        height: @gold-height;
+        @media @iphone { height: 0.6 * @gold-height; }
+        @media @ipad { height: 0.8 * @gold-height; }
+    }
+
+    .tier-silver .tier-list > li {
+        height: @silver-height;
+        @media @iphone { height: 0.6 * @silver-height; }
+        @media @ipad { height: 0.8 * @silver-height; }
+    }
+
+    .tier-bronze .tier-list > li {
+        height: @bronze-height;
+        @media @iphone { height: 0.6 * @bronze-height; }
+        @media @ipad { height: 0.8 * @bronze-height; }
+    }
 }
+

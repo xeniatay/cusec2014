@@ -8,7 +8,13 @@
             <?php if ($speaker_tier[tier] === 'keynote'): ?>
                 <h3 class='speaker-subheading'>Keynotes</h3>
                 <ul class='profiles'>
-                    <?php foreach ($speaker_tier[speakers] as $profile): ?>
+                    <div class='profiles-row'>
+                    <?php foreach ($speaker_tier[speakers] as $index => $profile): ?>
+
+                        <?php if ( ( ($index % 3) === 0 ) && ($index > 0) ) {
+                            echo "</div><div class='profiles-row'>";
+                        } ?>
+
                         <li id='<?php echo strtolower( str_replace( " ", "-", $profile[name] ) ) ?>' class='profile'>
                             <img class='profile-pic'
                                  src='<?php echo get_template_directory_uri(); ?>/library/images/speakers/<?php echo ($profile[img]) ? $profile[img] : 'placeholder.png' ?>'
@@ -25,6 +31,7 @@
                             </div>
                         </li>
                     <?php endforeach; ?>
+                    </div>
                 </ul>
             <?php endif; ?>
         <?php endforeach; ?>
