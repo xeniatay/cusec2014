@@ -70,6 +70,17 @@ Template Name: Schools Page Template
                         </div>
                     </li><li>
                         <div class='school-name'>
+                            <a href='http://www.queensu.ca/' title="Queen's University">
+                                Queen's University
+                            </a>
+                        </div>
+                        <div class='school-hds'>
+                            <a href="mailto:queens@cusec.net" title="queens@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'HD - Queens']);">
+                                Jamie Bannerman
+                            </a>
+                        </div>
+                    </li><li>
+                        <div class='school-name'>
                             <a href='http://www.uoguelph.ca' title='University of Guelph'>
                                 University of Guelph
                             </a>
