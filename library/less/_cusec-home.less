@@ -464,7 +464,6 @@ a.view-all {
 
         li {
             box-sizing: border-box;
-            display: inline-block;
             padding: 15px 10px;
             width: 33%;
 
@@ -502,6 +501,16 @@ a.view-all {
         }
     }
 
+    .profiles-row {
+        .clearfix;
+        display: table;
+        width: 100%;
+
+        li {
+            display: table-cell;
+            vertical-align: top;
+        }
+    }
 
     .profile-title {
         @media @iphone {
