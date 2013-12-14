@@ -69,6 +69,13 @@ $team = array(
         'desc' => "Mohammed is a 3rd year Physics-Math student at the University of Ottawa. He programs when physics gets too hard. Right now he's learning about things like Javascript, Go, and Matlab. This is his third CUSEC!"
     ),
     array(
+        'name' => 'Danielle Pham',
+        'title' => 'Audio/Visual Team',
+        'link' => NULL,
+        'img' => 'danielle-pham.png',
+        'desc' => "Danielle is in her third year of Computer Science and Biology at McGill. She appreciates readable code, particularly Python and Ruby, as well as minimalistic design. Danielle is interested in learning web development, data analytics and visualization."
+    ),
+    array(
         'name' => 'Bowen Xu',
         'title' => 'Sponsorship Team',
         'link' => NULL,
@@ -151,13 +158,6 @@ $team = array(
         'link' => NULL,
         'img' => 'miguel-ocampo-gooding.png',
         'desc' => "Miguel is a second year Digital Media student at York University. This will be his second CUSEC and his first as a Head Delegate. He is currently learning about how to bridge the gap between programming and art."
-    ),
-    array(
-        'name' => 'Danielle Pham',
-        'title' => '',
-        'link' => NULL,
-        'img' => 'danielle-pham.png',
-        'desc' => "Danielle is in her third year of Computer Science and Biology at McGill. She appreciates readable code, particularly Python and Ruby, as well as minimalistic design. Danielle is interested in learning web development, data analytics and visualization."
     )
 );
 
