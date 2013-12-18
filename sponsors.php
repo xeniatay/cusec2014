@@ -45,13 +45,10 @@ Sponsors code for homepage
 
         </div>
 
-        <a class='view-all spon-view-all' href='<?php echo home_url(); ?>/sponsors' title='View All Sponsors'>
-            View All Sponsors
-        </a>
-
         <p class='home-section-cta'>
-            For sponsorship enquiries, contact Samira at
-            <a href="mailto:sponsor@cusec.net" title="sponsor@cusec.net" onclick="_gaq.push(['_trackEvent', 'mailto', 'sponsorship']);">sponsor@cusec.net.</a>
+            <a class='view-all spon-view-all' href='<?php echo home_url(); ?>/sponsors' title='View All Sponsors'>
+                View All Sponsors
+            </a>
         </p>
 
     </div>

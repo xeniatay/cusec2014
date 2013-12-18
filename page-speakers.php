@@ -64,11 +64,6 @@ Template Name: Speaker Page Template
                     </ul>
                 <?php endforeach; ?>
 
-                <p class='to-be-announced spk-announce'>More speakers <strong>to be announced</strong> &mdash; stay tuned!</p>
-
-                <p class='home-section-cta'>
-                    Want to speak at CUSEC 2014? Contact Dominic at
-                    <a href='mailto:talks@cusec.net' title='talks@cusec.net' onClick="_gaq.push(['_trackEvent', 'mailto', 'talks']);">talks@cusec.net</a>.
                 </p>
 
             </div>

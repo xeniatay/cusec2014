@@ -38,12 +38,10 @@
             <?php endif; ?>
         <?php endforeach; ?>
 
-        <a class='view-all spk-view-all' href='<?php echo home_url(); ?>/speakers'>
-            View All Speakers
-        </a>
         <p class='home-section-cta'>
-            Want to speak at CUSEC 2014? Contact Dominic at
-            <a href='mailto:talks@cusec.net' title='talks@cusec.net' onClick="_gaq.push(['_trackEvent', 'mailto', 'talks']);">talks@cusec.net</a>.
+            <a class='view-all spk-view-all' href='<?php echo home_url(); ?>/speakers'>
+                View All Speakers
+            </a>
         </p>
     </div>
 </div>
