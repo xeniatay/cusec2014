@@ -34,7 +34,14 @@ $speaker_tiers = array(
                 'title' => 'Engineer, GitHub',
                 'link' => '',
                 'img' => 'zach-holman.png',
-                'desc' => "Zach joined GitHub in 2010 as one of their first engineering hires. Initially working on what would become GitHub Enterprise, he now hacks on new features and frequently gives talks about building products and growing startups. He lives in San Francisco."
+                'desc' => "Zach joined GitHub in 2010 as one of their first engineering hires. Initially working on what would become GitHub Enterprise, he now hacks on new features and frequently <a href='http://zachholman.com/talks'>gives talks</a> about building products and growing startups. He lives in San Francisco."
+            ),
+            array(
+                'name' => 'Bruce Eckel',
+                'title' => 'Owner, MindView, LLC',
+                'link' => '',
+                'img' => '',
+                'desc' => "Bruce Eckel (www.BruceEckel.com) is the author (with Dianne Marsh) of Atomic Scala, Thinking in Java (Prentice-Hall, 1998, 2nd Edition, 2000, 3rd Edition, 2003, 4th Edition, 2006), the Hands-On Java eSeminar (available on the Web site), Thinking in C++ (PH 1995; 2nd edition 2000, Volume 2 with Chuck Allison, 2003), C++ Inside & Out (Osborne/McGraw-Hill 1993), and First Steps in Flex (with James Ward, 2008) among others. He's given hundreds of presentations throughout the world, published over 150 articles in numerous magazines, was a founding member of the ANSI/ISO C++ committee and speaks regularly at conferences. He was for many years the chair of both the C++ and Java tracks at the Software Development conference, is cofounder of the JavaPosse Roundup Conference and creator of the Scala Summit Conference. He provides public and private training and consulting in programming languages and software system design."
             ),
             array(
                 'name' => 'Don Olmstead',
@@ -48,6 +55,13 @@ $speaker_tiers = array(
     array(
         'tier' => 'non-keynote',
         'speakers' => array(
+            array(
+                'name' => 'Avi Bryant',
+                'title' => 'Software Engineer, Stripe',
+                'link' => '',
+                'img' => 'avi-bryant.png',
+                'desc' => "Avi has led product, engineering, and data science teams at Etsy, Twitter and Dabble DB (which he co-founded and Twitter acquired). He’s known for his open source work on projects such as Seaside, Scalding, and Algebird. Avi currently works at Stripe."
+            ),
             array(
                 'name' => 'Bruno Morency',
                 'title' => 'Founder, Context.IO',
@@ -98,6 +112,13 @@ $speaker_tiers = array(
                 'desc' => "Maria has attended almost every CUSEC since 2007 as an exhibitor, promoting IBM’s unique, top-talent internship program Extreme Blue. During her time as the Extreme Blue Canada Program Manager, she had the honour and privilege of working with both technical and business student prodigies, most of whom now work at amazing technology companies like Google, IBM, Facebook, Amazon & Shopify (to name just a few). Maria thinks herself extremely fortunate to be able to call most of her former interns great friends.</p><p>Nowadays, Maria is the Manager of Branding and Partnerships at TechU.me – an innovative program run by the Ottawa Network for Education that encourages high school students to explore STEM education and careers. The program’s flagship initiative is its Mentor Program, in which teams of high school and elementary school students work together to develop curriculum-based mobile apps with the help of industry mentors. A big part of Maria’s job is “working her network” (of afore-mentioned great friends) to find awesome mentors to participate in the program.</p><p>Although not a techie by training (she holds a BComm and has just completed her MBA…gasp!), Maria is a geek at heart, having once co-founded a secret DDR society. Her most intimate experience with software engineering was an undergrad elective – Introduction to Object-Oriented Programming – in which she received an A-…in large part thanks to her Extreme Blue interns at the time."
             ),
             array(
+                'name' => 'Matt Helm',
+                'title' => 'Developer, Shopify',
+                'link' => '',
+                'img' => '',
+                'desc' => ""
+            ),
+            array(
                 'name' => 'Nadim Kobeissi',
                 'title' => 'Developer, Cryptocat',
                 'link' => '',
@@ -109,7 +130,14 @@ $speaker_tiers = array(
                 'title' => 'Software Developer, SAP Labs',
                 'link' => '',
                 'img' => 'steve-sisalith.png',
-                'desc' => ""
+                'desc' => "Steve Sisalith is a software engineer at SAP. He's been exposed to many sides of the development process at the enterprise software giant. For the past two years, he's been involved in an exciting new initiative to train software developers to think like designers. You can reach him at steve.sisalith (at) sap (dot) com."
+            ),
+            array(
+                'name' => 'Tony Hooper',
+                'title' => 'Director of Engineering, Macadamian',
+                'link' => '',
+                'img' => 'tony-hooper.png',
+                'desc' => "Tony's been a web developer since the dawn of time... well not the dawn, but the mid 1990s.  Starting his life as a web designer, and migrating into the role of a software architect and now Director of Engineering, responsible for training, mentoring and guiding a team of very talented developers at Macadamian. Recently he's taken a keen interest in Windows 8, Cloud Computing (PaaS mostly) and HTML5 & Mobile computing."
             )
         )
     )

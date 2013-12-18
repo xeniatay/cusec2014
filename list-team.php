@@ -29,7 +29,7 @@ $team = array(
     array(
         'name' => 'Alex Coco',
         'title' => 'Co-Director of Logistics',
-        'link' => NULL,
+        'link' => 'http://github.com/alexcoco',
         'img' => 'alex-coco.png',
         'desc' => "Alex is in his third year of Software Engineering at McGill. In his spare time, he loves to cook, drink coffee, and explore. He loves Ruby, Rails, typography, and Tetris and wants to learn more Go and Node.js."
     ),
@@ -50,7 +50,7 @@ $team = array(
     array(
         'name' => 'Dominic Charley-Roy',
         'title' => 'Director of Speakers',
-        'link' => 'http://github.com/jokeoftheweek',
+        'link' => 'http://github.com/jokeofweek',
         'img' => 'dominic-charley-roy.png',
         'desc' => "Dominic is a 2nd year Software Engineering student at McGill University. He fell in love with programming the first time he got 'Hello, World!' to print on his old DOS 386. Nowadays he's mainly playing around with Javascript and Go with a nice cup of tea next to him. This is his second year on the CUSEC team. "
     ),

@@ -15,20 +15,22 @@
                             echo "</div><div class='profiles-row'>";
                         } ?>
 
-                        <li id='<?php echo strtolower( str_replace( " ", "-", $profile[name] ) ) ?>' class='profile'>
-                            <img class='profile-pic'
-                                 src='<?php echo get_template_directory_uri(); ?>/library/images/speakers/<?php echo ($profile[img]) ? $profile[img] : 'placeholder.png' ?>'
-                                 alt='<?php echo $profile[name] ?>'/>
-                            <div class='profile-text'>
-                                <span class='profile-name'>
-                                    <?php if ($profile[link]): ?>
-                                        <a href='<?php echo $profile[link] ?>' title='<?php echo $profile[name] ?>'><?php echo $profile[name] ?></a>
-                                    <?php else: ?>
-                                        <?php echo $profile[name] ?>
-                                    <?php endif; ?>
-                                </span>
-                                <span class='profile-title'><?php echo $profile[title] ?></span>
-                            </div>
+                        <li class='profile'>
+                            <a href='<?php echo home_url(); ?>/speakers#<?php echo strtolower( str_replace( " ", "-", $profile[name] ) ) ?>' title='<?php echo $profile[name] ?>'>
+                                <img class='profile-pic'
+                                     src='<?php echo get_template_directory_uri(); ?>/library/images/speakers/<?php echo ($profile[img]) ? $profile[img] : 'placeholder.png' ?>'
+                                     alt='<?php echo $profile[name] ?>'/>
+                                <div class='profile-text'>
+                                    <span class='profile-name'>
+                                        <?php if ($profile[link]): ?>
+                                            <a href='<?php echo $profile[link] ?>' title='<?php echo $profile[name] ?>'><?php echo $profile[name] ?></a>
+                                        <?php else: ?>
+                                            <?php echo $profile[name] ?>
+                                        <?php endif; ?>
+                                    </span>
+                                    <span class='profile-title'><?php echo $profile[title] ?></span>
+                                </div>
+                            </a>
                         </li>
                     <?php endforeach; ?>
                     </div>

@@ -143,7 +143,7 @@ function bones_scripts_and_styles() {
     // Use Google's CDN to prevent noconflict mode for $ in WP
     wp_deregister_script('jquery');
     wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', false, '1.10.2');
-    wp_register_script('guestlist', 'https://guestlistapp.com/javascripts/guestlist-embed.js', false, '1.0');
+    wp_register_script('guestlist', 'http://guestlistapp.com/javascripts/guestlist-embed.js', false, '1.0');
     wp_register_script( 'underscore', get_stylesheet_directory_uri() . '/library/js/underscore.js', array( 'jquery' ), '', true );
     wp_register_script( 'herounit', get_stylesheet_directory_uri() . '/library/js/herounit.js', array( 'jquery', 'underscore' ), '', true );
     wp_register_script( 'parallax', get_stylesheet_directory_uri() . '/library/js/parallax-scroll.js', array( 'jquery', 'underscore'), '', true );

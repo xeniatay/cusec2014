@@ -19,15 +19,11 @@ Template Name: Team Page Template
                         <li class='profile'>
                             <img class='profile-pic' src='<?php echo get_template_directory_uri(); ?>/library/images/team/<?php echo $profile[img] ?>' alt='<?php echo $profile[name] ?>'/>
                             <div class='profile-text'>
-                                <span class='profile-name'>
-                                    <?php if ($profile[link]): ?>
-                                        <a href='<?php echo $profile[link] ?>' title='<?php echo $profile[name] ?>'><?php echo $profile[name] ?></a>
-                                    <?php else: ?>
-                                        <?php echo $profile[name] ?>
-                                    <?php endif; ?>
-                                </span>
-                                <span class='profile-title'><?php echo $profile[title] ?></span>
-                                <p class='profile-desc'><?php echo $profile[desc] ?></p>
+                                <?php if ($profile[link]): ?><a href='<?php echo $profile[link] ?>' title='<?php echo $profile[name] ?>'><?php endif; ?>
+                                    <span class='profile-name'><?php echo $profile[name] ?></span>
+                                    <span class='profile-title'><?php echo $profile[title] ?></span>
+                                <?php if ($profile[link]): ?></a><?php endif; ?>
+                            <p class='profile-desc'><?php echo $profile[desc] ?></p>
                             </div>
                         </li>
                         <?php if ($profile !== end($team)) { echo "<hr/>"; } ?>

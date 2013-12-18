@@ -7,7 +7,7 @@
 	                <a class='footer-icon facebook' href="http://www.facebook.com/pages/CUSEC/9884406702" title="CUSEC on Facebook" onclick="_gaq.push(['_trackEvent', 'Social Media', 'Facebook', 'Clicked to Facebook']);">
 						<img src='<?php echo get_template_directory_uri(); ?>/library/images/icon-facebook.svg' alt='CUSEC Facebook'/>
 	                </a>
-					<a class='footer-icon googleplus' href="https://plus.google.com/109086660120732587899" rel="publisher" title='CUSEC on Google+' onclick="_gaq.push(['_trackEvent', 'Social Media', 'Google Plus', 'Clicked to Google Plus']);">
+					<a class='footer-icon googleplus' href="http://plus.google.com/109086660120732587899" rel="publisher" title='CUSEC on Google+' onclick="_gaq.push(['_trackEvent', 'Social Media', 'Google Plus', 'Clicked to Google Plus']);">
 						<img src='<?php echo get_template_directory_uri(); ?>/library/images/icon-googleplus.svg' alt='CUSEC Google Plus'/>
 	                </a>
 	            </div>

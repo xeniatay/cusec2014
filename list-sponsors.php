@@ -21,7 +21,7 @@ $tiers = array(
         'sponsors' => array(
             array(
                 'name' => 'Morgan Stanley',
-                'link' => 'http://www.morganstanley.com',
+                'link' => 'www.morganstanley.com/careers',
                 'img' => 'morgan-stanley.png',
             ),
             array(
@@ -42,7 +42,7 @@ $tiers = array(
             array(
                 'name' => 'Microsoft Dreamspark',
                 'link' => 'http://www.dreamspark.com/',
-                'img' => 'microsoft-dreamspark-h.png',
+                'img' => 'microsoft-dreamspark.png',
             ),
             array(
                 'name' => 'CAE',
@@ -63,6 +63,11 @@ $tiers = array(
                 'name' => 'Concordia ENCS',
                 'link' => 'http://www.encs.concordia.ca/',
                 'img' => 'concordia-encs.png',
+            ),
+            array(
+                'name' => 'Nuace',
+                'link' => 'http://jobs.nuance.com/',
+                'img' => 'nuace.png',
             )
         )
     ),
