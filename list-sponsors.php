@@ -21,7 +21,7 @@ $tiers = array(
         'sponsors' => array(
             array(
                 'name' => 'Morgan Stanley',
-                'link' => 'www.morganstanley.com/careers',
+                'link' => 'http://www.morganstanley.com/careers',
                 'img' => 'morgan-stanley.png',
             ),
             array(
