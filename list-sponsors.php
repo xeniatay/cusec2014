@@ -60,11 +60,6 @@ $tiers = array(
                 'img' => 'google.png',
             ),
             array(
-                'name' => 'Concordia ENCS',
-                'link' => 'http://www.encs.concordia.ca/',
-                'img' => 'concordia-encs.png',
-            ),
-            array(
                 'name' => 'Nuace',
                 'link' => 'http://jobs.nuance.com/',
                 'img' => 'nuace.png',
@@ -93,6 +88,11 @@ $tiers = array(
                 'name' => '360pi',
                 'link' => 'http://www.360pi.com',
                 'img' => '360pi.png',
+            ),
+            array(
+                'name' => 'Concordia ENCS',
+                'link' => 'http://www.encs.concordia.ca/',
+                'img' => 'concordia-encs.png',
             ),
             array(
                 'name' => 'Concordia CO-OP',
