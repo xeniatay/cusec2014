@@ -76,6 +76,13 @@ $team = array(
         'desc' => "Danielle is in her third year of Computer Science and Biology at McGill. She appreciates readable code, particularly Python and Ruby, as well as minimalistic design. Danielle is interested in learning web development, data analytics and visualization."
     ),
     array(
+        'name' => 'Amy Yang',
+        'title' => 'Audio/Visual Team',
+        'link' => 'http://www.linkedin.com/pub/amy-yang/76/699/52',
+        'img' => 'amy-yang.png',
+        'desc' => "Amy is in her 3rd year of Dietetics at McGill (so related, eh?). After 2 years of sneaking around with the cool kids at CUSEC, she decided to join the dark side. She's usually the one that people go to for computer help (perks of being a geek). CUSEC is the place where she's probably doing the silliest things. You can always spot her in her bright yellow coat."
+    ),
+    array(
         'name' => 'Bowen Xu',
         'title' => 'Sponsorship Team',
         'link' => NULL,

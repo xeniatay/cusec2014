@@ -63,6 +63,11 @@ $tiers = array(
                 'name' => 'Nuace',
                 'link' => 'http://jobs.nuance.com/',
                 'img' => 'nuace.png',
+            ),
+            array(
+                'name' => 'Stripe',
+                'link' => 'http://stripe.com',
+                'img' => 'stripe.png',
             )
         )
     ),
