@@ -57,7 +57,7 @@ $speaker_tiers = array(
         'speakers' => array(
             array(
                 'name' => 'Avi Bryant',
-                'title' => 'Software Engineer, Stripe',
+                'title' => 'Developer, Stripe',
                 'link' => '',
                 'img' => 'avi-bryant.png',
                 'desc' => "Avi has led product, engineering, and data science teams at Etsy, Twitter and Dabble DB (which he co-founded and Twitter acquired). He’s known for his open source work on projects such as Seaside, Scalding, and Algebird. Avi currently works at Stripe."
