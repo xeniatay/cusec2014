@@ -68,6 +68,16 @@ $tiers = array(
                 'name' => 'Stripe',
                 'link' => 'http://stripe.com',
                 'img' => 'stripe.png',
+            ),
+            array(
+                'name' => 'Eloqua (Oracle)',
+                'link' => 'http://careers.eloqua.com/RD',
+                'img' => 'oracle-eloqua.png',
+            ),
+            array(
+                'name' => 'BNOTIONS',
+                'link' => 'http://www.bnotions.com',
+                'img' => 'bnotions.png',
             )
         )
     ),

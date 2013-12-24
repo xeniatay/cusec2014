@@ -65,32 +65,39 @@
 	},
 	"file_history":
 	[
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-talks.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-sponsors.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-speakers.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-sponsors.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-team.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-sponsor.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/sponsors.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-schools.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-team.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/header.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/speakers.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-speakers.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-profiles.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/style.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-sponsors.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-speakers.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-team.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-speakers.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/speakers.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/header.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/venue.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/bones.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/footer.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-profiles.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-schools.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/schools.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/index.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_responsive-mixins.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_responsive-mixins.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_cusec-home.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-speakers.html",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-talks.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-schools.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-shared-styles.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_responsive-mixins.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_mixins.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/footer.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/venue.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/404.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/herounit.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/herounit.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/cusec2014.js",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/bones.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_cusec-shared-styles.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-custom.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/parallax-scroll.js",
@@ -185,9 +192,7 @@
 		"/Users/xenia/projs/wordpress/wp-content/themes/bones/style.css",
 		"/Users/xenia/.zshrc",
 		"/Users/xenia/dotfiles/zshrc",
-		"/Users/xenia/dotfiles/README.md",
-		"/Users/xenia/mathorient/header.php",
-		"/Users/xenia/cusec2014/README.md"
+		"/Users/xenia/dotfiles/README.md"
 	],
 	"find":
 	{
@@ -221,6 +226,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"https",
+			"2px solid @cusec-blue",
+			"099ff1",
+			"115px",
+			"view-all",
+			"event.returnValue",
+			"speakers",
+			"tier-partner",
+			"morganstanley.png",
+			"morganstanley",
 			"mailto",
 			"section-subheading",
 			"get_site_url",
@@ -279,6 +294,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"morgan-stanley.png",
 			"spon-tier",
 			"logo-svg.png"
 		],
@@ -327,6 +343,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"project": "cusec2014.sublime-project",
 	"replace":
 	{
@@ -339,28 +359,156 @@
 		"selected_items":
 		[
 			[
-				"talk",
-				"page-talks.php"
+				"list-s",
+				"list-speakers.php"
+			],
+			[
+				"spon",
+				"page-sponsor.php"
+			],
+			[
+				"list-spon",
+				"list-sponsors.php"
+			],
+			[
+				"list-team",
+				"list-team.php"
+			],
+			[
+				"sponso",
+				"sponsors.php"
+			],
+			[
+				"sponsors",
+				"library/less/_cusec-sponsors.less"
+			],
+			[
+				"speak",
+				"speakers.php"
+			],
+			[
+				"home.le",
+				"library/less/_cusec-home.less"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"speakers",
+				"speakers.php"
+			],
+			[
+				"list-spea",
+				"list-speakers.php"
+			],
+			[
+				"list-sp",
+				"list-sponsors.php"
+			],
+			[
+				"page-spea",
+				"page-speakers.php"
+			],
+			[
+				"tea",
+				"page-team.php"
+			],
+			[
+				"team",
+				"list-team.php"
+			],
+			[
+				"profil",
+				"library/less/_cusec-profiles.less"
 			],
 			[
 				"home",
 				"library/less/_cusec-home.less"
 			],
 			[
-				"sponso",
-				"library/less/_cusec-sponsors.less"
+				"profiles",
+				"library/less/_cusec-profiles.less"
+			],
+			[
+				"page-school",
+				"page-schools.php"
+			],
+			[
+				"schools",
+				"schools.php"
+			],
+			[
+				"spakers",
+				"speakers.php"
 			],
 			[
 				"sponsor",
+				"library/less/_cusec-sponsors.less"
+			],
+			[
+				"speaker",
+				"library/less/_cusec-speakers.less"
+			],
+			[
+				"page-spa",
+				"page-speakers.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"respons",
+				"library/less/_responsive-mixins.less"
+			],
+			[
+				"responsi",
+				"library/css/_responsive-mixins.css"
+			],
+			[
+				"hed",
+				"header.php"
+			],
+			[
+				"sponsors.php",
+				"sponsors.php"
+			],
+			[
+				"style.less",
+				"library/less/style.less"
+			],
+			[
+				"profile",
+				"library/less/_cusec-profiles.less"
+			],
+			[
+				"list-speakers",
+				"list-speakers.html"
+			],
+			[
+				"page-speakers",
+				"page-speakers.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"page-spon",
 				"page-sponsor.php"
+			],
+			[
+				"talk",
+				"page-talks.php"
 			],
 			[
 				"hea",
 				"header.php"
-			],
-			[
-				"speak",
-				"speakers.php"
 			],
 			[
 				"style",
@@ -369,10 +517,6 @@
 			[
 				"sponsors.",
 				"library/less/_cusec-sponsors.less"
-			],
-			[
-				"spon",
-				"sponsors.php"
 			],
 			[
 				"spea",
@@ -387,20 +531,8 @@
 				"schools.php"
 			],
 			[
-				"team",
-				"page-team.php"
-			],
-			[
 				"spons",
 				"sponsors.php"
-			],
-			[
-				"header",
-				"header.php"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"index.p",
@@ -435,10 +567,6 @@
 				"page-sponsor.php"
 			],
 			[
-				"style.less",
-				"library/less/style.less"
-			],
-			[
 				"respon",
 				"library/less/_responsive-mixins.less"
 			],
@@ -465,10 +593,6 @@
 			[
 				"404",
 				"404.php"
-			],
-			[
-				"head",
-				"header.php"
 			],
 			[
 				"hero",
@@ -551,10 +675,6 @@
 				"library/js/parallax-scroll.js"
 			],
 			[
-				"footer",
-				"footer.php"
-			],
-			[
 				"st",
 				"library/less/style.less"
 			],
@@ -571,16 +691,8 @@
 				"herounit.php"
 			],
 			[
-				"speakers",
-				"speakers.php"
-			],
-			[
 				"base",
 				"library/less/_base.less"
-			],
-			[
-				"respons",
-				"library/less/_responsive-mixins.less"
 			],
 			[
 				"mixins",
@@ -741,7 +853,7 @@
 	{
 		"vintage":
 		{
-			"last_buffer_search": "tier"
+			"last_buffer_search": "Avi "
 		}
 	},
 	"show_minimap": true,
