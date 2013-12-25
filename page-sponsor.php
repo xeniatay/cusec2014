@@ -32,12 +32,11 @@ Template Name: Sponsor Page Template
                                      alt='<?php echo $sponsor[name] ?> - CUSEC <?php echo $tier[level] ?> Sponsor'/>
                             </a>
                         </li>
-                        <?php //if ( $sponsor !== end($tier[sponsors]) ) { echo "<hr class='spon-div'/>"; } ?>
 
                     <?php endforeach; ?>
 
                     </ul>
-                    <hr/>
+                    <?php if ( $tier !== end($tiers)) { echo "<hr/>"; } ?>
 
                 </div>
                 <?php endforeach; ?>
