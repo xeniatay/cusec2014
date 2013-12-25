@@ -116,5 +116,15 @@ $tiers = array(
             )
         )
     ),
+    array(
+        'level' => 'Friends',
+        'sponsors' => array(
+            array(
+                'name' => 'EA Games',
+                'link' => 'http://www.ea.com/',
+                'img' => 'ea.png',
+            ),
+        )
+    )
 );
 ?>

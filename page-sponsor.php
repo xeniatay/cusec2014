@@ -17,7 +17,6 @@ Template Name: Sponsor Page Template
                     CUSEC is only possible with the support of all our sponsors.<br/>
                 </p>
 
-
                 <?php foreach ($tiers as $tier): ?>
                 <div class='spon-tier tier-<?php echo strtolower($tier[level]) ?>'>
 
