@@ -60,9 +60,9 @@ $tiers = array(
                 'img' => 'google.png',
             ),
             array(
-                'name' => 'Nuace',
+                'name' => 'Nuance',
                 'link' => 'http://jobs.nuance.com/',
-                'img' => 'nuace.png',
+                'img' => 'nuance.png',
             ),
             array(
                 'name' => 'Stripe',

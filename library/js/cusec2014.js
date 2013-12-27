@@ -11,6 +11,9 @@ jQuery(document).ready(function($) {
 
     svg.checkCompatibility();
     smoothScroll();
+
+    /* Resume Upload Form */
+    $('#res-upload-checkall input').checkAll('#res-upload-companies input');
 });
 
 /***
@@ -51,3 +54,17 @@ var smoothScroll = (function() {
     }
   });
 });
+
+/**
+ * From: https://coderwall.com/p/zvmpcq
+ * Un/Select multiple checkboxes using one checkbox
+ * <a href="/param">@param</a>  {jQuery selector} $list List of checkboxes
+ * @return {object}
+ */
+$.fn.checkAll = function(list) {
+
+    return this.on('click', function() {
+        $(list).prop('checked', $(this).prop('checked'));
+    });
+
+}

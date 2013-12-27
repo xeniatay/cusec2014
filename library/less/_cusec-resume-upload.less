@@ -73,7 +73,8 @@
     margin: 10px 0;
 }
 
-span.wpcf7-list-item > label {
+span.wpcf7-list-item > label,
+.res-upload-checkall {
     .transition;
     color: darken(@cusec-blue, 20%);
     display: inline-block;
@@ -87,6 +88,11 @@ span.wpcf7-list-item > label {
     }
 }
 
+.res-upload-checkall {
+    display: block;
+    margin: 0 auto;
+}
+
 .submit-field {
     text-align: center;
 
@@ -94,11 +100,11 @@ span.wpcf7-list-item > label {
         width: 100%;
 
         &:hover {
-            background-color: @grey;
+            background-color: darken(@grey, 20%);
         }
 
         &:active {
-            background-color: darken(@grey, 20%);
+            background-color: @grey;
         }
     }
 
