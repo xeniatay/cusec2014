@@ -68,6 +68,8 @@
 				        	Register
 						</a>
 					</li><li>
+						<a href="<?php echo home_url(); ?>/resume-upload">Resume Upload</a>
+					</li><li>
 						<a href="<?php echo home_url(); ?>#venue" title='Venue'>Venue</a>
 					</li><li>
 						<a href="<?php echo home_url(); ?>/speakers" title='Speakers'>Speakers</a>
@@ -78,18 +80,6 @@
 					</li><li>
 						<a href="<?php echo home_url(); ?>/team">Team</a>
 					</li>
-				<!--
-					<li>
-						<a href="javascript:void(0);" class='disabled'>
-							Resume Upload
-							<span class='comingsoon'>Coming Soon</span>
-						</a>
-					</li>
-					<li>
-						<a href="<?php echo home_url(); ?>/team">Team</a>
-					</li>
-				-->
-
 				</ul>
 				<?php //bones_main_nav(); ?>
 			</nav>

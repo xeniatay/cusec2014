@@ -68,10 +68,17 @@ body {
  * navigation
  ***/
 .nav {
-    font: @hf-normal 1.2em/1 @heading-font;
+    font: @hf-normal 1.1em/1 @heading-font;
+    margin-top: 8px;
 
     @media @ipad {
-        font-size: 1.1em;
+        font-size: 0.85em;
+        margin-top: 11px;
+    }
+
+    @media @widescreen {
+        font-size: 1.2em;
+        margin-top: 7px;
     }
 
     li {
@@ -141,7 +148,7 @@ body {
     }
 
     ul {
-        margin: 5px 0;
+        margin-bottom: 5px;
 
         li {
             display: inline-block;
