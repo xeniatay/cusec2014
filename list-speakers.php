@@ -126,11 +126,11 @@ $speaker_tiers = array(
                 'desc' => "Nadim Kobeissi founded Cryptocat, one of the world's most popular encrypted chat apps and an award-winning free and open source software project. His research focuses on making privacy and encryption technology more accessible and easy to use. Nadim is interested in web application engineering, and intersections between cryptography and foreign policy. He currently serves as a special advisor at the New America Foundation's Open Internet Tools Project. Nadim's work has been featured in the New York Times, Wired, TED, and other media."
             ),
             array(
-                'name' => 'Steve Sisalith',
+                'name' => 'Nabil Al-Azem',
                 'title' => 'Software Developer, SAP Labs',
                 'link' => '',
-                'img' => 'steve-sisalith.png',
-                'desc' => "Steve Sisalith is a software engineer at SAP. He's been exposed to many sides of the development process at the enterprise software giant. For the past two years, he's been involved in an exciting new initiative to train software developers to think like designers. You can reach him at steve.sisalith (at) sap (dot) com."
+                'img' => 'nabil-al-azem.png',
+                'desc' => "Nabil is a computer engineer currently employed at SAP, based in Montreal, Canada with 5 years of experience as a software developer and 2 years in technical support and sales. He recently started participating in local volunteering events such as Games for Hope, which eventually led him to take part in the SAP Social Sabbatical program: a 1 month project in Brazil to help local entrepreneurs and non-profit organizations where he discovered the unique startup scene in Brazil and practiced the Lean Startup Methodology to complete the project."
             ),
             array(
                 'name' => 'Tony Hooper',
