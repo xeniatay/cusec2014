@@ -13,7 +13,7 @@ $speaker_tiers = array(
                 'title' => 'Owner, MindView, LLC',
                 'link' => '',
                 'img' => 'bruce-eckel.png',
-                'desc' => "Bruce Eckel (www.BruceEckel.com) is the author (with Dianne Marsh) of Atomic Scala, Thinking in Java (Prentice-Hall, 1998, 2nd Edition, 2000, 3rd Edition, 2003, 4th Edition, 2006), the Hands-On Java eSeminar (available on the Web site), Thinking in C++ (PH 1995; 2nd edition 2000, Volume 2 with Chuck Allison, 2003), C++ Inside & Out (Osborne/McGraw-Hill 1993), and First Steps in Flex (with James Ward, 2008) among others. He's given hundreds of presentations throughout the world, published over 150 articles in numerous magazines, was a founding member of the ANSI/ISO C++ committee and speaks regularly at conferences. He was for many years the chair of both the C++ and Java tracks at the Software Development conference, is cofounder of the JavaPosse Roundup Conference and creator of the Scala Summit Conference. He provides public and private training and consulting in programming languages and software system design."
+                'desc' => "<a href='http://www.bruceeckel.com' title='Bruce Eckel'>Bruce Eckel</a> is the author (with Dianne Marsh) of Atomic Scala, Thinking in Java (Prentice-Hall, 1998, 2nd Edition, 2000, 3rd Edition, 2003, 4th Edition, 2006), the Hands-On Java eSeminar (available on the Web site), Thinking in C++ (PH 1995; 2nd edition 2000, Volume 2 with Chuck Allison, 2003), C++ Inside & Out (Osborne/McGraw-Hill 1993), and First Steps in Flex (with James Ward, 2008) among others. He's given hundreds of presentations throughout the world, published over 150 articles in numerous magazines, was a founding member of the ANSI/ISO C++ committee and speaks regularly at conferences. He was for many years the chair of both the C++ and Java tracks at the Software Development conference, is cofounder of the JavaPosse Roundup Conference and creator of the Scala Summit Conference. He provides public and private training and consulting in programming languages and software system design."
             ),
             array(
                 'name' => 'Gary Bernhardt',
@@ -115,8 +115,8 @@ $speaker_tiers = array(
                 'name' => 'Matt Helm',
                 'title' => 'Developer, Shopify',
                 'link' => '',
-                'img' => '',
-                'desc' => ""
+                'img' => 'matt-helm.png',
+                'desc' => "Matt joined Shopify two years ago as a co-op student. He helped build Shopify's JavaScript MVC Admin in tandem with the client-side framework batman.js. Recently he has worked on building real time dashboards and reporting tools for 80,000 online stores. Matt is passionate about building performant and intuitive UI's to improve the user experience."
             ),
             array(
                 'name' => 'Nadim Kobeissi',

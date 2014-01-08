@@ -118,6 +118,13 @@ $team = array(
         'desc' => "Saif is a third year Software Engineering student at McMaster University. This is his second CUSEC and the first time as the head delegate. In his spare time he likes to read and aimlessly browse the internet. He's most passionate about soccer and loves to play and watch soccer games."
     ),
     array(
+        'name' => 'Aimal Khan',
+        'title' => 'McMaster University Head Delegate',
+        'link' => NULL,
+        'img' => 'aimal-khan.png',
+        'desc' => "Aimal is a fourth year Software Engineering student at McMaster University. This will be his fourth consecutive year attending CUSEC, and his second year continuing as a head delegate. He is passionate about web and mobile development, and enjoys creating music in his free time."
+    ),
+    array(
         'name' => 'Julian Horvat',
         'title' => 'University of Guelph Head Delegate',
         'link' => 'http://github.com/jhorvat',

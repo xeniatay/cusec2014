@@ -28,7 +28,7 @@ $schools = array(
     ),
     array(
         'name' => 'McMaster University',
-        'hd' => 'Saif Myageri',
+        'hd' => 'Saif Myageri, Aimal Khan',
         'link' => 'http://www.mcmaster.ca',
         'email' => 'mcmaster@cusec.net',
         'ga' => 'McMaster'
