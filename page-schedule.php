@@ -111,7 +111,7 @@ Template Name: Schedule Page Template
                         <tr class='schedule-row one-hour'>
                             <td class='schedule-time'>7:00 PM</td>
                             <td class='schedule-event' colspan='2' rowspan='2'>
-                                <a href="<?php echo home_url(); ?>/democamp">Democamp</a>
+                                <a href="<?php echo home_url(); ?>/democamp">Democamp sponsored by Velocity</a>
                             <td class='schedule-event free-time' colspan='2'></td>
                             <td class='schedule-event free-time' colspan='2' rowspan='3'></td>
                         </tr>
