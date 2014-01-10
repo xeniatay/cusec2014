@@ -1,0 +1,39 @@
+.democamp-desc {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+    p {
+        margin: 20px 0;
+    }
+}
+
+.page-democamp {
+    .wpcf7-form {
+        margin: 0 auto;
+        width: 600px;
+
+        @media @iphone {
+            width: 100%;
+        }
+
+        .text-field {
+            display: block;
+            margin-bottom: 5px;
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        input:not([type=submit]):not([type=file]):not([type=checkbox]) {
+            box-sizing: border-box;
+            width: 100%;
+
+            @media @iphone {
+                width: auto;
+            }
+        }
+    }
+}

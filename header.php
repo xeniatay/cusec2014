@@ -64,10 +64,6 @@
 			<nav class='header-nav' role='navigation'>
 				<ul class='nav top-nav'>
 					<li>
-				        <a class="hu-register-button guestlist-event-206958" href="#" onclick="_gaq.push(['_trackEvent', 'Register', 'Guestlist - Global Nav', 'Clicked Register']);">
-				        	Register
-						</a>
-					</li><li>
 						<a href="<?php echo home_url(); ?>/resume-upload">Resume Upload</a>
 					</li><li>
 						<a href="<?php echo home_url(); ?>#venue" title='Venue'>Venue</a>

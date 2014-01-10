@@ -1,0 +1,34 @@
+.page-schedule {
+    text-align: center;
+}
+
+.schedule-table {
+    border: 1px solid @grey;
+    margin: 40px auto;
+
+    th, td {
+        background-color: lighten(@cusec-blue, 55%);
+
+        &.speaker-slot {
+            background-color: lighten(desaturate(@cusec-blue, 45%), 48%);
+        }
+    }
+
+
+    td, th {
+        border: 1px solid @black;
+        padding: 0.25em 15px;
+    }
+
+    .schedule-time { font-weight: bold; }
+    .quart-hour { height: 1em; }
+    .half-hour { height: 2em; }
+    .one-hour { height: 4em; }
+    .one-half-hour { height: 6em; }
+    .long-free-time { height: 3em; }
+    .long-time { height: 9em; }
+
+    .free-time {
+        background-color: darken(@grey, 5%);
+    }
+}

@@ -68,17 +68,17 @@ body {
  * navigation
  ***/
 .nav {
-    font: @hf-normal 1.1em/1 @heading-font;
-    margin-top: 8px;
+    font: @hf-normal 0.95em/1 @heading-font;
+    margin-top: 10px;
 
     @media @ipad {
-        font-size: 0.85em;
+        font-size: 1em;
         margin-top: 11px;
     }
 
     @media @widescreen {
-        font-size: 1.2em;
-        margin-top: 7px;
+        font-size: 1.05em;
+        margin-top: 10px;
     }
 
     li {
@@ -145,6 +145,11 @@ body {
     @media @iphone {
         float: left;
         width: 100%;
+    }
+
+    @media @ipad {
+        float: left;
+        margin-left: 2px;
     }
 
     ul {

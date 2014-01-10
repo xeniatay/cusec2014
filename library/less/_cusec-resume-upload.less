@@ -24,31 +24,33 @@
     }
 }
 
-// layout
-.wpcf7-form {
-    margin: 0 auto;
-    width: 455px;
-
-    @media @iphone {
-        width: 100%;
-    }
-
-    .text-field {
-        width: 75px;
+.page-resume-upload {
+    // layout
+    .wpcf7-form {
+        margin: 0 auto;
+        width: 455px;
 
         @media @iphone {
-            display: block;
-            margin-bottom: 5px;
+            width: 100%;
         }
-    }
+
+        .text-field {
+            width: 75px;
+
+            @media @iphone {
+                display: block;
+                margin-bottom: 5px;
+            }
+        }
 
 
-    input:not([type=submit]):not([type=file]):not([type=checkbox]) {
-        box-sizing: border-box;
-        width: 380px;
+        input:not([type=submit]):not([type=file]):not([type=checkbox]) {
+            box-sizing: border-box;
+            width: 380px;
 
-        @media @iphone {
-            width: auto;
+            @media @iphone {
+                width: auto;
+            }
         }
     }
 }
