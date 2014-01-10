@@ -64,7 +64,11 @@
 			<nav class='header-nav' role='navigation'>
 				<ul class='nav top-nav'>
 					<li>
+						<a href="<?php echo home_url(); ?>/schedule">Schedule</a>
+					</li><li>
 						<a href="<?php echo home_url(); ?>/resume-upload">Resume Upload</a>
+					</li><li>
+						<a href="<?php echo home_url(); ?>/democamp">Democamp</a>
 					</li><li>
 						<a href="<?php echo home_url(); ?>#venue" title='Venue'>Venue</a>
 					</li><li>

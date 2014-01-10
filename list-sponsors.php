@@ -76,7 +76,7 @@ $tiers = array(
             ),
             array(
                 'name' => 'BNOTIONS',
-                'link' => 'http://www.bnotions.com',
+                'link' => 'https://coderwall.com/team/bnotions',
                 'img' => 'bnotions.png',
             )
         )

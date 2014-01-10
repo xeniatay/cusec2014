@@ -60,7 +60,9 @@ Template Name: Schedule Page Template
                         </tr>
                         <tr class='schedule-row one-hour'>
                             <td class='schedule-time'>12:30 PM</td>
-                            <td class='schedule-event' colspan='2'>Resume Roast</td>
+                            <td class='schedule-event' colspan='2'>
+                                <a href="<?php echo home_url(); ?>/resume-upload">Resume Roast</a>
+                            </td>
                             <td class='schedule-event' colspan='2'>Volunteer Info Session</td>
                         </tr>
                         <tr class='schedule-row one-hour'>
@@ -108,7 +110,8 @@ Template Name: Schedule Page Template
                         </tr>
                         <tr class='schedule-row one-hour'>
                             <td class='schedule-time'>7:00 PM</td>
-                            <td class='schedule-event' colspan='2' rowspan='2'>Democamp</td>
+                            <td class='schedule-event' colspan='2' rowspan='2'>
+                                <a href="<?php echo home_url(); ?>/democamp">Democamp</a>
                             <td class='schedule-event free-time' colspan='2'></td>
                             <td class='schedule-event free-time' colspan='2' rowspan='3'></td>
                         </tr>
