@@ -23,7 +23,7 @@ Template Name: Democamp Page Template
                         A project you worked on for school or developed on your own time.
                     </p><p>
                         <strong>The Prize:</strong>
-                        The top 3 teams as voted by the audience will receive prizes sponsored by <a href="http://velocity.uwaterloo.ca" title="Velocity">Velocity</a>, as well as an invite to dinner with our speakers and sponsor representatives.
+                        The top 3 teams as voted by the audience will receive prizes sponsored by <a href="http://velocity.uwaterloo.ca" title="Velocity">Velocity</a>. In addition, the team in 1st place will receive an exclusive invitation to dinner with our speakers and sponsor representatives.
                     </p><p>
                         In addition to presenting to an audience of fellow CUSEC attendees, you will be presenting to a panel of judges made up of speakers and sponsors whose job it is to offer feedback, advice, and their expertise.
                     </p><p>

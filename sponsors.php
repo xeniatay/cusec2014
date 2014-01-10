@@ -18,7 +18,7 @@ Sponsors code for homepage
 
             <?php foreach ($tiers as $tier): ?>
 
-                <?php if ( ($tier[level] !== 'Silver') && ($tier[level] !== 'Bronze') ): ?>
+                <?php if ( ($tier[level] == 'Gold') || ($tier[level] === 'Partner') ): ?>
                     <div class='spon-tier tier-<?php echo strtolower($tier[level]) ?>'>
 
                         <h3 class='tier-subheading'><?php echo $tier[level] ?></h3>
