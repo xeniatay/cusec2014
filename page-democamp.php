@@ -9,7 +9,7 @@ Template Name: Democamp Page Template
     <div id='main-content' class='content page-content'>
         <div class='page-democamp'>
             <div class='container'>
-                <h2 class='section-heading light'>Democamp sponsored by<a href="http://velocity.uwaterloo.ca" title="Velocity">Velocity</a></h2>
+                <h2 class='section-heading light'>Democamp sponsored by <a href="http://velocity.uwaterloo.ca" title="Velocity">Velocity</a></h2>
                 <div class='democamp-desc'>
                     <p><strong>DemoCamp is an opportunity to demo and present a project that you or a team have been working on.</strong></p>
                     <p>
