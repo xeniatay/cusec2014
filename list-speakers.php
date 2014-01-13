@@ -119,18 +119,18 @@ $speaker_tiers = array(
                 'desc' => "Nabil is a computer engineer currently employed at SAP, based in Montreal, Canada with 5 years of experience as a software developer and 2 years in technical support and sales. He recently started participating in local volunteering events such as Games for Hope, which eventually led him to take part in the SAP Social Sabbatical program: a 1 month project in Brazil to help local entrepreneurs and non-profit organizations where he discovered the unique startup scene in Brazil and practiced the Lean Startup Methodology to complete the project."
             ),
             array(
-                'name' => 'Nahim Nasser',
-                'title' => 'Vice President of Engineering, BNOTIONS',
-                'link' => '',
-                'img' => 'nahim-nasser.png',
-                'desc' => "<p>Nahim Nasser is the Vice President of Engineering at BNOTIONS, overseeing product development. He has a proven track record of leading engineering teams to successfully deliver challenging software products for clients such as eBay/Stubhub, Travelocity, and 500px. </p><p>Formerly a technical director at BNOTIONS, Nahim’s focus has shifted from leading individual teams to managing the entire engineering body holistically. He specializes in crafting world class teams, and leveraging processes to increase operational efficiency with an emphasis on quality and longevity. Nahim is instrumental in the ongoing evolution and scaling of BNOTIONS’ engineering teams. Driven by his passion to create, Nahim continues to explore new frontiers and trends in software engineering, actively contributing to the open source community. </p><p>Nahim holds a Bachelor of Engineering, concentrated in Software Engineering from Carleton University in Ottawa.</p>"
-            ),
-            array(
                 'name' => 'Nadim Kobeissi',
                 'title' => 'Developer, Cryptocat',
                 'link' => '',
                 'img' => 'nadim-kobeissi.png',
                 'desc' => "Nadim Kobeissi founded Cryptocat, one of the world's most popular encrypted chat apps and an award-winning free and open source software project. His research focuses on making privacy and encryption technology more accessible and easy to use. Nadim is interested in web application engineering, and intersections between cryptography and foreign policy. He currently serves as a special advisor at the New America Foundation's Open Internet Tools Project. Nadim's work has been featured in the New York Times, Wired, TED, and other media."
+            ),
+            array(
+                'name' => 'Nahim Nasser',
+                'title' => 'Vice President of Engineering, BNOTIONS',
+                'link' => '',
+                'img' => 'nahim-nasser.png',
+                'desc' => "<p>Nahim Nasser is the Vice President of Engineering at BNOTIONS, overseeing product development. He has a proven track record of leading engineering teams to successfully deliver challenging software products for clients such as eBay/Stubhub, Travelocity, and 500px. </p><p>Formerly a technical director at BNOTIONS, Nahim’s focus has shifted from leading individual teams to managing the entire engineering body holistically. He specializes in crafting world class teams, and leveraging processes to increase operational efficiency with an emphasis on quality and longevity. Nahim is instrumental in the ongoing evolution and scaling of BNOTIONS’ engineering teams. Driven by his passion to create, Nahim continues to explore new frontiers and trends in software engineering, actively contributing to the open source community. </p><p>Nahim holds a Bachelor of Engineering, concentrated in Software Engineering from Carleton University in Ottawa.</p>"
             ),
             array(
                 'name' => 'Tony Hooper',

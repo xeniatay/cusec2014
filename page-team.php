@@ -17,7 +17,7 @@ Template Name: Team Page Template
 
                     <?php foreach ($team as $profile): ?>
                         <li class='profile'>
-                            <img class='profile-pic' src='<?php echo get_template_directory_uri(); ?>/library/images/team/<?php echo $profile[img] ?>' alt='<?php echo $profile[name] ?>'/>
+                            <img class='profile-pic' src='<?php echo get_template_directory_uri(); ?>/library/images/team/<?php echo ($profile[img] ? $profile[img] : 'placeholder.png') ?>' alt='<?php echo $profile[name] ?>'/>
                             <div class='profile-text'>
                                 <?php if ($profile[link]): ?><a href='<?php echo $profile[link] ?>' title='<?php echo $profile[name] ?>'><?php endif; ?>
                                     <span class='profile-name'><?php echo $profile[name] ?></span>
