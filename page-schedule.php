@@ -155,7 +155,7 @@ Template Name: Schedule Page Template
                             <td class='schedule-time'>7:00 PM</td>
                             <td class='schedule-event' colspan='2' rowspan='2'>
                                 <a href="<?php echo home_url(); ?>/democamp">Democamp sponsored by Velocity</a>
-                                <span class='schedule-room'>Caf Conc Room</span>
+                                <span class='schedule-room'>CSEC Room</span>
                             <td class='schedule-event free-time' colspan='2'></td>
                             <td class='schedule-event free-time' colspan='2' rowspan='3'></td>
                         </tr>
