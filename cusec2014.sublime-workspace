@@ -27,6 +27,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "page-schedule.php",
+			"settings":
+			{
+				"buffer_size": 10708,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -65,49 +73,56 @@
 	},
 	"file_history":
 	[
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-democamp.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-custom.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-schedule.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/style.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-schedule.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-schools.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-team.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-team.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-speakers.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/speakers.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-sponsor.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-talks.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-speakers.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-schedule.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-schools.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/header.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-sponsors.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/cusec2014.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-resume-upload.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-resume-upload.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-democamp.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-sponsors.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-speakers.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/herounit.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_grid.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-resume-upload.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/index.php",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_cusec-resume-upload.css",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_responsive-mixins.less",
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/cusec2014.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/images/icon-facebook.svg",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_normalize.css",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-speakers.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-schools.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/sponsors.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/style.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_mixins.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-schools.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-sponsors.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-shared-styles.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/parallax-scroll.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-sponsors.css",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/speakers.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-speakers.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/schools.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-team.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-team.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-speakers.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/venue.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/bones.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/footer.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-profiles.less",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/index.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_responsive-mixins.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_responsive-mixins.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_cusec-home.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-speakers.html",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-talks.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-schools.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/404.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/js/herounit.js",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-home.css",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/css/_cusec-shared-styles.css",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-custom.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec2014.less",
 		"/Users/xenia/projs/wordpress/wp-admin/admin-functions.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec2014.css",
@@ -185,14 +200,7 @@
 		"/Users/xenia/projs/ng-boilerplate/src/index.js",
 		"/Users/xenia/projs/ng-boilerplate/src/less/main.less",
 		"/Users/xenia/cusec2014/index.html",
-		"/Users/xenia/projs/indochino/js/admin/attributes.js",
-		"/Users/xenia/projs/indochino/js/tailorskit.js",
-		"/Users/xenia/projs/indochino/js/admin/collection.js",
-		"/Users/xenia/projs/ng-boilerplate/src/less/ericmeyerreset.less",
-		"/Users/xenia/projs/ng-boilerplate/build/templates-app.js",
-		"/Users/xenia/projs/ng-boilerplate/build/templates-.js",
-		"/Users/xenia/projs/ng-boilerplate/vendor/bootstrap/less/reset.less",
-		"/Users/xenia/projs/ng-boilerplate/src/app/home/home.less"
+		"/Users/xenia/projs/indochino/js/admin/attributes.js"
 	],
 	"find":
 	{
@@ -226,6 +234,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cta",
 			"returnValue",
 			"cta",
 			"grey",
@@ -316,8 +325,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "page-schedule.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -368,12 +408,104 @@
 		"selected_items":
 		[
 			[
-				"home",
-				"library/less/_cusec-home.less"
+				"pa",
+				"page-schedule.php"
+			],
+			[
+				"sche",
+				"page-schedule.php"
+			],
+			[
+				"speak",
+				"list-speakers.php"
+			],
+			[
+				"democa",
+				"page-democamp.php"
+			],
+			[
+				"page-team",
+				"page-team.php"
+			],
+			[
+				"page-spea",
+				"page-speakers.php"
+			],
+			[
+				"list-schoo",
+				"list-schools.php"
+			],
+			[
+				"list-tea",
+				"list-team.php"
+			],
+			[
+				"schedule.les",
+				"library/less/_cusec-schedule.less"
+			],
+			[
+				"sched",
+				"page-schedule.php"
+			],
+			[
+				"list-sponso",
+				"list-sponsors.php"
+			],
+			[
+				"speaker",
+				"list-speakers.php"
 			],
 			[
 				"header",
 				"header.php"
+			],
+			[
+				"resume",
+				"page-resume-upload.php"
+			],
+			[
+				"resume-up",
+				"page-resume-upload.php"
+			],
+			[
+				"style",
+				"library/less/style.less"
+			],
+			[
+				"home",
+				"library/less/_cusec-home.less"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"hero",
+				"herounit.php"
+			],
+			[
+				"res",
+				"library/less/_cusec-resume-upload.less"
+			],
+			[
+				"style.less",
+				"library/less/style.less"
+			],
+			[
+				"resume-u",
+				"page-resume-upload.php"
+			],
+			[
+				"schools",
+				"list-schools.php"
+			],
+			[
+				"team",
+				"list-team.php"
+			],
+			[
+				"list-spea",
+				"list-speakers.php"
 			],
 			[
 				"list-spon",
@@ -448,10 +580,6 @@
 				"list-team.php"
 			],
 			[
-				"speak",
-				"speakers.php"
-			],
-			[
 				"home.le",
 				"library/less/_cusec-home.less"
 			],
@@ -460,24 +588,12 @@
 				"speakers.php"
 			],
 			[
-				"list-spea",
-				"list-speakers.php"
-			],
-			[
 				"list-sp",
 				"list-sponsors.php"
 			],
 			[
-				"page-spea",
-				"page-speakers.php"
-			],
-			[
 				"tea",
 				"page-team.php"
-			],
-			[
-				"team",
-				"list-team.php"
 			],
 			[
 				"profil",
@@ -488,16 +604,8 @@
 				"library/less/_cusec-profiles.less"
 			],
 			[
-				"schools",
-				"schools.php"
-			],
-			[
 				"spakers",
 				"speakers.php"
-			],
-			[
-				"speaker",
-				"library/less/_cusec-speakers.less"
 			],
 			[
 				"page-spa",
@@ -506,10 +614,6 @@
 			[
 				"footer",
 				"footer.php"
-			],
-			[
-				"head",
-				"header.php"
 			],
 			[
 				"respons",
@@ -526,10 +630,6 @@
 			[
 				"sponsors.php",
 				"sponsors.php"
-			],
-			[
-				"style.less",
-				"library/less/style.less"
 			],
 			[
 				"profile",
@@ -554,10 +654,6 @@
 			[
 				"hea",
 				"header.php"
-			],
-			[
-				"style",
-				"library/less/style.less"
 			],
 			[
 				"sponsors.",
@@ -626,10 +722,6 @@
 			[
 				"404",
 				"404.php"
-			],
-			[
-				"hero",
-				"herounit.php"
 			],
 			[
 				"cusec-home.l",
@@ -826,42 +918,6 @@
 			[
 				"wchan",
 				"os161-1.99/kern/include/wchan.h"
-			],
-			[
-				"spin",
-				"os161-1.99/kern/thread/spinlock.c"
-			],
-			[
-				"spinl",
-				"os161-1.99/kern/include/spinlock.h"
-			],
-			[
-				"kern/test/synch",
-				"os161-1.99/kern/test/synchtest.c"
-			],
-			[
-				"threads/",
-				"os161-1.99/kern/thread/synch.c"
-			],
-			[
-				"synch",
-				"os161-1.99/kern/include/synch.h"
-			],
-			[
-				"sys1",
-				"root/sys161.conf"
-			],
-			[
-				"lib.",
-				"kern/include/lib.h"
-			],
-			[
-				"footer.",
-				"footer.php"
-			],
-			[
-				"main.",
-				"css/main.css"
 			]
 		],
 		"width": 0.0
@@ -886,14 +942,14 @@
 	{
 		"vintage":
 		{
-			"last_buffer_search": "1.2"
+			"last_buffer_search": "Lunch"
 		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 202.0,
+	"side_bar_width": 113.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

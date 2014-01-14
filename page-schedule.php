@@ -109,7 +109,7 @@ Template Name: Schedule Page Template
                             <td class='schedule-event speaker-slot' rowspan='2'>Josh Matthews
                                 <span class='schedule-room'>CSEC Room</span>
                             </td>
-                            <td class='schedule-event speaker-slot' rowspan='2'>Derek Ruths
+                            <td class='schedule-event speaker-slot' rowspan='1'>Dr. Derek Ruths
                                 <span class='schedule-room'>Caf Conc Room</span>
                             </td>
                             <td class='schedule-event speaker-slot' rowspan='2'>Avi Bryant
@@ -121,6 +121,7 @@ Template Name: Schedule Page Template
                         </tr>
                         <tr class='schedule-row half-hour'>
                             <td class='schedule-time'>3:30 PM</td>
+                            <td class='schedule-event'>Break</td>
                             <td class='schedule-event' colspan='2'>Break</td>
                         </tr>
                         <tr class='schedule-row half-hour'>
