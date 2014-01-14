@@ -15,7 +15,7 @@ $team = array(
     array(
         'name' => 'Matthew Leavitt',
         'title' => 'Co-Chair',
-        'link' => NULL,
+        'link' => 'http://twitter.com/leavittron',
         'img' => 'matthew-leavitt.png',
         'desc' => "Matthew is a PhD student in Neuroscience at McGill. He spends most of his time thinking of witty things to include in blurbs like this, but he occasionally indulges his curiosity by doing things like cooking, or co-chairing software engineering conferences.  He is very close to figuring out how the brain works."
     ),

@@ -10,6 +10,7 @@ Template Name: Schedule Page Template
         <div class='page-schedule'>
             <div class='container'>
                 <h2 class='section-heading light'>Schedule</h2>
+                <p class='page-cta'>Note: Breakfast will be provided for all 3 days of the conference</p>
                 <!-- YES I am using a table, but THIS IS A SCHEDULE -->
                 <table class='schedule-table'>
                     <thead>
@@ -74,9 +75,9 @@ Template Name: Schedule Page Template
                         </tr>
                         <tr class='schedule-row half-hour'>
                             <td class='schedule-time'>12:00 PM</td>
-                            <td class='schedule-event' colspan='2'>Lunch</td>
-                            <td class='schedule-event' rowspan='2' colspan='2'>Lunch</td>
-                            <td class='schedule-event' colspan='2'>Lunch</td>
+                            <td class='schedule-event' colspan='2'>Lunch Break</td>
+                            <td class='schedule-event' rowspan='2' colspan='2'>Lunch Break</td>
+                            <td class='schedule-event' colspan='2'>Lunch Break</td>
                         </tr>
                         <tr class='schedule-row one-hour'>
                             <td class='schedule-time'>12:30 PM</td>
