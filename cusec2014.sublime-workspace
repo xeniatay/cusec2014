@@ -27,14 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "page-schedule.php",
-			"settings":
-			{
-				"buffer_size": 10708,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -73,10 +65,10 @@
 	},
 	"file_history":
 	[
+		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-schedule.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-democamp.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-custom.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page.php",
-		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/page-schedule.php",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/style.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/library/less/_cusec-schedule.less",
 		"/Users/xenia/projs/wordpress/wp-content/themes/cusec2014/list-schools.php",
@@ -325,39 +317,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "page-schedule.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10708,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -942,7 +903,8 @@
 	{
 		"vintage":
 		{
-			"last_buffer_search": "Lunch"
+			"_cmdline_cd": "/Users/xenia/projs/wordpress/wp-content/themes/cusec2014",
+			"last_buffer_search": "Derek"
 		}
 	},
 	"show_minimap": true,
