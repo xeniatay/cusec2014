@@ -126,7 +126,7 @@ $tiers = array(
             ),
             array(
                 'name' => 'Velocity',
-                'link' => 'http://velocity.uwaterloo.com/',
+                'link' => 'http://velocity.uwaterloo.ca/',
                 'img' => 'velocity.png',
             )
         )
