@@ -209,7 +209,12 @@
                         </tr>
                         <tr class='schedule-row long-time'>
                             <td class='schedule-time'>9:30 PM - Midnight</td>
-                            <td class='schedule-event' colspan='2' rowspan='2'>Shopify Night @ Les 3 Brasseurs</td>
+                            <td class='schedule-event' colspan='2' rowspan='2'>
+                                Shopify Night @
+                                <a href='https://www.google.com/maps/preview#!q=+Les+3+Brasseurs+st+pauls&data=!4m15!2m14!1m13!1s0x4cc91a56577e5497%3A0x80033050a5c3516c!3m8!1m3!1d2618!2d-93.094451!3d44.944717!3m2!1i1440!2i712!4f13.1!4m2!3d45.506789!4d-73.552924'>
+                                    Les 3 Brasseurs (Saint Paul)
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
