@@ -30,16 +30,25 @@
                             </tr>
                             <tr class='schedule-row one-hour'>
                                 <td class='schedule-time speaker-slot'>10:00 AM</td>
-                                <td class='schedule-event speaker-slot' colspan='2'>Zach Holman
+                                <td class='schedule-event speaker-slot' colspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#zach-holman">
+                                    Zach Holman
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
                             </tr>
                             <tr class='schedule-row one-hour'>
                                 <td class='schedule-time speaker-slot'>11:00 AM</td>
-                                <td class='schedule-event speaker-slot'>Ian Chan
+                                <td class='schedule-event speaker-slot'>
+                                    <a href="<?php echo home_url(); ?>/speakers#ian-chan">
+                                    Ian Chan
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
-                                <td class='schedule-event speaker-slot'>Tony Hooper
+                                <td class='schedule-event speaker-slot'>
+                                    <a href="<?php echo home_url(); ?>/speakers#tony-hooper">
+                                    Tony Hooper
+                                    </a>
                                     <span class='schedule-room'>Caf Conc Room</span>
                                 </td>
                             </tr>
@@ -63,10 +72,16 @@
                             </tr>
                             <tr class='schedule-row half-hour'>
                                 <td class='schedule-time speaker-slot'>3:00 PM</td>
-                                <td class='schedule-event speaker-slot' rowspan='2'>Josh Matthews
+                                <td class='schedule-event speaker-slot' rowspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#josh-matthews">
+                                    Josh Matthews
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
-                                <td class='schedule-event speaker-slot' rowspan='1'>Dr. Derek Ruths
+                                <td class='schedule-event speaker-slot' rowspan='1'>
+                                    <a href="<?php echo home_url(); ?>/speakers#dr.-derek-ruths">
+                                    Dr. Derek Ruths
+                                    </a>
                                     <span class='schedule-room'>Caf Conc Room</span>
                                 </td>
                             </tr>
@@ -126,16 +141,25 @@
                             </tr>
                             <tr class='schedule-row one-hour'>
                                 <td class='schedule-time speaker-slot'>10:00 AM</td>
-                                <td class='schedule-event speaker-slot'>Nahim Nasser
+                                <td class='schedule-event speaker-slot'>
+                                    <a href="<?php echo home_url(); ?>/speakers#nahim-nasser">
+                                    Nahim Nasser
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
-                                <td class='schedule-event speaker-slot'>Nabil Al-Azem
+                                <td class='schedule-event speaker-slot'>
+                                    <a href="<?php echo home_url(); ?>/speakers#nabil-al-azem">
+                                    Nabil Al-Azem
+                                    </a>
                                     <span class='schedule-room'>Caf Conc Room</span>
                                 </td>
                             </tr>
                             <tr class='schedule-row one-hour'>
                                 <td class='schedule-time speaker-slot'>11:00 AM</td>
-                                <td class='schedule-event speaker-slot' colspan='2'>Michelle Zatlyn
+                                <td class='schedule-event speaker-slot' colspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#michelle-zatlyn">
+                                    Michelle Zatlyn
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
                             </tr>
@@ -155,10 +179,16 @@
                             </tr>
                             <tr class='schedule-row half-hour'>
                                 <td class='schedule-time speaker-slot'>3:00 PM</td>
-                                <td class='schedule-event speaker-slot' rowspan='2'>Avi Bryant
+                                <td class='schedule-event speaker-slot' rowspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#avi-bryant">
+                                    Avi Bryant
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
-                                <td class='schedule-event speaker-slot' rowspan='2'>Maria Smirnoff
+                                <td class='schedule-event speaker-slot' rowspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#maria-smirnoff">
+                                    Maria Smirnoff
+                                    </a>
                                     <span class='schedule-room'>Caf Conc Room</span>
                                 </td>
                             </tr>
@@ -171,7 +201,10 @@
                             </tr>
                             <tr class='schedule-row half-hour'>
                                 <td class='schedule-time speaker-slot'>4:30 PM</td>
-                                <td class='schedule-event speaker-slot' colspan='2' rowspan='2'>Kelsey Gilmore-Innis
+                                <td class='schedule-event speaker-slot' colspan='2' rowspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#kelsey-gilmore-innis">
+                                    Kelsey Gilmore-Innis
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
                             </tr>
@@ -214,16 +247,25 @@
                             </tr>
                             <tr class='schedule-row one-hour'>
                                 <td class='schedule-time speaker-slot'>10:00 AM</td>
-                                <td class='schedule-event speaker-slot'>Julia Evans
+                                <td class='schedule-event speaker-slot'>
+                                    <a href="<?php echo home_url(); ?>/speakers#julia-evans">
+                                    Julia Evans
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
-                                <td class='schedule-event speaker-slot'>Bruno Morency
+                                <td class='schedule-event speaker-slot'>
+                                    <a href="<?php echo home_url(); ?>/speakers#bruno-morency">
+                                    Bruno Morency
+                                    </a>
                                     <span class='schedule-room'>Caf Conc Room</span>
                                 </td>
                             </tr>
                             <tr class='schedule-row one-hour'>
                                 <td class='schedule-time speaker-slot'>11:00 AM</td>
-                                <td class='schedule-event speaker-slot' colspan='2'>Bruce Eckel
+                                <td class='schedule-event speaker-slot' colspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#bruce-eckel">
+                                    Bruce Eckel
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
                             </tr>
@@ -244,10 +286,16 @@
                             </tr>
                             <tr class='schedule-row one-hour'>
                                 <td class='schedule-time speaker-slot'>2:30 PM</td>
-                                <td class='schedule-event speaker-slot' rowspan='2'>Nadim Kobeissi
+                                <td class='schedule-event speaker-slot' rowspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#nadim-kobeissi">
+                                    Nadim Kobeissi
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
-                                <td class='schedule-event speaker-slot' rowspan='2'>Matt Helm
+                                <td class='schedule-event speaker-slot' rowspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#matt-helm">
+                                    Matt Helm
+                                    </a>
                                     <span class='schedule-room'>Caf Conc Room</span>
                                 </td>
                             </tr>
@@ -260,7 +308,10 @@
                             </tr>
                             <tr class='schedule-row half-hour'>
                                 <td class='schedule-time speaker-slot'>4:00 PM</td>
-                                <td class='schedule-event speaker-slot' colspan='2' rowspan='2'>Gary Bernhardt
+                                <td class='schedule-event speaker-slot' colspan='2' rowspan='2'>
+                                    <a href="<?php echo home_url(); ?>/speakers#gary-bernhardt">
+                                    Gary Bernhardt
+                                    </a>
                                     <span class='schedule-room'>CSEC Room</span>
                                 </td>
                             </tr>

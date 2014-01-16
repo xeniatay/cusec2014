@@ -9,7 +9,7 @@ $speaker_tiers = array(
         'tier' => 'keynote',
         'speakers' => array(
             array(
-                'name' => ' Bruce Eckel',
+                'name' => 'Bruce Eckel',
                 'title' => 'Owner, MindView, LLC',
                 'link' => '',
                 'img' => 'bruce-eckel.png',
