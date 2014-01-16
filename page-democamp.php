@@ -27,7 +27,7 @@ Template Name: Democamp Page Template
                     </p><p>
                         In addition to presenting to an audience of fellow CUSEC attendees, you will be presenting to a panel of judges made up of speakers and sponsors whose job it is to offer feedback, advice, and their expertise.
                     </p><p>
-                        Sign up now below!
+                        Democamp submissions are now closed! Be sure to catch the event tonight from 7pm - 8pm!
                     </p>
                 </div>
 
