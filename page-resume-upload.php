@@ -24,6 +24,7 @@ Template Name: Resume Upload Page Template
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                             <?php the_content(); ?>
                         <?php endwhile; endif; ?>
+                        <p class='page-cta'>Resume uploads are now closed. Thank you for your submissions and good luck with interviews!</p>
                     </div>
             </div>
         </div>
