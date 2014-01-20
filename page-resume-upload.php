@@ -22,7 +22,7 @@ Template Name: Resume Upload Page Template
                             Note: If you previously uploaded your resume for companies only, add your resume for the Roast by submitting this form with the 'Companies' field unchecked.
                         </p>
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                            <?php the_content(); ?>
+                            <?php // the_content(); ?>
                         <?php endwhile; endif; ?>
                     </div>
             </div>
