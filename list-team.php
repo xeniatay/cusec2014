@@ -15,16 +15,9 @@ $team = array(
     array(
         'name' => 'Matthew Leavitt',
         'title' => 'Co-Chair',
-        'link' => NULL,
+        'link' => 'http://twitter.com/leavittron',
         'img' => 'matthew-leavitt.png',
         'desc' => "Matthew is a PhD student in Neuroscience at McGill. He spends most of his time thinking of witty things to include in blurbs like this, but he occasionally indulges his curiosity by doing things like cooking, or co-chairing software engineering conferences.  He is very close to figuring out how the brain works."
-    ),
-    array(
-        'name' => 'Michael Lakhia',
-        'title' => 'Co-Director of Logistics',
-        'link' => 'http://github.com/mlakhia',
-        'img' => 'michael-lakhia.png',
-        'desc' => "Michael studies Computer Science at John Abbott College. He works at PasswordBox.com on the Android and JavaScript teams and loves it. This is his first year as the Co-Director of Logistics."
     ),
     array(
         'name' => 'Alex Coco',
@@ -32,6 +25,13 @@ $team = array(
         'link' => 'http://github.com/alexcoco',
         'img' => 'alex-coco.png',
         'desc' => "Alex is in his third year of Software Engineering at McGill. In his spare time, he loves to cook, drink coffee, and explore. He loves Ruby, Rails, typography, and Tetris and wants to learn more Go and Node.js."
+    ),
+    array(
+        'name' => 'Michael Lakhia',
+        'title' => 'Co-Director of Logistics',
+        'link' => 'http://github.com/mlakhia',
+        'img' => 'michael-lakhia.png',
+        'desc' => "Michael studies Computer Science at John Abbott College. He works at PasswordBox.com on the Android and JavaScript teams and loves it. This is his first year as the Co-Director of Logistics."
     ),
     array(
         'name' => 'Xenia Tay',
@@ -46,6 +46,13 @@ $team = array(
         'link' => 'http://linkedin.com/in/samiraelrayyes',
         'img' => 'samira-el-rayyes.png',
         'desc' => "Samira was first exposed to the world of code in grade ten, and she is now a third year Software Engineering student at the University of Ottawa. After attending her first CUSEC in 2012, she knew that she had to get involved with this awesome event and has been an organizer since. Last year, she handled CUSEC's social media sites and now Samira is the Director of Sponsorship for CUSEC 2014."
+    ),
+    array(
+        'name' => 'Bowen Xu',
+        'title' => 'Sponsorship Team',
+        'link' => NULL,
+        'img' => 'bowen-xu.png',
+        'desc' => "Bowen is a 3rd year Software Engineering Student at University of Waterloo. He enjoys coding, reading, and going to the gym. This is his second CUSEC and he helps in the Sponsorship team."
     ),
     array(
         'name' => 'Dominic Charley-Roy',
@@ -83,13 +90,6 @@ $team = array(
         'desc' => "Amy is in her 3rd year of Dietetics at McGill (so related, eh?). After 2 years of sneaking around with the cool kids at CUSEC, she decided to join the dark side. She's usually the one that people go to for computer help (perks of being a geek). CUSEC is the place where she's probably doing the silliest things. You can always spot her in her bright yellow coat."
     ),
     array(
-        'name' => 'Bowen Xu',
-        'title' => 'Sponsorship Team',
-        'link' => NULL,
-        'img' => 'bowen-xu.png',
-        'desc' => "Bowen is a 3rd year Software Engineering Student at University of Waterloo. He enjoys coding, reading, and going to the gym. This is his second CUSEC and he helps in the Sponsorship team."
-    ),
-    array(
         'name' => 'Kruti Bagde',
         'title' => 'Carleton University Head Delegate',
         'link' => NULL,
@@ -123,6 +123,13 @@ $team = array(
         'link' => NULL,
         'img' => 'aimal-khan.png',
         'desc' => "Aimal is a fourth year Software Engineering student at McMaster University. This will be his fourth consecutive year attending CUSEC, and his second year continuing as a head delegate. He is passionate about web and mobile development, and enjoys creating music in his free time."
+    ),
+    array(
+        'name' => 'Jamie Bannerman',
+        'title' => 'Queen\'s University Head Delegate',
+        'link' => '',
+        'img' => '',
+        'desc' => "womp."
     ),
     array(
         'name' => 'Julian Horvat',

@@ -26,14 +26,13 @@ Template Name: Democamp Page Template
                         The top 3 teams as voted by the audience will receive prizes sponsored by <a href="http://velocity.uwaterloo.ca" title="Velocity">Velocity</a>. In addition, the team in 1st place will receive an exclusive invitation to dinner with our speakers and sponsor representatives.
                     </p><p>
                         In addition to presenting to an audience of fellow CUSEC attendees, you will be presenting to a panel of judges made up of speakers and sponsors whose job it is to offer feedback, advice, and their expertise.
-                    </p><p>
-                        Sign up now below!
                     </p>
                 </div>
 
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                     <?php the_content(); ?>
                 <?php endwhile; endif; ?>
+                <p class='page-cta'>Democamp submissions are now closed! Be sure to catch the event on Thursday, January 16th from 7pm - 8pm!</p>
             </div>
         </div>
     </div>
