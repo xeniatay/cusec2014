@@ -27,9 +27,11 @@ Template Name: Sponsor Page Template
 
                         <li class='<?php echo $sponsor[id] ?>'>
                             <a class='spon-link' href='<?php echo $sponsor[link] ?>' title='<?php echo $sponsor[name] ?>'>
+                                <?php if (!is_null($sponsor[img])): ?>
                                 <img class='spon-logo'
                                      src='<?php echo get_template_directory_uri(); ?>/library/images/sponsors/<?php echo $sponsor[img] ?>'
                                      alt='<?php echo $sponsor[name] ?> - CUSEC <?php echo $tier[level] ?> Sponsor'/>
+                                 <?php endif ?>
                             </a>
                         </li>
 

@@ -32,7 +32,7 @@ $tiers = array(
             array(
                 'name' => 'IBM',
                 'link' => 'http://www.ibm.com/extremeblue',
-                'img' => 'ibm.png',
+                'img' => NULL,
             ),
             array(
                 'name' => 'Genetec',
