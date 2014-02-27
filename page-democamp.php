@@ -33,6 +33,8 @@ Template Name: Democamp Page Template
                     <?php the_content(); ?>
                 <?php endwhile; endif; ?>
                 <p class='page-cta'>Democamp submissions are now closed! Be sure to catch the event on Thursday, January 16th from 7pm - 8pm!</p>
+
+
             </div>
         </div>
     </div>
